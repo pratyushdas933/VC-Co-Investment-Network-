@@ -8,6 +8,11 @@ sector, which investor cliques move together, and who's likely to
 co-invest next — plus a syndicate recommendation tool that suggests
 co-investors for a given lead investor or company.
 
+<img width="1072" height="637" alt="Screenshot 2026-09-03 231051" src="https://github.com/user-attachments/assets/638e8d56-ada9-47ed-b32e-bb6ca402b9e0" />
+<img width="1092" height="776" alt="Screenshot 2026-09-03 231044" src="https://github.com/user-attachments/assets/50087c7a-cf6c-4d54-b3dc-637535384a7f" />
+<img width="1124" height="841" alt="Screenshot 2026-09-03 231036" src="https://github.com/user-attachments/assets/43164d7b-7109-4bbd-bb0b-4f70a8648c5f" />
+
+
 Built as a portfolio project for VC/startup-advisory AI/BI work — the
 kind of tool a due-diligence or transaction-advisory team would use to
 understand investor relationships at a glance, rather than piecing it

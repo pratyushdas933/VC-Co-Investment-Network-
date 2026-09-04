@@ -1,0 +1,772 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d0" for="node" attr.name="deal_count" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="Capital 2B">
+      <data key="d0">1</data>
+    </node>
+    <node id="Helena">
+      <data key="d0">1</data>
+    </node>
+    <node id="Japan Airlines">
+      <data key="d0">1</data>
+    </node>
+    <node id="SMSC">
+      <data key="d0">1</data>
+    </node>
+    <node id="TransLink Innovation Fund">
+      <data key="d0">1</data>
+    </node>
+    <node id="DoorDash">
+      <data key="d0">1</data>
+    </node>
+    <node id="Greenoaks">
+      <data key="d0">1</data>
+    </node>
+    <node id="Humba Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="Lachy Groom">
+      <data key="d0">2</data>
+    </node>
+    <node id="Lightspeed">
+      <data key="d0">3</data>
+    </node>
+    <node id="Nexus Venture Partners">
+      <data key="d0">3</data>
+    </node>
+    <node id="Susquehanna Venture Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="Elev8 Venture Partners">
+      <data key="d0">1</data>
+    </node>
+    <node id="Mirae Asset Venture Investment">
+      <data key="d0">1</data>
+    </node>
+    <node id="Artha Venture Fund">
+      <data key="d0">1</data>
+    </node>
+    <node id="Singularity AMC">
+      <data key="d0">2</data>
+    </node>
+    <node id="Bessemer Venture Partners">
+      <data key="d0">3</data>
+    </node>
+    <node id="Titan Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="WEH Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="Base10">
+      <data key="d0">1</data>
+    </node>
+    <node id="Peak XV Partners">
+      <data key="d0">9</data>
+    </node>
+    <node id="Greenoaks Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="Unicorn India Ventures">
+      <data key="d0">2</data>
+    </node>
+    <node id="Accel">
+      <data key="d0">4</data>
+    </node>
+    <node id="Info Edge Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="Blume Ventures participating">
+      <data key="d0">1</data>
+    </node>
+    <node id="Lightrock">
+      <data key="d0">1</data>
+    </node>
+    <node id="Bain Capital Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="Hara Global">
+      <data key="d0">1</data>
+    </node>
+    <node id="Blume Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="Rs 12 crore in venture debt">
+      <data key="d0">1</data>
+    </node>
+    <node id="BII">
+      <data key="d0">1</data>
+    </node>
+    <node id="Finnfund">
+      <data key="d0">1</data>
+    </node>
+    <node id="HDFC Bank">
+      <data key="d0">1</data>
+    </node>
+    <node id="Mitsui Sumitomo Insurance Venture Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="Dabur Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="Unilever Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="Goyal himself">
+      <data key="d0">2</data>
+    </node>
+    <node id="Nikhil Kamath">
+      <data key="d0">2</data>
+    </node>
+    <node id="Steadview Capital">
+      <data key="d0">2</data>
+    </node>
+    <node id="Ashish Kacholia">
+      <data key="d0">2</data>
+    </node>
+    <node id="Fundamentum Partnership Fund">
+      <data key="d0">1</data>
+    </node>
+    <node id="SMBC Asia">
+      <data key="d0">1</data>
+    </node>
+    <node id="Sauce">
+      <data key="d0">1</data>
+    </node>
+    <node id="Sofina">
+      <data key="d0">1</data>
+    </node>
+    <node id="Lashit Sanghvi">
+      <data key="d0">1</data>
+    </node>
+    <node id="BIG Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="TDK Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="Khosla Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="SoftBank">
+      <data key="d0">1</data>
+    </node>
+    <node id="Rainmatter">
+      <data key="d0">1</data>
+    </node>
+    <node id="Alpha Wave">
+      <data key="d0">1</data>
+    </node>
+    <node id="Sharrp Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="Angel One lose clients&#10;▪️ SoftBank sells 2">
+      <data key="d0">1</data>
+    </node>
+    <node id="HBOX">
+      <data key="d0">1</data>
+    </node>
+    <node id="IIFL">
+      <data key="d0">1</data>
+    </node>
+    <node id="Rocket Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="360 ONE Asset">
+      <data key="d0">2</data>
+    </node>
+    <node id="CoreEL Technologies">
+      <data key="d0">1</data>
+    </node>
+    <node id="Indian banks">
+      <data key="d0">1</data>
+    </node>
+    <node id="Switzerland-based Symbiotics">
+      <data key="d0">1</data>
+    </node>
+    <node id="Bertelsmann India Investments">
+      <data key="d0">1</data>
+    </node>
+    <node id="Fireside Ventures">
+      <data key="d0">2</data>
+    </node>
+    <node id="Elevation Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="Susquehanna Asia Venture Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="Lingotto">
+      <data key="d0">1</data>
+    </node>
+    <node id="Ultraviolette">
+      <data key="d0">1</data>
+    </node>
+    <node id="$11">
+      <data key="d0">1</data>
+    </node>
+    <node id="Mukul Agarwal">
+      <data key="d0">1</data>
+    </node>
+    <node id="000 crore ($110 million) from Rosy Blue">
+      <data key="d0">1</data>
+    </node>
+    <node id="Kashikey">
+      <data key="d0">1</data>
+    </node>
+    <node id="New Delhi">
+      <data key="d0">1</data>
+    </node>
+    <node id="Bertelsmann India Investments (BII)">
+      <data key="d0">1</data>
+    </node>
+    <node id="Owl Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="A91 Partners">
+      <data key="d0">2</data>
+    </node>
+    <node id="MoEngage">
+      <data key="d0">1</data>
+    </node>
+    <node id="Redpoint Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="Y Combinator">
+      <data key="d0">1</data>
+    </node>
+    <node id="Nextinfinity">
+      <data key="d0">1</data>
+    </node>
+    <node id="Qatar Insurance Company">
+      <data key="d0">1</data>
+    </node>
+    <node id="Kae Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="Prudent Investment Managers">
+      <data key="d0">1</data>
+    </node>
+    <node id="$15 million">
+      <data key="d0">1</data>
+    </node>
+    <node id="Bertelsmann">
+      <data key="d0">1</data>
+    </node>
+    <node id="AMD">
+      <data key="d0">1</data>
+    </node>
+    <node id="Databricks">
+      <data key="d0">1</data>
+    </node>
+    <node id="Snowflake">
+      <data key="d0">1</data>
+    </node>
+    <node id="British International Investment (BII)">
+      <data key="d0">1</data>
+    </node>
+    <node id="ICONIQ">
+      <data key="d0">1</data>
+    </node>
+    <node id="WestBridge Capital">
+      <data key="d0">5</data>
+    </node>
+    <node id="Granite Asia">
+      <data key="d0">1</data>
+    </node>
+    <node id="AI firm Smallest AI">
+      <data key="d0">1</data>
+    </node>
+    <node id="Peak XV followed by logistics startup Airbound">
+      <data key="d0">1</data>
+    </node>
+    <node id="FMCG brand Meolaa">
+      <data key="d0">1</data>
+    </node>
+    <node id="Jump Crypto">
+      <data key="d0">1</data>
+    </node>
+    <node id="Prosus">
+      <data key="d0">1</data>
+    </node>
+    <node id="Voice AI platform GreyLabs AI">
+      <data key="d0">1</data>
+    </node>
+    <node id="GMO Venture Partners">
+      <data key="d0">1</data>
+    </node>
+    <node id="Innoven Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="Mitsui Sumitomo Insurance VC">
+      <data key="d0">1</data>
+    </node>
+    <node id="Rebright Partners">
+      <data key="d0">1</data>
+    </node>
+    <node id="Vertex Growth">
+      <data key="d0">1</data>
+    </node>
+    <node id="Info Edge">
+      <data key="d0">1</data>
+    </node>
+    <node id="Prosus Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="EAAA Alternatives">
+      <data key="d0">1</data>
+    </node>
+    <node id="Aramco Ventures">
+      <data key="d0">1</data>
+    </node>
+    <node id="MSN Holdings">
+      <data key="d0">1</data>
+    </node>
+    <node id="Vertex Ventures">
+      <data key="d0">3</data>
+    </node>
+    <node id="Lakme Finance">
+      <data key="d0">1</data>
+    </node>
+    <node id="Bajaj Finserv">
+      <data key="d0">1</data>
+    </node>
+    <node id="BlackRock">
+      <data key="d0">1</data>
+    </node>
+    <node id="Ankur Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="Pi Labs">
+      <data key="d0">1</data>
+    </node>
+    <node id="Playbook Partners">
+      <data key="d0">1</data>
+    </node>
+    <node id="Together Fund">
+      <data key="d0">1</data>
+    </node>
+    <node id="Epiq Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="Prime Venture Partners">
+      <data key="d0">1</data>
+    </node>
+    <node id="General Catalyst">
+      <data key="d0">2</data>
+    </node>
+    <node id="Singapore&#10;On a weekly basis">
+      <data key="d0">2</data>
+    </node>
+    <node id="AI acceleration cloud platform Neysa">
+      <data key="d0">1</data>
+    </node>
+    <node id="Nomura">
+      <data key="d0">1</data>
+    </node>
+    <node id="RBI&#10;On a weekly basis">
+      <data key="d0">2</data>
+    </node>
+    <node id="Infra">
+      <data key="d0">1</data>
+    </node>
+    <node id="Investcorp">
+      <data key="d0">1</data>
+    </node>
+    <node id="Norwest Venture Partners">
+      <data key="d0">1</data>
+    </node>
+    <node id="Qualcomm Ventures in a Series B extension">
+      <data key="d0">1</data>
+    </node>
+    <node id="ICICI Venture">
+      <data key="d0">1</data>
+    </node>
+    <node id="Fundamentum">
+      <data key="d0">1</data>
+    </node>
+    <node id="Premji Invest">
+      <data key="d0">1</data>
+    </node>
+    <node id="Instamart">
+      <data key="d0">1</data>
+    </node>
+    <node id="Carnelian Asset Management LLP">
+      <data key="d0">1</data>
+    </node>
+    <node id="GEF Capital Partners">
+      <data key="d0">1</data>
+    </node>
+    <node id="PowerUp Money">
+      <data key="d0">1</data>
+    </node>
+    <node id="74 to $95">
+      <data key="d0">1</data>
+    </node>
+    <node id="Dragon Funds">
+      <data key="d0">1</data>
+    </node>
+    <node id="IFC">
+      <data key="d0">1</data>
+    </node>
+    <node id="Five Sigma">
+      <data key="d0">1</data>
+    </node>
+    <node id="SBI">
+      <data key="d0">1</data>
+    </node>
+    <node id="FMO">
+      <data key="d0">1</data>
+    </node>
+    <node id="Fintech platform Yubi Group’s Rs 411 crore (around $46">
+      <data key="d0">1</data>
+    </node>
+    <node id="DBS Bank">
+      <data key="d0">1</data>
+    </node>
+    <node id="TVS Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="Agnikul Cosmos bagged Rs 60 crore ($6">
+      <data key="d0">1</data>
+    </node>
+    <node id="Hivemind Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="IIFL Fintech Fund">
+      <data key="d0">1</data>
+    </node>
+    <node id="FinBox exit&#10;On a weekly basis">
+      <data key="d0">1</data>
+    </node>
+    <node id="Hornbill Capital">
+      <data key="d0">1</data>
+    </node>
+    <node id="Avataar Venture Partners">
+      <data key="d0">1</data>
+    </node>
+    <node id="100 Cr">
+      <data key="d0">1</data>
+    </node>
+    <node id="AI startup Assessli">
+      <data key="d0">1</data>
+    </node>
+    <edge source="Capital 2B" target="Helena">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Capital 2B" target="Japan Airlines">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Capital 2B" target="SMSC">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Capital 2B" target="TransLink Innovation Fund">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Helena" target="Japan Airlines">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Helena" target="SMSC">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Helena" target="TransLink Innovation Fund">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Japan Airlines" target="SMSC">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Japan Airlines" target="TransLink Innovation Fund">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="SMSC" target="TransLink Innovation Fund">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="DoorDash" target="Greenoaks">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="DoorDash" target="Humba Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="DoorDash" target="Lachy Groom">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="DoorDash" target="Lightspeed">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Greenoaks" target="Humba Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Greenoaks" target="Lachy Groom">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Greenoaks" target="Lightspeed">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Humba Ventures" target="Lachy Groom">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Humba Ventures" target="Lightspeed">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Lachy Groom" target="Lightspeed">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Lachy Groom" target="Alpha Wave">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Lachy Groom" target="Sharrp Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Lightspeed" target="Accel">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Lightspeed" target="Info Edge Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Nexus Venture Partners" target="Susquehanna Venture Capital">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Nexus Venture Partners" target="Bessemer Venture Partners">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Nexus Venture Partners" target="Titan Capital">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Nexus Venture Partners" target="WEH Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Nexus Venture Partners" target="Redpoint Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Nexus Venture Partners" target="Y Combinator">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Elev8 Venture Partners" target="Mirae Asset Venture Investment">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Artha Venture Fund" target="Singularity AMC">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Bessemer Venture Partners" target="Titan Capital">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Bessemer Venture Partners" target="WEH Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Bessemer Venture Partners" target="Rainmatter">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Titan Capital" target="WEH Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Base10" target="Peak XV Partners">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Peak XV Partners" target="Goyal himself">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="Peak XV Partners" target="Nikhil Kamath">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="Peak XV Partners" target="Steadview Capital">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="Peak XV Partners" target="Nextinfinity">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Peak XV Partners" target="Qatar Insurance Company">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Greenoaks Capital" target="Unicorn India Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Unicorn India Ventures" target="Ashish Kacholia">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Accel" target="Info Edge Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Accel" target="IIFL">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Accel" target="Rocket Capital">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Accel" target="Granite Asia">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Accel" target="FMCG brand Meolaa">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Accel" target="Jump Crypto">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Accel" target="Prosus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Accel" target="Voice AI platform GreyLabs AI">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Blume Ventures participating" target="Lightrock">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Bain Capital Ventures" target="Hara Global">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Blume Ventures" target="Rs 12 crore in venture debt">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="BII" target="Finnfund">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="HDFC Bank" target="Mitsui Sumitomo Insurance Venture Capital">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Dabur Ventures" target="Unilever Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Goyal himself" target="Nikhil Kamath">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="Goyal himself" target="Steadview Capital">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="Nikhil Kamath" target="Steadview Capital">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="Ashish Kacholia" target="Lashit Sanghvi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Fundamentum Partnership Fund" target="SMBC Asia">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Sauce" target="Sofina">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="BIG Capital" target="TDK Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Khosla Ventures" target="SoftBank">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Alpha Wave" target="Sharrp Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Angel One lose clients&#10;▪️ SoftBank sells 2" target="HBOX">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="IIFL" target="Rocket Capital">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="360 ONE Asset" target="CoreEL Technologies">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="360 ONE Asset" target="Vertex Growth">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Indian banks" target="Switzerland-based Symbiotics">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Bertelsmann India Investments" target="Fireside Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Elevation Capital" target="Susquehanna Asia Venture Capital">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Lingotto" target="Ultraviolette">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="$11" target="Mukul Agarwal">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="000 crore ($110 million) from Rosy Blue" target="Kashikey">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="000 crore ($110 million) from Rosy Blue" target="New Delhi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Kashikey" target="New Delhi">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Bertelsmann India Investments (BII)" target="Owl Ventures">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="A91 Partners" target="MoEngage">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Redpoint Ventures" target="Y Combinator">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Nextinfinity" target="Qatar Insurance Company">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Kae Capital" target="Prudent Investment Managers">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="$15 million" target="Bertelsmann">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="AMD" target="Databricks">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="AMD" target="Snowflake">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Databricks" target="Snowflake">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="British International Investment (BII)" target="ICONIQ">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="British International Investment (BII)" target="WestBridge Capital">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="ICONIQ" target="WestBridge Capital">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="AI firm Smallest AI" target="Peak XV followed by logistics startup Airbound">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="FMCG brand Meolaa" target="Jump Crypto">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="FMCG brand Meolaa" target="Prosus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="FMCG brand Meolaa" target="Voice AI platform GreyLabs AI">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Jump Crypto" target="Prosus">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Jump Crypto" target="Voice AI platform GreyLabs AI">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Prosus" target="Voice AI platform GreyLabs AI">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="GMO Venture Partners" target="Innoven Capital">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="GMO Venture Partners" target="Mitsui Sumitomo Insurance VC">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="GMO Venture Partners" target="Rebright Partners">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Innoven Capital" target="Mitsui Sumitomo Insurance VC">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Innoven Capital" target="Rebright Partners">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Mitsui Sumitomo Insurance VC" target="Rebright Partners">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Info Edge" target="Prosus Ventures">
+      <data key="d1">1</data>
+    </edge>
+  </graph>
+</graphml>

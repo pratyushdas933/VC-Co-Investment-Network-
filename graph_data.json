@@ -1,0 +1,4017 @@
+{
+  "nodes": [
+    {
+      "id": "Capital 2B",
+      "degree": 4,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 0,
+      "deal_count": 1
+    },
+    {
+      "id": "Helena",
+      "degree": 4,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 0,
+      "deal_count": 1
+    },
+    {
+      "id": "Japan Airlines",
+      "degree": 4,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 0,
+      "deal_count": 1
+    },
+    {
+      "id": "SMSC",
+      "degree": 4,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 0,
+      "deal_count": 1
+    },
+    {
+      "id": "TransLink Innovation Fund",
+      "degree": 4,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 0,
+      "deal_count": 1
+    },
+    {
+      "id": "DoorDash",
+      "degree": 4,
+      "betweenness": 0.0,
+      "eigenvector": 0.39457,
+      "pagerank": 0.009,
+      "community": 1,
+      "deal_count": 1
+    },
+    {
+      "id": "Greenoaks",
+      "degree": 4,
+      "betweenness": 0.0,
+      "eigenvector": 0.39457,
+      "pagerank": 0.009,
+      "community": 1,
+      "deal_count": 1
+    },
+    {
+      "id": "Humba Ventures",
+      "degree": 4,
+      "betweenness": 0.0,
+      "eigenvector": 0.39457,
+      "pagerank": 0.009,
+      "community": 1,
+      "deal_count": 1
+    },
+    {
+      "id": "Lachy Groom",
+      "degree": 6,
+      "betweenness": 0.00167,
+      "eigenvector": 0.44543,
+      "pagerank": 0.01369,
+      "community": 1,
+      "deal_count": 2
+    },
+    {
+      "id": "Lightspeed",
+      "degree": 6,
+      "betweenness": 0.00347,
+      "eigenvector": 0.46327,
+      "pagerank": 0.01396,
+      "community": 1,
+      "deal_count": 4
+    },
+    {
+      "id": "Nexus Venture Partners",
+      "degree": 4,
+      "betweenness": 0.00026,
+      "eigenvector": 0.0,
+      "pagerank": 0.01225,
+      "community": 2,
+      "deal_count": 3
+    },
+    {
+      "id": "Susquehanna Venture Capital",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00386,
+      "community": 2,
+      "deal_count": 1
+    },
+    {
+      "id": "Elev8 Venture Partners",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 3,
+      "deal_count": 1
+    },
+    {
+      "id": "Mirae Asset Venture Investment",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 3,
+      "deal_count": 1
+    },
+    {
+      "id": "Artha Venture Fund",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 4,
+      "deal_count": 1
+    },
+    {
+      "id": "Singularity AMC",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 4,
+      "deal_count": 2
+    },
+    {
+      "id": "Bessemer Venture Partners",
+      "degree": 4,
+      "betweenness": 0.00026,
+      "eigenvector": 0.0,
+      "pagerank": 0.01225,
+      "community": 2,
+      "deal_count": 5
+    },
+    {
+      "id": "Titan Capital",
+      "degree": 3,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00902,
+      "community": 2,
+      "deal_count": 1
+    },
+    {
+      "id": "WEH Ventures",
+      "degree": 3,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00902,
+      "community": 2,
+      "deal_count": 1
+    },
+    {
+      "id": "Base10",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.00049,
+      "pagerank": 0.00344,
+      "community": 5,
+      "deal_count": 1
+    },
+    {
+      "id": "Peak XV Partners",
+      "degree": 4,
+      "betweenness": 0.00032,
+      "eigenvector": 0.00203,
+      "pagerank": 0.01543,
+      "community": 5,
+      "deal_count": 10
+    },
+    {
+      "id": "Greenoaks Capital",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00588,
+      "community": 13,
+      "deal_count": 1
+    },
+    {
+      "id": "Unicorn India Ventures",
+      "degree": 2,
+      "betweenness": 0.00013,
+      "eigenvector": 0.0,
+      "pagerank": 0.01088,
+      "community": 13,
+      "deal_count": 2
+    },
+    {
+      "id": "Accel",
+      "degree": 7,
+      "betweenness": 0.00475,
+      "eigenvector": 0.20826,
+      "pagerank": 0.02109,
+      "community": 7,
+      "deal_count": 7
+    },
+    {
+      "id": "Info Edge Ventures",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.15606,
+      "pagerank": 0.00579,
+      "community": 7,
+      "deal_count": 1
+    },
+    {
+      "id": "Blume Ventures participating",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 8,
+      "deal_count": 1
+    },
+    {
+      "id": "Lightrock",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 8,
+      "deal_count": 1
+    },
+    {
+      "id": "Bain Capital Ventures",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 9,
+      "deal_count": 1
+    },
+    {
+      "id": "Hara Global",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 9,
+      "deal_count": 1
+    },
+    {
+      "id": "BII",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 10,
+      "deal_count": 1
+    },
+    {
+      "id": "Finnfund",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 10,
+      "deal_count": 1
+    },
+    {
+      "id": "HDFC Bank",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 11,
+      "deal_count": 1
+    },
+    {
+      "id": "Mitsui Sumitomo Insurance Venture Capital",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 11,
+      "deal_count": 1
+    },
+    {
+      "id": "Dabur Ventures",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 12,
+      "deal_count": 1
+    },
+    {
+      "id": "Unilever Ventures",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 12,
+      "deal_count": 1
+    },
+    {
+      "id": "Nikhil Kamath",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.00187,
+      "pagerank": 0.00979,
+      "community": 5,
+      "deal_count": 2
+    },
+    {
+      "id": "Steadview Capital",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.00187,
+      "pagerank": 0.00979,
+      "community": 5,
+      "deal_count": 2
+    },
+    {
+      "id": "Ashish Kacholia",
+      "degree": 2,
+      "betweenness": 0.00013,
+      "eigenvector": 0.0,
+      "pagerank": 0.01088,
+      "community": 13,
+      "deal_count": 2
+    },
+    {
+      "id": "Fundamentum Partnership Fund",
+      "degree": 2,
+      "betweenness": 0.0009,
+      "eigenvector": 0.05116,
+      "pagerank": 0.00765,
+      "community": 7,
+      "deal_count": 2
+    },
+    {
+      "id": "SMBC Asia",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.01189,
+      "pagerank": 0.00451,
+      "community": 7,
+      "deal_count": 1
+    },
+    {
+      "id": "Sauce",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 15,
+      "deal_count": 1
+    },
+    {
+      "id": "Sofina",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 15,
+      "deal_count": 1
+    },
+    {
+      "id": "Lashit Sanghvi",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00588,
+      "community": 13,
+      "deal_count": 1
+    },
+    {
+      "id": "BIG Capital",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 16,
+      "deal_count": 1
+    },
+    {
+      "id": "TDK Ventures",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 16,
+      "deal_count": 1
+    },
+    {
+      "id": "Khosla Ventures",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 17,
+      "deal_count": 1
+    },
+    {
+      "id": "SoftBank",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 17,
+      "deal_count": 1
+    },
+    {
+      "id": "Rainmatter",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00386,
+      "community": 2,
+      "deal_count": 2
+    },
+    {
+      "id": "Alpha Wave",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.13485,
+      "pagerank": 0.00556,
+      "community": 1,
+      "deal_count": 1
+    },
+    {
+      "id": "Sharrp Ventures",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.13485,
+      "pagerank": 0.00556,
+      "community": 1,
+      "deal_count": 1
+    },
+    {
+      "id": "IIFL",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.06305,
+      "pagerank": 0.00664,
+      "community": 7,
+      "deal_count": 1
+    },
+    {
+      "id": "Rocket Capital",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.06305,
+      "pagerank": 0.00664,
+      "community": 7,
+      "deal_count": 1
+    },
+    {
+      "id": "Indian banks",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 19,
+      "deal_count": 1
+    },
+    {
+      "id": "Switzerland-based Symbiotics",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 19,
+      "deal_count": 1
+    },
+    {
+      "id": "Bertelsmann India Investments",
+      "degree": 2,
+      "betweenness": 0.0009,
+      "eigenvector": 0.05116,
+      "pagerank": 0.00765,
+      "community": 7,
+      "deal_count": 2
+    },
+    {
+      "id": "Fireside Ventures",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.01189,
+      "pagerank": 0.00451,
+      "community": 7,
+      "deal_count": 2
+    },
+    {
+      "id": "Elevation Capital",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 21,
+      "deal_count": 1
+    },
+    {
+      "id": "Susquehanna Asia Venture Capital",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 21,
+      "deal_count": 1
+    },
+    {
+      "id": "Lingotto",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 22,
+      "deal_count": 1
+    },
+    {
+      "id": "Ultraviolette",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 22,
+      "deal_count": 1
+    },
+    {
+      "id": "Kashikey",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 23,
+      "deal_count": 1
+    },
+    {
+      "id": "New Delhi",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 23,
+      "deal_count": 1
+    },
+    {
+      "id": "Bertelsmann India Investments (BII)",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 24,
+      "deal_count": 1
+    },
+    {
+      "id": "Owl Ventures",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 24,
+      "deal_count": 1
+    },
+    {
+      "id": "A91 Partners",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 25,
+      "deal_count": 3
+    },
+    {
+      "id": "MoEngage",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 25,
+      "deal_count": 1
+    },
+    {
+      "id": "Nextinfinity",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.00049,
+      "pagerank": 0.00344,
+      "community": 5,
+      "deal_count": 1
+    },
+    {
+      "id": "Kae Capital",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 26,
+      "deal_count": 1
+    },
+    {
+      "id": "Prudent Investment Managers",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 26,
+      "deal_count": 1
+    },
+    {
+      "id": "AMD",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 27,
+      "deal_count": 1
+    },
+    {
+      "id": "Databricks",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 27,
+      "deal_count": 1
+    },
+    {
+      "id": "Snowflake",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 27,
+      "deal_count": 1
+    },
+    {
+      "id": "British International Investment (BII)",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 28,
+      "deal_count": 1
+    },
+    {
+      "id": "ICONIQ",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 28,
+      "deal_count": 1
+    },
+    {
+      "id": "WestBridge Capital",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 28,
+      "deal_count": 6
+    },
+    {
+      "id": "Granite Asia",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0484,
+      "pagerank": 0.00382,
+      "community": 7,
+      "deal_count": 1
+    },
+    {
+      "id": "GMO Venture Partners",
+      "degree": 3,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 29,
+      "deal_count": 1
+    },
+    {
+      "id": "Innoven Capital",
+      "degree": 3,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 29,
+      "deal_count": 1
+    },
+    {
+      "id": "Mitsui Sumitomo Insurance VC",
+      "degree": 3,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 29,
+      "deal_count": 1
+    },
+    {
+      "id": "Rebright Partners",
+      "degree": 3,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 29,
+      "deal_count": 1
+    },
+    {
+      "id": "Info Edge",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 30,
+      "deal_count": 1
+    },
+    {
+      "id": "Prosus Ventures",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 30,
+      "deal_count": 1
+    },
+    {
+      "id": "Alteria Capital",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 31,
+      "deal_count": 1
+    },
+    {
+      "id": "InnoVen Capital",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 31,
+      "deal_count": 1
+    },
+    {
+      "id": "Premji Invest",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 32,
+      "deal_count": 2
+    },
+    {
+      "id": "Weaver Services",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 32,
+      "deal_count": 1
+    },
+    {
+      "id": "Anicut Capital",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 33,
+      "deal_count": 1
+    },
+    {
+      "id": "Narotam Sekhsaria Family Office",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 33,
+      "deal_count": 1
+    },
+    {
+      "id": "Acquisitions]\nPOP",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 34,
+      "deal_count": 1
+    },
+    {
+      "id": "Shalabh Shrivastava",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 34,
+      "deal_count": 1
+    },
+    {
+      "id": "QED Innovation Labs",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 35,
+      "deal_count": 1
+    },
+    {
+      "id": "RTP Global",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 35,
+      "deal_count": 1
+    },
+    {
+      "id": "Sofina Ventures",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 35,
+      "deal_count": 1
+    },
+    {
+      "id": "Porter",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00647,
+      "community": 36,
+      "deal_count": 1
+    },
+    {
+      "id": "Wellington Management",
+      "degree": 2,
+      "betweenness": 6e-05,
+      "eigenvector": 0.0,
+      "pagerank": 0.01219,
+      "community": 36,
+      "deal_count": 2
+    },
+    {
+      "id": "Kedaara Capital",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00647,
+      "community": 36,
+      "deal_count": 2
+    },
+    {
+      "id": "KKR",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 37,
+      "deal_count": 1
+    },
+    {
+      "id": "Partners Group",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 37,
+      "deal_count": 1
+    },
+    {
+      "id": "Edelwiesse",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 38,
+      "deal_count": 1
+    },
+    {
+      "id": "Mirae Asset",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 38,
+      "deal_count": 1
+    },
+    {
+      "id": "Nokia Growth Partners",
+      "degree": 2,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 38,
+      "deal_count": 1
+    },
+    {
+      "id": "Blue Earth Capital",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 39,
+      "deal_count": 1
+    },
+    {
+      "id": "Women’s wellness",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 39,
+      "deal_count": 1
+    },
+    {
+      "id": "Evolvence India",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 40,
+      "deal_count": 1
+    },
+    {
+      "id": "Mirabilis Investment Trust",
+      "degree": 1,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 40,
+      "deal_count": 1
+    },
+    {
+      "id": "ASK Financial Holdings",
+      "degree": 3,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 41,
+      "deal_count": 1
+    },
+    {
+      "id": "CredAvenue",
+      "degree": 3,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 41,
+      "deal_count": 1
+    },
+    {
+      "id": "MAS Financial Services",
+      "degree": 3,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 41,
+      "deal_count": 1
+    },
+    {
+      "id": "Northern Arc",
+      "degree": 3,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00838,
+      "community": 41,
+      "deal_count": 1
+    },
+    {
+      "id": "EAAA Alternatives",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 42,
+      "deal_count": 1
+    },
+    {
+      "id": "Aramco Ventures",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 43,
+      "deal_count": 1
+    },
+    {
+      "id": "MSN Holdings",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 44,
+      "deal_count": 1
+    },
+    {
+      "id": "Vertex Ventures",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 45,
+      "deal_count": 3
+    },
+    {
+      "id": "Lakme Finance",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 46,
+      "deal_count": 1
+    },
+    {
+      "id": "Bajaj Finserv",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 47,
+      "deal_count": 1
+    },
+    {
+      "id": "BlackRock",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 48,
+      "deal_count": 1
+    },
+    {
+      "id": "Ankur Capital",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 49,
+      "deal_count": 1
+    },
+    {
+      "id": "Blume Ventures",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 50,
+      "deal_count": 1
+    },
+    {
+      "id": "Pi Labs",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 51,
+      "deal_count": 1
+    },
+    {
+      "id": "Playbook Partners",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 52,
+      "deal_count": 1
+    },
+    {
+      "id": "Together Fund",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 53,
+      "deal_count": 1
+    },
+    {
+      "id": "Epiq Capital",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 54,
+      "deal_count": 1
+    },
+    {
+      "id": "Prime Venture Partners",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 55,
+      "deal_count": 1
+    },
+    {
+      "id": "General Catalyst",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 56,
+      "deal_count": 2
+    },
+    {
+      "id": "Singapore\nOn a weekly basis",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 57,
+      "deal_count": 2
+    },
+    {
+      "id": "Nomura",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 58,
+      "deal_count": 1
+    },
+    {
+      "id": "RBI\nOn a weekly basis",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 59,
+      "deal_count": 2
+    },
+    {
+      "id": "Infra",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 60,
+      "deal_count": 1
+    },
+    {
+      "id": "Investcorp",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 61,
+      "deal_count": 1
+    },
+    {
+      "id": "Norwest Venture Partners",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 62,
+      "deal_count": 1
+    },
+    {
+      "id": "Qualcomm Ventures in a Series B extension",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 63,
+      "deal_count": 1
+    },
+    {
+      "id": "ICICI Venture",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 64,
+      "deal_count": 1
+    },
+    {
+      "id": "Fundamentum",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 65,
+      "deal_count": 2
+    },
+    {
+      "id": "Instamart",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 66,
+      "deal_count": 1
+    },
+    {
+      "id": "Carnelian Asset Management LLP",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 67,
+      "deal_count": 1
+    },
+    {
+      "id": "HBOX",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 68,
+      "deal_count": 1
+    },
+    {
+      "id": "GEF Capital Partners",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 69,
+      "deal_count": 1
+    },
+    {
+      "id": "CoreEL Technologies",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 70,
+      "deal_count": 1
+    },
+    {
+      "id": "PowerUp Money",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 71,
+      "deal_count": 1
+    },
+    {
+      "id": "Dragon Funds",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 72,
+      "deal_count": 1
+    },
+    {
+      "id": "IFC",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 73,
+      "deal_count": 1
+    },
+    {
+      "id": "Five Sigma",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 74,
+      "deal_count": 1
+    },
+    {
+      "id": "Mukul Agarwal",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 75,
+      "deal_count": 1
+    },
+    {
+      "id": "SBI",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 76,
+      "deal_count": 1
+    },
+    {
+      "id": "FMO",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 77,
+      "deal_count": 1
+    },
+    {
+      "id": "DBS Bank",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 78,
+      "deal_count": 1
+    },
+    {
+      "id": "TVS Capital",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 79,
+      "deal_count": 1
+    },
+    {
+      "id": "Hivemind Capital",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 80,
+      "deal_count": 1
+    },
+    {
+      "id": "Bertelsmann",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 81,
+      "deal_count": 1
+    },
+    {
+      "id": "IIFL Fintech Fund",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 82,
+      "deal_count": 1
+    },
+    {
+      "id": "FinBox exit\nOn a weekly basis",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 83,
+      "deal_count": 1
+    },
+    {
+      "id": "Avataar Venture Partners",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 84,
+      "deal_count": 1
+    },
+    {
+      "id": "Vertex Growth",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 85,
+      "deal_count": 1
+    },
+    {
+      "id": "Iron Pillar",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 86,
+      "deal_count": 1
+    },
+    {
+      "id": "NSE emerge for SME IPO\nOn a weekly basis",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 87,
+      "deal_count": 1
+    },
+    {
+      "id": "Carpediem Capital",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 88,
+      "deal_count": 1
+    },
+    {
+      "id": "TPG",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 89,
+      "deal_count": 1
+    },
+    {
+      "id": "Filter Capital",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 90,
+      "deal_count": 1
+    },
+    {
+      "id": "Motilal Oswal Financial Services Limited (MOFSL)",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 91,
+      "deal_count": 1
+    },
+    {
+      "id": "Playbook",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 92,
+      "deal_count": 1
+    },
+    {
+      "id": "TheKredible",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 93,
+      "deal_count": 1
+    },
+    {
+      "id": "Raphe mPhibr",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 94,
+      "deal_count": 1
+    },
+    {
+      "id": "Greylock",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 95,
+      "deal_count": 1
+    },
+    {
+      "id": "The Good Bug",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 96,
+      "deal_count": 1
+    },
+    {
+      "id": "InCred Growth Partners Fund",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 97,
+      "deal_count": 1
+    },
+    {
+      "id": "Venture Catalysts",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 98,
+      "deal_count": 1
+    },
+    {
+      "id": "Temasek",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 99,
+      "deal_count": 1
+    },
+    {
+      "id": "Peak XV",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 100,
+      "deal_count": 1
+    },
+    {
+      "id": "Woori Venture Partners",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 101,
+      "deal_count": 1
+    },
+    {
+      "id": "Multiples Alternate Asset Management",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 102,
+      "deal_count": 1
+    },
+    {
+      "id": "Jungle Ventures",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 103,
+      "deal_count": 2
+    },
+    {
+      "id": "ValueQuest S",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 104,
+      "deal_count": 1
+    },
+    {
+      "id": "KRAFTON",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 105,
+      "deal_count": 1
+    },
+    {
+      "id": "Apis Partners",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 106,
+      "deal_count": 1
+    },
+    {
+      "id": "HSBC",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 18,
+      "deal_count": 1
+    },
+    {
+      "id": "Walden Catalyst Ventures & NGP Capital",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 20,
+      "deal_count": 1
+    },
+    {
+      "id": "Point72 Private Investments",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 6,
+      "deal_count": 1
+    },
+    {
+      "id": "True North",
+      "degree": 0,
+      "betweenness": 0.0,
+      "eigenvector": 0.0,
+      "pagerank": 0.00126,
+      "community": 14,
+      "deal_count": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "Capital 2B",
+      "target": "Helena",
+      "weight": 1
+    },
+    {
+      "source": "Capital 2B",
+      "target": "Japan Airlines",
+      "weight": 1
+    },
+    {
+      "source": "Capital 2B",
+      "target": "SMSC",
+      "weight": 1
+    },
+    {
+      "source": "Capital 2B",
+      "target": "TransLink Innovation Fund",
+      "weight": 1
+    },
+    {
+      "source": "Helena",
+      "target": "Japan Airlines",
+      "weight": 1
+    },
+    {
+      "source": "Helena",
+      "target": "SMSC",
+      "weight": 1
+    },
+    {
+      "source": "Helena",
+      "target": "TransLink Innovation Fund",
+      "weight": 1
+    },
+    {
+      "source": "Japan Airlines",
+      "target": "SMSC",
+      "weight": 1
+    },
+    {
+      "source": "Japan Airlines",
+      "target": "TransLink Innovation Fund",
+      "weight": 1
+    },
+    {
+      "source": "SMSC",
+      "target": "TransLink Innovation Fund",
+      "weight": 1
+    },
+    {
+      "source": "DoorDash",
+      "target": "Greenoaks",
+      "weight": 1
+    },
+    {
+      "source": "DoorDash",
+      "target": "Humba Ventures",
+      "weight": 1
+    },
+    {
+      "source": "DoorDash",
+      "target": "Lachy Groom",
+      "weight": 1
+    },
+    {
+      "source": "DoorDash",
+      "target": "Lightspeed",
+      "weight": 1
+    },
+    {
+      "source": "Greenoaks",
+      "target": "Humba Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Greenoaks",
+      "target": "Lachy Groom",
+      "weight": 1
+    },
+    {
+      "source": "Greenoaks",
+      "target": "Lightspeed",
+      "weight": 1
+    },
+    {
+      "source": "Humba Ventures",
+      "target": "Lachy Groom",
+      "weight": 1
+    },
+    {
+      "source": "Humba Ventures",
+      "target": "Lightspeed",
+      "weight": 1
+    },
+    {
+      "source": "Lachy Groom",
+      "target": "Lightspeed",
+      "weight": 1
+    },
+    {
+      "source": "Lachy Groom",
+      "target": "Alpha Wave",
+      "weight": 1
+    },
+    {
+      "source": "Lachy Groom",
+      "target": "Sharrp Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Lightspeed",
+      "target": "Accel",
+      "weight": 1
+    },
+    {
+      "source": "Lightspeed",
+      "target": "Info Edge Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Nexus Venture Partners",
+      "target": "Susquehanna Venture Capital",
+      "weight": 1
+    },
+    {
+      "source": "Nexus Venture Partners",
+      "target": "Bessemer Venture Partners",
+      "weight": 1
+    },
+    {
+      "source": "Nexus Venture Partners",
+      "target": "Titan Capital",
+      "weight": 1
+    },
+    {
+      "source": "Nexus Venture Partners",
+      "target": "WEH Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Elev8 Venture Partners",
+      "target": "Mirae Asset Venture Investment",
+      "weight": 1
+    },
+    {
+      "source": "Artha Venture Fund",
+      "target": "Singularity AMC",
+      "weight": 1
+    },
+    {
+      "source": "Bessemer Venture Partners",
+      "target": "Titan Capital",
+      "weight": 1
+    },
+    {
+      "source": "Bessemer Venture Partners",
+      "target": "WEH Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Bessemer Venture Partners",
+      "target": "Rainmatter",
+      "weight": 1
+    },
+    {
+      "source": "Titan Capital",
+      "target": "WEH Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Base10",
+      "target": "Peak XV Partners",
+      "weight": 1
+    },
+    {
+      "source": "Peak XV Partners",
+      "target": "Nikhil Kamath",
+      "weight": 2
+    },
+    {
+      "source": "Peak XV Partners",
+      "target": "Steadview Capital",
+      "weight": 2
+    },
+    {
+      "source": "Peak XV Partners",
+      "target": "Nextinfinity",
+      "weight": 1
+    },
+    {
+      "source": "Greenoaks Capital",
+      "target": "Unicorn India Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Unicorn India Ventures",
+      "target": "Ashish Kacholia",
+      "weight": 1
+    },
+    {
+      "source": "Accel",
+      "target": "Info Edge Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Accel",
+      "target": "IIFL",
+      "weight": 1
+    },
+    {
+      "source": "Accel",
+      "target": "Rocket Capital",
+      "weight": 1
+    },
+    {
+      "source": "Accel",
+      "target": "Granite Asia",
+      "weight": 1
+    },
+    {
+      "source": "Accel",
+      "target": "Bertelsmann India Investments",
+      "weight": 1
+    },
+    {
+      "source": "Accel",
+      "target": "Fundamentum Partnership Fund",
+      "weight": 1
+    },
+    {
+      "source": "Blume Ventures participating",
+      "target": "Lightrock",
+      "weight": 1
+    },
+    {
+      "source": "Bain Capital Ventures",
+      "target": "Hara Global",
+      "weight": 1
+    },
+    {
+      "source": "BII",
+      "target": "Finnfund",
+      "weight": 1
+    },
+    {
+      "source": "HDFC Bank",
+      "target": "Mitsui Sumitomo Insurance Venture Capital",
+      "weight": 1
+    },
+    {
+      "source": "Dabur Ventures",
+      "target": "Unilever Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Nikhil Kamath",
+      "target": "Steadview Capital",
+      "weight": 2
+    },
+    {
+      "source": "Ashish Kacholia",
+      "target": "Lashit Sanghvi",
+      "weight": 1
+    },
+    {
+      "source": "Fundamentum Partnership Fund",
+      "target": "SMBC Asia",
+      "weight": 1
+    },
+    {
+      "source": "Sauce",
+      "target": "Sofina",
+      "weight": 1
+    },
+    {
+      "source": "BIG Capital",
+      "target": "TDK Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Khosla Ventures",
+      "target": "SoftBank",
+      "weight": 1
+    },
+    {
+      "source": "Alpha Wave",
+      "target": "Sharrp Ventures",
+      "weight": 1
+    },
+    {
+      "source": "IIFL",
+      "target": "Rocket Capital",
+      "weight": 1
+    },
+    {
+      "source": "Indian banks",
+      "target": "Switzerland-based Symbiotics",
+      "weight": 1
+    },
+    {
+      "source": "Bertelsmann India Investments",
+      "target": "Fireside Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Elevation Capital",
+      "target": "Susquehanna Asia Venture Capital",
+      "weight": 1
+    },
+    {
+      "source": "Lingotto",
+      "target": "Ultraviolette",
+      "weight": 1
+    },
+    {
+      "source": "Kashikey",
+      "target": "New Delhi",
+      "weight": 1
+    },
+    {
+      "source": "Bertelsmann India Investments (BII)",
+      "target": "Owl Ventures",
+      "weight": 1
+    },
+    {
+      "source": "A91 Partners",
+      "target": "MoEngage",
+      "weight": 1
+    },
+    {
+      "source": "Kae Capital",
+      "target": "Prudent Investment Managers",
+      "weight": 1
+    },
+    {
+      "source": "AMD",
+      "target": "Databricks",
+      "weight": 1
+    },
+    {
+      "source": "AMD",
+      "target": "Snowflake",
+      "weight": 1
+    },
+    {
+      "source": "Databricks",
+      "target": "Snowflake",
+      "weight": 1
+    },
+    {
+      "source": "British International Investment (BII)",
+      "target": "ICONIQ",
+      "weight": 1
+    },
+    {
+      "source": "British International Investment (BII)",
+      "target": "WestBridge Capital",
+      "weight": 1
+    },
+    {
+      "source": "ICONIQ",
+      "target": "WestBridge Capital",
+      "weight": 1
+    },
+    {
+      "source": "GMO Venture Partners",
+      "target": "Innoven Capital",
+      "weight": 1
+    },
+    {
+      "source": "GMO Venture Partners",
+      "target": "Mitsui Sumitomo Insurance VC",
+      "weight": 1
+    },
+    {
+      "source": "GMO Venture Partners",
+      "target": "Rebright Partners",
+      "weight": 1
+    },
+    {
+      "source": "Innoven Capital",
+      "target": "Mitsui Sumitomo Insurance VC",
+      "weight": 1
+    },
+    {
+      "source": "Innoven Capital",
+      "target": "Rebright Partners",
+      "weight": 1
+    },
+    {
+      "source": "Mitsui Sumitomo Insurance VC",
+      "target": "Rebright Partners",
+      "weight": 1
+    },
+    {
+      "source": "Info Edge",
+      "target": "Prosus Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Alteria Capital",
+      "target": "InnoVen Capital",
+      "weight": 1
+    },
+    {
+      "source": "Premji Invest",
+      "target": "Weaver Services",
+      "weight": 1
+    },
+    {
+      "source": "Anicut Capital",
+      "target": "Narotam Sekhsaria Family Office",
+      "weight": 1
+    },
+    {
+      "source": "Acquisitions]\nPOP",
+      "target": "Shalabh Shrivastava",
+      "weight": 1
+    },
+    {
+      "source": "QED Innovation Labs",
+      "target": "RTP Global",
+      "weight": 1
+    },
+    {
+      "source": "QED Innovation Labs",
+      "target": "Sofina Ventures",
+      "weight": 1
+    },
+    {
+      "source": "RTP Global",
+      "target": "Sofina Ventures",
+      "weight": 1
+    },
+    {
+      "source": "Porter",
+      "target": "Wellington Management",
+      "weight": 1
+    },
+    {
+      "source": "Wellington Management",
+      "target": "Kedaara Capital",
+      "weight": 1
+    },
+    {
+      "source": "KKR",
+      "target": "Partners Group",
+      "weight": 1
+    },
+    {
+      "source": "Edelwiesse",
+      "target": "Mirae Asset",
+      "weight": 1
+    },
+    {
+      "source": "Edelwiesse",
+      "target": "Nokia Growth Partners",
+      "weight": 1
+    },
+    {
+      "source": "Mirae Asset",
+      "target": "Nokia Growth Partners",
+      "weight": 1
+    },
+    {
+      "source": "Blue Earth Capital",
+      "target": "Women’s wellness",
+      "weight": 1
+    },
+    {
+      "source": "Evolvence India",
+      "target": "Mirabilis Investment Trust",
+      "weight": 1
+    },
+    {
+      "source": "ASK Financial Holdings",
+      "target": "CredAvenue",
+      "weight": 1
+    },
+    {
+      "source": "ASK Financial Holdings",
+      "target": "MAS Financial Services",
+      "weight": 1
+    },
+    {
+      "source": "ASK Financial Holdings",
+      "target": "Northern Arc",
+      "weight": 1
+    },
+    {
+      "source": "CredAvenue",
+      "target": "MAS Financial Services",
+      "weight": 1
+    },
+    {
+      "source": "CredAvenue",
+      "target": "Northern Arc",
+      "weight": 1
+    },
+    {
+      "source": "MAS Financial Services",
+      "target": "Northern Arc",
+      "weight": 1
+    }
+  ],
+  "investor_portfolios": {
+    "Third Wave Coffee": [
+      {
+        "company": "WestBridge Capital",
+        "role": "lead"
+      }
+    ],
+    "WestBridge Capital": [
+      {
+        "company": "WestBridge Capital",
+        "role": "participant"
+      }
+    ],
+    "Finfactor": [
+      {
+        "company": "WestBridge Capital",
+        "role": "lead"
+      }
+    ],
+    "UnifyApps": [
+      {
+        "company": "WestBridge Capital",
+        "role": "lead"
+      }
+    ],
+    "Helena": [
+      {
+        "company": "Matter",
+        "role": "participant"
+      }
+    ],
+    "Capital 2B": [
+      {
+        "company": "Matter",
+        "role": "participant"
+      }
+    ],
+    "Japan Airlines": [
+      {
+        "company": "Matter",
+        "role": "participant"
+      }
+    ],
+    "TransLink Innovation Fund": [
+      {
+        "company": "Matter",
+        "role": "participant"
+      }
+    ],
+    "SMSC": [
+      {
+        "company": "Matter",
+        "role": "participant"
+      }
+    ],
+    "Greenoaks": [
+      {
+        "company": "Airbound",
+        "role": "lead"
+      }
+    ],
+    "DoorDash": [
+      {
+        "company": "Airbound",
+        "role": "participant"
+      }
+    ],
+    "Lachy Groom": [
+      {
+        "company": "Airbound",
+        "role": "participant"
+      },
+      {
+        "company": "Bengaluru-based Even Healthcare",
+        "role": "lead"
+      }
+    ],
+    "Lightspeed": [
+      {
+        "company": "Airbound",
+        "role": "participant"
+      },
+      {
+        "company": "SuperLiving",
+        "role": "lead"
+      },
+      {
+        "company": "Accel",
+        "role": "participant"
+      },
+      {
+        "company": "Rocket’s",
+        "role": "lead"
+      }
+    ],
+    "Humba Ventures": [
+      {
+        "company": "Airbound",
+        "role": "participant"
+      }
+    ],
+    "Susquehanna Venture Capital": [
+      {
+        "company": "Runable",
+        "role": "lead"
+      }
+    ],
+    "Nexus Venture Partners": [
+      {
+        "company": "Runable",
+        "role": "lead"
+      },
+      {
+        "company": "AllHome",
+        "role": "participant"
+      },
+      {
+        "company": "Uniqus Consultech",
+        "role": "lead"
+      }
+    ],
+    "Mirae Asset Venture Investment": [
+      {
+        "company": "Nexedge Capital",
+        "role": "lead"
+      }
+    ],
+    "Elev8 Venture Partners": [
+      {
+        "company": "Nexedge Capital",
+        "role": "lead"
+      }
+    ],
+    "Singularity AMC": [
+      {
+        "company": "InstaAstro",
+        "role": "lead"
+      },
+      {
+        "company": "Bodycraft",
+        "role": "lead"
+      }
+    ],
+    "Artha Venture Fund": [
+      {
+        "company": "InstaAstro",
+        "role": "lead"
+      }
+    ],
+    "EAAA Alternatives": [
+      {
+        "company": "EAAA Alternatives",
+        "role": "lead"
+      }
+    ],
+    "Bessemer Venture Partners": [
+      {
+        "company": "AllHome",
+        "role": "lead"
+      },
+      {
+        "company": "Bessemer Venture Partners",
+        "role": "lead"
+      },
+      {
+        "company": "Rainmatter",
+        "role": "lead"
+      },
+      {
+        "company": "Haircare",
+        "role": "lead"
+      },
+      {
+        "company": "Transbnk",
+        "role": "participant"
+      },
+      {
+        "company": "Digital",
+        "role": "lead"
+      }
+    ],
+    "Titan Capital": [
+      {
+        "company": "AllHome",
+        "role": "participant"
+      }
+    ],
+    "WEH Ventures": [
+      {
+        "company": "AllHome",
+        "role": "participant"
+      }
+    ],
+    "Aramco Ventures": [
+      {
+        "company": "AI",
+        "role": "participant"
+      }
+    ],
+    "Together Fund": [
+      {
+        "company": "AI",
+        "role": "lead"
+      }
+    ],
+    "Base10": [
+      {
+        "company": "Y Combinator and Peak XV Partners",
+        "role": "lead"
+      }
+    ],
+    "Peak XV Partners": [
+      {
+        "company": "Y Combinator and Peak XV Partners",
+        "role": "lead"
+      },
+      {
+        "company": "Plum Insurance",
+        "role": "lead"
+      },
+      {
+        "company": "Peak XV Partners",
+        "role": "lead"
+      },
+      {
+        "company": "Steadview Capital",
+        "role": "participant"
+      },
+      {
+        "company": "Nikhil Kamath",
+        "role": "participant"
+      },
+      {
+        "company": "C2i Semiconductors",
+        "role": "lead"
+      },
+      {
+        "company": "Lighthouse Canton",
+        "role": "lead"
+      },
+      {
+        "company": "Scapia",
+        "role": "lead"
+      }
+    ],
+    "Greenoaks Capital": [
+      {
+        "company": "Nava",
+        "role": "participant"
+      }
+    ],
+    "Unicorn India Ventures": [
+      {
+        "company": "Nava",
+        "role": "participant"
+      },
+      {
+        "company": "Unicorn India Ventures",
+        "role": "lead"
+      }
+    ],
+    "Ashish Kacholia": [
+      {
+        "company": "Unicorn India Ventures",
+        "role": "lead"
+      },
+      {
+        "company": "Care",
+        "role": "lead"
+      }
+    ],
+    "MSN Holdings": [
+      {
+        "company": "Tsecond.ai",
+        "role": "lead"
+      }
+    ],
+    "Palmonas": [
+      {
+        "company": "Vertex Ventures",
+        "role": "lead"
+      }
+    ],
+    "Vertex Ventures": [
+      {
+        "company": "Vertex Ventures",
+        "role": "participant"
+      }
+    ],
+    "Lakme Finance": [
+      {
+        "company": "TenderCuts",
+        "role": "participant"
+      }
+    ],
+    "Accel": [
+      {
+        "company": "Accel",
+        "role": "lead"
+      }
+    ],
+    "Info Edge Ventures": [
+      {
+        "company": "Accel",
+        "role": "participant"
+      }
+    ],
+    "Rocket Capital": [
+      {
+        "company": "Accel",
+        "role": "lead"
+      },
+      {
+        "company": "Rocket Capital",
+        "role": "participant"
+      }
+    ],
+    "Dezerv": [
+      {
+        "company": "Accel",
+        "role": "lead"
+      }
+    ],
+    "Citymall": [
+      {
+        "company": "Accel",
+        "role": "lead"
+      }
+    ],
+    "Wiom": [
+      {
+        "company": "Accel",
+        "role": "participant"
+      }
+    ],
+    "Fundamentum Partnership Fund": [
+      {
+        "company": "Accel",
+        "role": "lead"
+      },
+      {
+        "company": "Supertails",
+        "role": "lead"
+      }
+    ],
+    "Bajaj Finserv": [
+      {
+        "company": "NowPurchase",
+        "role": "lead"
+      }
+    ],
+    "Lightrock": [
+      {
+        "company": "Euler Motors",
+        "role": "lead"
+      }
+    ],
+    "Blume Ventures participating": [
+      {
+        "company": "Euler Motors",
+        "role": "lead"
+      }
+    ],
+    "Hara Global": [
+      {
+        "company": "Bain Capital Ventures",
+        "role": "lead"
+      }
+    ],
+    "Bain Capital Ventures": [
+      {
+        "company": "Bain Capital Ventures",
+        "role": "lead"
+      }
+    ],
+    "BlackRock": [
+      {
+        "company": "Skyroot Aerospace",
+        "role": "participant"
+      }
+    ],
+    "A91 Partners": [
+      {
+        "company": "Deccan AI",
+        "role": "lead"
+      },
+      {
+        "company": "MoEngage",
+        "role": "lead"
+      },
+      {
+        "company": "Spacewood Furnishers",
+        "role": "participant"
+      }
+    ],
+    "Ankur Capital": [
+      {
+        "company": "pi Ventures",
+        "role": "lead"
+      }
+    ],
+    "Blume Ventures": [
+      {
+        "company": "BIDSO",
+        "role": "lead"
+      }
+    ],
+    "BII": [
+      {
+        "company": "Atlys",
+        "role": "lead"
+      }
+    ],
+    "Finnfund": [
+      {
+        "company": "Atlys",
+        "role": "lead"
+      }
+    ],
+    "Pi Labs": [
+      {
+        "company": "VerbaFlo",
+        "role": "lead"
+      }
+    ],
+    "Playbook Partners": [
+      {
+        "company": "KaarTech",
+        "role": "participant"
+      }
+    ],
+    "HDFC Bank": [
+      {
+        "company": "Mitsui Sumitomo Insurance Venture Capital",
+        "role": "participant"
+      }
+    ],
+    "Mitsui Sumitomo Insurance Venture Capital": [
+      {
+        "company": "Mitsui Sumitomo Insurance Venture Capital",
+        "role": "participant"
+      }
+    ],
+    "Epiq Capital": [
+      {
+        "company": "Epiq Capital",
+        "role": "lead"
+      }
+    ],
+    "Dabur Ventures": [
+      {
+        "company": "RAS Luxury Skincare",
+        "role": "lead"
+      }
+    ],
+    "Unilever Ventures": [
+      {
+        "company": "RAS Luxury Skincare",
+        "role": "participant"
+      }
+    ],
+    "Prime Venture Partners": [
+      {
+        "company": "Inamo",
+        "role": "lead"
+      }
+    ],
+    "General Catalyst": [
+      {
+        "company": "Xflow",
+        "role": "participant"
+      }
+    ],
+    "Singapore\nOn a weekly basis": [
+      {
+        "company": "NCR",
+        "role": "participant"
+      }
+    ],
+    "SMBC Asia": [
+      {
+        "company": "Supertails",
+        "role": "participant"
+      }
+    ],
+    "Nomura": [
+      {
+        "company": "Drivn",
+        "role": "participant"
+      }
+    ],
+    "Sofina": [
+      {
+        "company": "The Whole Truth",
+        "role": "lead"
+      }
+    ],
+    "Sauce": [
+      {
+        "company": "The Whole Truth",
+        "role": "lead"
+      }
+    ],
+    "RBI\nOn a weekly basis": [
+      {
+        "company": "IPO",
+        "role": "participant"
+      },
+      {
+        "company": "Pine Labs",
+        "role": "participant"
+      }
+    ],
+    "Infra": [
+      {
+        "company": "Infra",
+        "role": "lead"
+      }
+    ],
+    "Investcorp": [
+      {
+        "company": "Easy Home Finance",
+        "role": "lead"
+      }
+    ],
+    "Norwest Venture Partners": [
+      {
+        "company": "Norwest Venture Partners",
+        "role": "participant"
+      }
+    ],
+    "Lashit Sanghvi": [
+      {
+        "company": "Care",
+        "role": "lead"
+      }
+    ],
+    "Qualcomm Ventures in a Series B extension": [
+      {
+        "company": "SpotDraft",
+        "role": "participant"
+      }
+    ],
+    "TDK Ventures": [
+      {
+        "company": "TDK Ventures",
+        "role": "lead"
+      }
+    ],
+    "BIG Capital": [
+      {
+        "company": "TDK Ventures",
+        "role": "lead"
+      }
+    ],
+    "Khosla Ventures": [
+      {
+        "company": "Emergent",
+        "role": "lead"
+      }
+    ],
+    "SoftBank": [
+      {
+        "company": "Emergent",
+        "role": "lead"
+      }
+    ],
+    "ICICI Venture": [
+      {
+        "company": "Jaipur-based NBFC Namdev Finvest",
+        "role": "lead"
+      }
+    ],
+    "Fundamentum": [
+      {
+        "company": "Fundamentum",
+        "role": "lead"
+      },
+      {
+        "company": "Blacksoil",
+        "role": "lead"
+      }
+    ],
+    "Rainmatter": [
+      {
+        "company": "Rainmatter",
+        "role": "lead"
+      }
+    ],
+    "Premji Invest": [
+      {
+        "company": "Premji Invest",
+        "role": "lead"
+      },
+      {
+        "company": "Weaver Services",
+        "role": "lead"
+      }
+    ],
+    "Instamart": [
+      {
+        "company": "Kunal Bahl",
+        "role": "participant"
+      }
+    ],
+    "Alpha Wave": [
+      {
+        "company": "Bengaluru-based Even Healthcare",
+        "role": "lead"
+      }
+    ],
+    "Sharrp Ventures": [
+      {
+        "company": "Bengaluru-based Even Healthcare",
+        "role": "participant"
+      }
+    ],
+    "Carnelian Asset Management LLP": [
+      {
+        "company": "Health",
+        "role": "lead"
+      }
+    ],
+    "HBOX": [
+      {
+        "company": "New Launches",
+        "role": "participant"
+      }
+    ],
+    "GEF Capital Partners": [
+      {
+        "company": "GEF Capital Partners",
+        "role": "participant"
+      }
+    ],
+    "IIFL": [
+      {
+        "company": "Rocket Capital",
+        "role": "participant"
+      }
+    ],
+    "CoreEL Technologies": [
+      {
+        "company": "CoreEL Technologies",
+        "role": "lead"
+      }
+    ],
+    "Switzerland-based Symbiotics": [
+      {
+        "company": "PlasmaGen Biosciences",
+        "role": "lead"
+      }
+    ],
+    "Indian banks": [
+      {
+        "company": "PlasmaGen Biosciences",
+        "role": "lead"
+      }
+    ],
+    "PowerUp Money": [
+      {
+        "company": "PowerUp Money",
+        "role": "lead"
+      }
+    ],
+    "Dragon Funds": [
+      {
+        "company": "Schroders Capital",
+        "role": "lead"
+      }
+    ],
+    "Fireside Ventures": [
+      {
+        "company": "Fireside Ventures",
+        "role": "participant"
+      }
+    ],
+    "Bertelsmann India Investments": [
+      {
+        "company": "Fireside Ventures",
+        "role": "lead"
+      },
+      {
+        "company": "Wiom",
+        "role": "participant"
+      }
+    ],
+    "IFC": [
+      {
+        "company": "Fibe",
+        "role": "lead"
+      }
+    ],
+    "Susquehanna Asia Venture Capital": [
+      {
+        "company": "Susquehanna Asia Venture Capital",
+        "role": "lead"
+      }
+    ],
+    "Elevation Capital": [
+      {
+        "company": "Susquehanna Asia Venture Capital",
+        "role": "participant"
+      }
+    ],
+    "Five Sigma": [
+      {
+        "company": "Uolo",
+        "role": "lead"
+      }
+    ],
+    "Ultraviolette": [
+      {
+        "company": "Zoho Corporation",
+        "role": "lead"
+      }
+    ],
+    "Lingotto": [
+      {
+        "company": "Zoho Corporation",
+        "role": "lead"
+      }
+    ],
+    "Mukul Agarwal": [
+      {
+        "company": "StockGro",
+        "role": "participant"
+      }
+    ],
+    "Kashikey": [
+      {
+        "company": "jewellery",
+        "role": "lead"
+      }
+    ],
+    "New Delhi": [
+      {
+        "company": "jewellery",
+        "role": "lead"
+      }
+    ],
+    "SBI": [
+      {
+        "company": "cleantech",
+        "role": "participant"
+      }
+    ],
+    "FMO": [
+      {
+        "company": "Dairy Tech",
+        "role": "lead"
+      }
+    ],
+    "DBS Bank": [
+      {
+        "company": "BigBasket",
+        "role": "participant"
+      }
+    ],
+    "TVS Capital": [
+      {
+        "company": "TVS Capital",
+        "role": "lead"
+      }
+    ],
+    "Owl Ventures": [
+      {
+        "company": "Tetr College",
+        "role": "participant"
+      }
+    ],
+    "Bertelsmann India Investments (BII)": [
+      {
+        "company": "Tetr College",
+        "role": "participant"
+      }
+    ],
+    "MoEngage": [
+      {
+        "company": "MoEngage",
+        "role": "lead"
+      }
+    ],
+    "Hivemind Capital": [
+      {
+        "company": "Zynk",
+        "role": "lead"
+      }
+    ],
+    "Nextinfinity": [
+      {
+        "company": "Lighthouse Canton",
+        "role": "participant"
+      }
+    ],
+    "Prudent Investment Managers": [
+      {
+        "company": "Snapmint",
+        "role": "participant"
+      }
+    ],
+    "Kae Capital": [
+      {
+        "company": "Snapmint",
+        "role": "participant"
+      }
+    ],
+    "Bertelsmann": [
+      {
+        "company": "Snabbit",
+        "role": "lead"
+      }
+    ],
+    "AMD": [
+      {
+        "company": "AMD",
+        "role": "lead"
+      }
+    ],
+    "Snowflake": [
+      {
+        "company": "AMD",
+        "role": "lead"
+      }
+    ],
+    "Databricks": [
+      {
+        "company": "AMD",
+        "role": "lead"
+      }
+    ],
+    "ICONIQ": [
+      {
+        "company": "UnifyApps",
+        "role": "participant"
+      }
+    ],
+    "British International Investment (BII)": [
+      {
+        "company": "UnifyApps",
+        "role": "participant"
+      }
+    ],
+    "IIFL Fintech Fund": [
+      {
+        "company": "Fundamento",
+        "role": "lead"
+      }
+    ],
+    "Granite Asia": [
+      {
+        "company": "Dezerv",
+        "role": "lead"
+      }
+    ],
+    "FinBox exit\nOn a weekly basis": [
+      {
+        "company": "FinBox",
+        "role": "participant"
+      }
+    ],
+    "Avataar Venture Partners": [
+      {
+        "company": "Intangles",
+        "role": "lead"
+      }
+    ],
+    "GMO Venture Partners": [
+      {
+        "company": "Innoven Capital",
+        "role": "participant"
+      }
+    ],
+    "Rebright Partners": [
+      {
+        "company": "Innoven Capital",
+        "role": "participant"
+      }
+    ],
+    "Mitsui Sumitomo Insurance VC": [
+      {
+        "company": "Innoven Capital",
+        "role": "participant"
+      }
+    ],
+    "Innoven Capital": [
+      {
+        "company": "Innoven Capital",
+        "role": "participant"
+      }
+    ],
+    "Vertex Growth": [
+      {
+        "company": "D2C",
+        "role": "lead"
+      }
+    ],
+    "Info Edge": [
+      {
+        "company": "Recur Club",
+        "role": "lead"
+      }
+    ],
+    "Prosus Ventures": [
+      {
+        "company": "Recur Club",
+        "role": "lead"
+      }
+    ],
+    "Iron Pillar": [
+      {
+        "company": "Iron Pillar",
+        "role": "lead"
+      }
+    ],
+    "NSE emerge for SME IPO\nOn a weekly basis": [
+      {
+        "company": "RBI",
+        "role": "participant"
+      }
+    ],
+    "Alteria Capital": [
+      {
+        "company": "Indkal Technologies",
+        "role": "participant"
+      }
+    ],
+    "InnoVen Capital": [
+      {
+        "company": "Indkal Technologies",
+        "role": "participant"
+      }
+    ],
+    "Carpediem Capital": [
+      {
+        "company": "Trufrost & Butler",
+        "role": "participant"
+      }
+    ],
+    "TPG": [
+      {
+        "company": "TPG",
+        "role": "participant"
+      }
+    ],
+    "Weaver Services": [
+      {
+        "company": "Weaver Services",
+        "role": "lead"
+      }
+    ],
+    "Filter Capital": [
+      {
+        "company": "Rabbit",
+        "role": "lead"
+      }
+    ],
+    "Motilal Oswal Financial Services Limited (MOFSL)": [
+      {
+        "company": "Motilal Oswal Financial Services Limited",
+        "role": "lead"
+      }
+    ],
+    "Playbook": [
+      {
+        "company": "Playbook",
+        "role": "lead"
+      }
+    ],
+    "Narotam Sekhsaria Family Office": [
+      {
+        "company": "Kehtika",
+        "role": "lead"
+      }
+    ],
+    "Anicut Capital": [
+      {
+        "company": "Kehtika",
+        "role": "lead"
+      }
+    ],
+    "TheKredible": [
+      {
+        "company": "TheKredible",
+        "role": "lead"
+      }
+    ],
+    "Raphe mPhibr": [
+      {
+        "company": "Raphe mPhibr",
+        "role": "lead"
+      }
+    ],
+    "Greylock": [
+      {
+        "company": "Greylock",
+        "role": "lead"
+      }
+    ],
+    "Shalabh Shrivastava": [
+      {
+        "company": "Gaurav Jain",
+        "role": "participant"
+      }
+    ],
+    "Acquisitions]\nPOP": [
+      {
+        "company": "Gaurav Jain",
+        "role": "participant"
+      }
+    ],
+    "RTP Global": [
+      {
+        "company": "Lathe Investment",
+        "role": "lead"
+      }
+    ],
+    "Sofina Ventures": [
+      {
+        "company": "Lathe Investment",
+        "role": "lead"
+      }
+    ],
+    "QED Innovation Labs": [
+      {
+        "company": "Lathe Investment",
+        "role": "lead"
+      }
+    ],
+    "Porter": [
+      {
+        "company": "Kedaara Capital",
+        "role": "lead"
+      }
+    ],
+    "Kedaara Capital": [
+      {
+        "company": "Wellington Management",
+        "role": "lead"
+      },
+      {
+        "company": "Impetus Technologies",
+        "role": "lead"
+      }
+    ],
+    "Wellington Management": [
+      {
+        "company": "Wellington Management",
+        "role": "lead"
+      }
+    ],
+    "The Good Bug": [
+      {
+        "company": "Routemotic",
+        "role": "lead"
+      }
+    ],
+    "InCred Growth Partners Fund": [
+      {
+        "company": "InCred Growth Partners Fund",
+        "role": "lead"
+      }
+    ],
+    "Venture Catalysts": [
+      {
+        "company": "Garuda Aerospace",
+        "role": "lead"
+      }
+    ],
+    "Temasek": [
+      {
+        "company": "Temasek",
+        "role": "participant"
+      }
+    ],
+    "Peak XV": [
+      {
+        "company": "Ayana Renewable’s Rs",
+        "role": "lead"
+      }
+    ],
+    "Woori Venture Partners": [
+      {
+        "company": "Media",
+        "role": "lead"
+      }
+    ],
+    "Partners Group": [
+      {
+        "company": "DarwinBox",
+        "role": "lead"
+      }
+    ],
+    "KKR": [
+      {
+        "company": "DarwinBox",
+        "role": "lead"
+      }
+    ],
+    "Multiples Alternate Asset Management": [
+      {
+        "company": "Geniemode",
+        "role": "lead"
+      }
+    ],
+    "Udaan": [
+      {
+        "company": "Jungle Ventures",
+        "role": "lead"
+      }
+    ],
+    "Jungle Ventures": [
+      {
+        "company": "Jungle Ventures",
+        "role": "lead"
+      }
+    ],
+    "ValueQuest S": [
+      {
+        "company": "ToneTag",
+        "role": "lead"
+      }
+    ],
+    "KRAFTON": [
+      {
+        "company": "Cashfree",
+        "role": "lead"
+      }
+    ],
+    "Mirae Asset": [
+      {
+        "company": "Shadowfax",
+        "role": "participant"
+      }
+    ],
+    "Nokia Growth Partners": [
+      {
+        "company": "Shadowfax",
+        "role": "participant"
+      }
+    ],
+    "Edelwiesse": [
+      {
+        "company": "Shadowfax",
+        "role": "participant"
+      }
+    ],
+    "Blue Earth Capital": [
+      {
+        "company": "Apex Kidney Care",
+        "role": "participant"
+      }
+    ],
+    "Women’s wellness": [
+      {
+        "company": "Apex Kidney Care",
+        "role": "participant"
+      }
+    ],
+    "Apis Partners": [
+      {
+        "company": "Leap",
+        "role": "lead"
+      }
+    ],
+    "Evolvence India": [
+      {
+        "company": "SuperOps",
+        "role": "participant"
+      }
+    ],
+    "Mirabilis Investment Trust": [
+      {
+        "company": "SuperOps",
+        "role": "participant"
+      }
+    ],
+    "HSBC": [
+      {
+        "company": "Arya.ag",
+        "role": "participant"
+      }
+    ],
+    "Walden Catalyst Ventures & NGP Capital": [
+      {
+        "company": "Ati Motors",
+        "role": "lead"
+      }
+    ],
+    "Point72 Private Investments": [
+      {
+        "company": "Point72 Private Investments",
+        "role": "lead"
+      }
+    ],
+    "True North": [
+      {
+        "company": "GrayQuest",
+        "role": "participant"
+      }
+    ],
+    "Northern Arc": [
+      {
+        "company": "Aye Finance",
+        "role": "participant"
+      }
+    ],
+    "ASK Financial Holdings": [
+      {
+        "company": "Aye Finance",
+        "role": "participant"
+      }
+    ],
+    "MAS Financial Services": [
+      {
+        "company": "Aye Finance",
+        "role": "participant"
+      }
+    ],
+    "CredAvenue": [
+      {
+        "company": "Aye Finance",
+        "role": "participant"
+      }
+    ]
+  },
+  "company_meta": {
+    "Third Wave Coffee": {
+      "amount_usd_million": 43.0,
+      "round_type": null
+    },
+    "Matter": {
+      "amount_usd_million": 25.0,
+      "round_type": "growth equity"
+    },
+    "Airbound": {
+      "amount_usd_million": 37.0,
+      "round_type": "Series A"
+    },
+    "Runable": {
+      "amount_usd_million": 21.0,
+      "round_type": "Series A"
+    },
+    "Nexedge Capital": {
+      "amount_usd_million": 20.0,
+      "round_type": "maiden funding round"
+    },
+    "InstaAstro": {
+      "amount_usd_million": 12.0,
+      "round_type": "Series A"
+    },
+    "EAAA Alternatives": {
+      "amount_usd_million": 95.0,
+      "round_type": null
+    },
+    "AllHome": {
+      "amount_usd_million": 21.0,
+      "round_type": "Series B"
+    },
+    "AI": {
+      "amount_usd_million": 5.0,
+      "round_type": "seed round"
+    },
+    "Y Combinator and Peak XV Partners": {
+      "amount_usd_million": 17.0,
+      "round_type": "Series A"
+    },
+    "Bodycraft": {
+      "amount_usd_million": 12.6,
+      "round_type": null
+    },
+    "SuperLiving": {
+      "amount_usd_million": 7.0,
+      "round_type": "Series A"
+    },
+    "Nava": {
+      "amount_usd_million": 44.0,
+      "round_type": null
+    },
+    "Tsecond.ai": {
+      "amount_usd_million": 21.5,
+      "round_type": null
+    },
+    "Palmonas": {
+      "amount_usd_million": 56.34,
+      "round_type": "Series B"
+    },
+    "TenderCuts": {
+      "amount_usd_million": 2.0,
+      "round_type": null
+    },
+    "Accel": {
+      "amount_usd_million": 44.0,
+      "round_type": "Series A"
+    },
+    "NowPurchase": {
+      "amount_usd_million": 8.6,
+      "round_type": null
+    },
+    "Euler Motors": {
+      "amount_usd_million": 47.0,
+      "round_type": "Series E"
+    },
+    "Bain Capital Ventures": {
+      "amount_usd_million": 38.0,
+      "round_type": null
+    },
+    "Plum Insurance": {
+      "amount_usd_million": 20.5,
+      "round_type": "Series B"
+    },
+    "Skyroot Aerospace": {
+      "amount_usd_million": 10.75,
+      "round_type": null
+    },
+    "Deccan AI": {
+      "amount_usd_million": 25.0,
+      "round_type": "Series A"
+    },
+    "pi Ventures": {
+      "amount_usd_million": 6.8,
+      "round_type": "Series A"
+    },
+    "BIDSO": {
+      "amount_usd_million": 6.7,
+      "round_type": "Series A"
+    },
+    "Atlys": {
+      "amount_usd_million": 42.0,
+      "round_type": "Series C"
+    },
+    "VerbaFlo": {
+      "amount_usd_million": 7.0,
+      "round_type": "seed round"
+    },
+    "KaarTech": {
+      "amount_usd_million": 11.0,
+      "round_type": null
+    },
+    "Mitsui Sumitomo Insurance Venture Capital": {
+      "amount_usd_million": 6.3,
+      "round_type": "Series A"
+    },
+    "Epiq Capital": {
+      "amount_usd_million": 25.0,
+      "round_type": "Series B"
+    },
+    "RAS Luxury Skincare": {
+      "amount_usd_million": 7.5,
+      "round_type": "Series B"
+    },
+    "Inamo": {
+      "amount_usd_million": 8.0,
+      "round_type": null
+    },
+    "Vertex Ventures": {
+      "amount_usd_million": 17.5,
+      "round_type": "Series B"
+    },
+    "Peak XV Partners": {
+      "amount_usd_million": 8.0,
+      "round_type": "seed round"
+    },
+    "Xflow": {
+      "amount_usd_million": 16.6,
+      "round_type": "Series A"
+    },
+    "NCR": {
+      "amount_usd_million": 1300.0,
+      "round_type": null
+    },
+    "C2i Semiconductors": {
+      "amount_usd_million": 15.0,
+      "round_type": "Series A"
+    },
+    "Unicorn India Ventures": {
+      "amount_usd_million": 10.0,
+      "round_type": "Series A"
+    },
+    "Supertails": {
+      "amount_usd_million": 30.0,
+      "round_type": "Series C"
+    },
+    "Drivn": {
+      "amount_usd_million": 80.0,
+      "round_type": null
+    },
+    "The Whole Truth": {
+      "amount_usd_million": 51.0,
+      "round_type": "Series D"
+    },
+    "WestBridge Capital": {
+      "amount_usd_million": 30.6,
+      "round_type": null
+    },
+    "IPO": {
+      "amount_usd_million": 550.0,
+      "round_type": null
+    },
+    "Infra": {
+      "amount_usd_million": 550.0,
+      "round_type": null
+    },
+    "Easy Home Finance": {
+      "amount_usd_million": 30.0,
+      "round_type": "Series C"
+    },
+    "Norwest Venture Partners": {
+      "amount_usd_million": 30.0,
+      "round_type": "Series B"
+    },
+    "Care": {
+      "amount_usd_million": 9.8,
+      "round_type": "Series B"
+    },
+    "SpotDraft": {
+      "amount_usd_million": 8.0,
+      "round_type": "Series B"
+    },
+    "TDK Ventures": {
+      "amount_usd_million": 20.5,
+      "round_type": "Series A"
+    },
+    "Emergent": {
+      "amount_usd_million": 70.0,
+      "round_type": "Series D"
+    },
+    "Jaipur-based NBFC Namdev Finvest": {
+      "amount_usd_million": 37.0,
+      "round_type": null
+    },
+    "Fundamentum": {
+      "amount_usd_million": 15.0,
+      "round_type": "Series A"
+    },
+    "Bessemer Venture Partners": {
+      "amount_usd_million": 31.0,
+      "round_type": "Series B"
+    },
+    "Premji Invest": {
+      "amount_usd_million": 30.0,
+      "round_type": "Series A"
+    },
+    "Kunal Bahl": {
+      "amount_usd_million": 2000.0,
+      "round_type": null
+    },
+    "Bengaluru-based Even Healthcare": {
+      "amount_usd_million": 20.0,
+      "round_type": null
+    },
+    "Health": {
+      "amount_usd_million": 11.5,
+      "round_type": null
+    },
+    "New Launches": {
+      "amount_usd_million": 75.0,
+      "round_type": null
+    },
+    "GEF Capital Partners": {
+      "amount_usd_million": 80.3,
+      "round_type": "Series D"
+    },
+    "Rocket Capital": {
+      "amount_usd_million": 23.6,
+      "round_type": null
+    },
+    "CoreEL Technologies": {
+      "amount_usd_million": 73.0,
+      "round_type": "Series B"
+    },
+    "PlasmaGen Biosciences": {
+      "amount_usd_million": 18.0,
+      "round_type": null
+    },
+    "PowerUp Money": {
+      "amount_usd_million": 22.5,
+      "round_type": "Series A"
+    },
+    "Schroders Capital": {
+      "amount_usd_million": 300.0,
+      "round_type": "Series F"
+    },
+    "Haircare": {
+      "amount_usd_million": 15.0,
+      "round_type": "Series A"
+    },
+    "Fireside Ventures": {
+      "amount_usd_million": 29.0,
+      "round_type": "Series B"
+    },
+    "Fibe": {
+      "amount_usd_million": 35.0,
+      "round_type": "Series F"
+    },
+    "Susquehanna Asia Venture Capital": {
+      "amount_usd_million": 10.0,
+      "round_type": "Series A"
+    },
+    "Uolo": {
+      "amount_usd_million": 7.0,
+      "round_type": null
+    },
+    "Zoho Corporation": {
+      "amount_usd_million": 45.0,
+      "round_type": "Series E"
+    },
+    "StockGro": {
+      "amount_usd_million": 15.0,
+      "round_type": null
+    },
+    "jewellery": {
+      "amount_usd_million": 160.31,
+      "round_type": null
+    },
+    "Finfactor": {
+      "amount_usd_million": 15.0,
+      "round_type": "Series A"
+    },
+    "cleantech": {
+      "amount_usd_million": 58.5,
+      "round_type": "debt round"
+    },
+    "Dairy Tech": {
+      "amount_usd_million": 35.0,
+      "round_type": null
+    },
+    "BigBasket": {
+      "amount_usd_million": 22.7,
+      "round_type": null
+    },
+    "TVS Capital": {
+      "amount_usd_million": 28.4,
+      "round_type": null
+    },
+    "Tetr College": {
+      "amount_usd_million": 18.0,
+      "round_type": null
+    },
+    "Pine Labs": {
+      "amount_usd_million": 169.28,
+      "round_type": null
+    },
+    "MoEngage": {
+      "amount_usd_million": 100.0,
+      "round_type": "Series F"
+    },
+    "Spacewood Furnishers": {
+      "amount_usd_million": 36.0,
+      "round_type": null
+    },
+    "Zynk": {
+      "amount_usd_million": 5.0,
+      "round_type": null
+    },
+    "Lighthouse Canton": {
+      "amount_usd_million": 40.0,
+      "round_type": null
+    },
+    "Snapmint": {
+      "amount_usd_million": 209.2,
+      "round_type": "Series B"
+    },
+    "Snabbit": {
+      "amount_usd_million": 30.0,
+      "round_type": "Series C"
+    },
+    "AMD": {
+      "amount_usd_million": 326.0,
+      "round_type": "Series F"
+    },
+    "UnifyApps": {
+      "amount_usd_million": 50.0,
+      "round_type": "Series B"
+    },
+    "Fundamento": {
+      "amount_usd_million": 1.9,
+      "round_type": "Series A"
+    },
+    "Dezerv": {
+      "amount_usd_million": 85.0,
+      "round_type": "Series D"
+    },
+    "FinBox": {
+      "amount_usd_million": 694.75,
+      "round_type": null
+    },
+    "Intangles": {
+      "amount_usd_million": 30.0,
+      "round_type": "Series B"
+    },
+    "Innoven Capital": {
+      "amount_usd_million": 20.0,
+      "round_type": null
+    },
+    "D2C": {
+      "amount_usd_million": 60.0,
+      "round_type": "Series B"
+    },
+    "Recur Club": {
+      "amount_usd_million": 50.0,
+      "round_type": null
+    },
+    "Iron Pillar": {
+      "amount_usd_million": 23.0,
+      "round_type": "Series C"
+    },
+    "Rocket’s": {
+      "amount_usd_million": 23.0,
+      "round_type": "Series A"
+    },
+    "RBI": {
+      "amount_usd_million": 361.5,
+      "round_type": "Series A"
+    },
+    "Indkal Technologies": {
+      "amount_usd_million": 20.0,
+      "round_type": null
+    },
+    "Trufrost & Butler": {
+      "amount_usd_million": 7.0,
+      "round_type": null
+    },
+    "TPG": {
+      "amount_usd_million": 285.0,
+      "round_type": null
+    },
+    "Citymall": {
+      "amount_usd_million": 47.0,
+      "round_type": "Series D"
+    },
+    "Transbnk": {
+      "amount_usd_million": 25.0,
+      "round_type": "Series B"
+    },
+    "Weaver Services": {
+      "amount_usd_million": 271.7,
+      "round_type": null
+    },
+    "Rabbit": {
+      "amount_usd_million": 27.0,
+      "round_type": "Series B"
+    },
+    "Motilal Oswal Financial Services Limited": {
+      "amount_usd_million": 46.0,
+      "round_type": null
+    },
+    "Playbook": {
+      "amount_usd_million": 30.0,
+      "round_type": null
+    },
+    "Rainmatter": {
+      "amount_usd_million": 3.5,
+      "round_type": "Series B"
+    },
+    "Kehtika": {
+      "amount_usd_million": null,
+      "round_type": "Series B"
+    },
+    "TheKredible": {
+      "amount_usd_million": 6720.0,
+      "round_type": null
+    },
+    "Raphe mPhibr": {
+      "amount_usd_million": 239.9,
+      "round_type": null
+    },
+    "Wiom": {
+      "amount_usd_million": 40.0,
+      "round_type": null
+    },
+    "Greylock": {
+      "amount_usd_million": 138.7,
+      "round_type": null
+    },
+    "Gaurav Jain": {
+      "amount_usd_million": 30.0,
+      "round_type": null
+    },
+    "Lathe Investment": {
+      "amount_usd_million": 135.0,
+      "round_type": null
+    },
+    "Kedaara Capital": {
+      "amount_usd_million": 322.3,
+      "round_type": "Series F"
+    },
+    "Routemotic": {
+      "amount_usd_million": 40.0,
+      "round_type": "Series C"
+    },
+    "Wellington Management": {
+      "amount_usd_million": 200.0,
+      "round_type": "Series F"
+    },
+    "InCred Growth Partners Fund": {
+      "amount_usd_million": 14.7,
+      "round_type": "Series B"
+    },
+    "Uniqus Consultech": {
+      "amount_usd_million": 20.0,
+      "round_type": "Series C"
+    },
+    "Garuda Aerospace": {
+      "amount_usd_million": 11.7,
+      "round_type": "Series B"
+    },
+    "Digital": {
+      "amount_usd_million": 30.0,
+      "round_type": null
+    },
+    "Scapia": {
+      "amount_usd_million": 40.0,
+      "round_type": "Series B"
+    },
+    "Blacksoil": {
+      "amount_usd_million": 10.0,
+      "round_type": "Series A"
+    },
+    "Temasek": {
+      "amount_usd_million": 25.0,
+      "round_type": "Series E"
+    },
+    "Ayana Renewable’s Rs": {
+      "amount_usd_million": 20.0,
+      "round_type": "debt round"
+    },
+    "Media": {
+      "amount_usd_million": 8.5,
+      "round_type": "Series B"
+    },
+    "DarwinBox": {
+      "amount_usd_million": 140.0,
+      "round_type": "Series D"
+    },
+    "Geniemode": {
+      "amount_usd_million": 50.0,
+      "round_type": "Series C"
+    },
+    "Udaan": {
+      "amount_usd_million": 75.0,
+      "round_type": null
+    },
+    "ToneTag": {
+      "amount_usd_million": 78.0,
+      "round_type": "Series B"
+    },
+    "Cashfree": {
+      "amount_usd_million": 53.0,
+      "round_type": "Series C"
+    },
+    "Shadowfax": {
+      "amount_usd_million": 16.8,
+      "round_type": null
+    },
+    "Apex Kidney Care": {
+      "amount_usd_million": 9.0,
+      "round_type": null
+    },
+    "Leap": {
+      "amount_usd_million": 65.0,
+      "round_type": "Series E"
+    },
+    "SuperOps": {
+      "amount_usd_million": 25.0,
+      "round_type": "Series C"
+    },
+    "Arya.ag": {
+      "amount_usd_million": 30.0,
+      "round_type": null
+    },
+    "Ati Motors": {
+      "amount_usd_million": 20.0,
+      "round_type": "Series B"
+    },
+    "Impetus Technologies": {
+      "amount_usd_million": 350.0,
+      "round_type": "Series D"
+    },
+    "Point72 Private Investments": {
+      "amount_usd_million": 90.0,
+      "round_type": "Series D"
+    },
+    "Jungle Ventures": {
+      "amount_usd_million": 35.0,
+      "round_type": "Series B"
+    },
+    "GrayQuest": {
+      "amount_usd_million": 20.0,
+      "round_type": null
+    },
+    "Aye Finance": {
+      "amount_usd_million": 12.8,
+      "round_type": null
+    }
+  },
+  "predicted_links": [
+    {
+      "investor_a": "Porter",
+      "investor_b": "Kedaara Capital",
+      "adamic_adar_score": 1.4427
+    },
+    {
+      "investor_a": "Lashit Sanghvi",
+      "investor_b": "Unicorn India Ventures",
+      "adamic_adar_score": 1.4427
+    },
+    {
+      "investor_a": "Greenoaks Capital",
+      "investor_b": "Ashish Kacholia",
+      "adamic_adar_score": 1.4427
+    },
+    {
+      "investor_a": "Accel",
+      "investor_b": "SMBC Asia",
+      "adamic_adar_score": 1.4427
+    },
+    {
+      "investor_a": "Accel",
+      "investor_b": "Fireside Ventures",
+      "adamic_adar_score": 1.4427
+    },
+    {
+      "investor_a": "Base10",
+      "investor_b": "Steadview Capital",
+      "adamic_adar_score": 0.7213
+    },
+    {
+      "investor_a": "Base10",
+      "investor_b": "Nextinfinity",
+      "adamic_adar_score": 0.7213
+    },
+    {
+      "investor_a": "Base10",
+      "investor_b": "Nikhil Kamath",
+      "adamic_adar_score": 0.7213
+    },
+    {
+      "investor_a": "Susquehanna Venture Capital",
+      "investor_b": "WEH Ventures",
+      "adamic_adar_score": 0.7213
+    },
+    {
+      "investor_a": "Susquehanna Venture Capital",
+      "investor_b": "Bessemer Venture Partners",
+      "adamic_adar_score": 0.7213
+    },
+    {
+      "investor_a": "Susquehanna Venture Capital",
+      "investor_b": "Titan Capital",
+      "adamic_adar_score": 0.7213
+    },
+    {
+      "investor_a": "WEH Ventures",
+      "investor_b": "Rainmatter",
+      "adamic_adar_score": 0.7213
+    },
+    {
+      "investor_a": "Nexus Venture Partners",
+      "investor_b": "Rainmatter",
+      "adamic_adar_score": 0.7213
+    },
+    {
+      "investor_a": "Steadview Capital",
+      "investor_b": "Nextinfinity",
+      "adamic_adar_score": 0.7213
+    },
+    {
+      "investor_a": "Rainmatter",
+      "investor_b": "Titan Capital",
+      "adamic_adar_score": 0.7213
+    },
+    {
+      "investor_a": "Nextinfinity",
+      "investor_b": "Nikhil Kamath",
+      "adamic_adar_score": 0.7213
+    },
+    {
+      "investor_a": "Greenoaks",
+      "investor_b": "Alpha Wave",
+      "adamic_adar_score": 0.5581
+    },
+    {
+      "investor_a": "Greenoaks",
+      "investor_b": "Info Edge Ventures",
+      "adamic_adar_score": 0.5581
+    },
+    {
+      "investor_a": "Greenoaks",
+      "investor_b": "Sharrp Ventures",
+      "adamic_adar_score": 0.5581
+    },
+    {
+      "investor_a": "Greenoaks",
+      "investor_b": "Accel",
+      "adamic_adar_score": 0.5581
+    }
+  ],
+  "summary": {
+    "investor_count": 178,
+    "co_investment_edge_count": 101,
+    "company_count": 142,
+    "community_count": 107
+  }
+}

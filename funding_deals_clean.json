@@ -1,0 +1,2367 @@
+[
+  {
+    "company": "Third Wave Coffee",
+    "amount_usd_million": 43.0,
+    "round_type": null,
+    "lead_investors": [
+      "WestBridge Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Bengaluru-based coffee chain Third Wave Coffee raised Rs 408 crore ($43 million) in a round led by existing investor WestBridge Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-aug-24-aug-29-12451075",
+    "published_date": null
+  },
+  {
+    "company": "Matter",
+    "amount_usd_million": 25.0,
+    "round_type": "growth equity",
+    "lead_investors": [],
+    "participating_investors": [
+      "Helena",
+      "Capital 2B",
+      "Japan Airlines",
+      "TransLink Innovation Fund",
+      "SMSC"
+    ],
+    "source_sentence": "Ahmedabad-based electric motorcycle maker Matter secured $25 million (around Rs 250 crore) in growth equity from existing investors, including Helena, Capital 2B, Japan Airlines, TransLink Innovation Fund, and SMSC.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-aug-24-aug-29-12451075",
+    "published_date": null
+  },
+  {
+    "company": "Airbound",
+    "amount_usd_million": 37.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Greenoaks"
+    ],
+    "participating_investors": [
+      "DoorDash",
+      "Lachy Groom",
+      "Lightspeed",
+      "Humba Ventures"
+    ],
+    "source_sentence": "Bengaluru-based aerospace startup Airbound led the funding activity with a $37 million Series A round led by Greenoaks, with participation from DoorDash, Lachy Groom, Lightspeed and Humba Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-aug-24-aug-29-12451075",
+    "published_date": null
+  },
+  {
+    "company": "Runable",
+    "amount_usd_million": 21.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Susquehanna Venture Capital",
+      "Nexus Venture Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Agentic AI startup Runable raised $21 million in a Series A round co-led by Susquehanna Venture Capital and Nexus Venture Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-aug-24-aug-29-12451075",
+    "published_date": null
+  },
+  {
+    "company": "Nexedge Capital",
+    "amount_usd_million": 20.0,
+    "round_type": "maiden funding round",
+    "lead_investors": [
+      "Mirae Asset Venture Investment",
+      "Elev8 Venture Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "New Delhi-based wealth management firm Nexedge Capital raised $20 million in its maiden funding round led by Mirae Asset Venture Investment and Elev8 Venture Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-aug-24-aug-29-12451075",
+    "published_date": null
+  },
+  {
+    "company": "InstaAstro",
+    "amount_usd_million": 12.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Singularity AMC",
+      "Artha Venture Fund"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Gurugram-based digital spiritual wellness platform InstaAstro secured $12 million in a Series A round led by Singularity AMC and Artha Venture Fund, with participation from its founders.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-aug-24-aug-29-12451075",
+    "published_date": null
+  },
+  {
+    "company": "EAAA Alternatives",
+    "amount_usd_million": 95.0,
+    "round_type": null,
+    "lead_investors": [
+      "EAAA Alternatives"
+    ],
+    "participating_investors": [],
+    "source_sentence": "The week also saw real estate and mortgage platform Square Yards enter the unicorn club after raising Rs 900 crore (around $95 million) in a debt and equity funding round led by EAAA Alternatives.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
+    "published_date": null
+  },
+  {
+    "company": "AllHome",
+    "amount_usd_million": 21.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Bessemer Venture Partners"
+    ],
+    "participating_investors": [
+      "Nexus Venture Partners",
+      "Titan Capital",
+      "WEH Ventures"
+    ],
+    "source_sentence": "Meanwhile, home improvement startup AllHome raised Rs 200 crore (over $21 million) in a Series B round led by Bessemer Venture Partners, while Bengaluru-based cyber resilience startup Mitigata secured $15 million in a Series B funding round led by Bessemer, with participation from Nexus Venture Partners, Titan Capital and WEH Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
+    "published_date": null
+  },
+  {
+    "company": "AI",
+    "amount_usd_million": 87.39,
+    "round_type": "seed round",
+    "lead_investors": [],
+    "participating_investors": [
+      "Aramco Ventures"
+    ],
+    "source_sentence": "Early stage startups raised $87.39 million across 15 deals this week, led by enterprise AI services startup Hang Ten Systems, which secured $32 million in a seed round led by Mayfield with participation from Aramco Ventures and angel investors.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
+    "published_date": null
+  },
+  {
+    "company": "Y Combinator and Peak XV Partners",
+    "amount_usd_million": 17.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Base10",
+      "Peak XV Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "AI marketing platform JustAI also raised over $17 million in a Series A round led by Base10, with backing from Y Combinator and Peak XV Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
+    "published_date": null
+  },
+  {
+    "company": "Bodycraft",
+    "amount_usd_million": 12.6,
+    "round_type": null,
+    "lead_investors": [
+      "Singularity AMC"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Among other notable deals, beauty and wellness platform Bodycraft raised Rs 120 crore (around $12.6 million) in a funding round led by Singularity AMC.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
+    "published_date": null
+  },
+  {
+    "company": "SuperLiving",
+    "amount_usd_million": 7.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Lightspeed"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Wellness platform SuperLiving secured $7 million in a Series A round led by Lightspeed, while managed holiday home platform SaffronStays raised $3.5 million from Infinity Ventures and several family offices.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startups-this-week-june-22-june-27-12110860",
+    "published_date": null
+  },
+  {
+    "company": "KreditBee",
+    "amount_usd_million": 430.0,
+    "round_type": "Series E",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth-stage startups saw just two deals this week but raised a total of $430 million, led by digital lending platform KreditBee, which secured $280 million in a Series E round led by Motilal Oswal Alternates at a $1.5 billion post-money valuation, turning it into a unicorn.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-apr-6-apr-11-11714653",
+    "published_date": null
+  },
+  {
+    "company": "Nava",
+    "amount_usd_million": 44.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Greenoaks Capital",
+      "Unicorn India Ventures"
+    ],
+    "source_sentence": "Product design startup Noon led with a $44 million round backed by Chemistry, First Round Capital, Scribble Ventures, Elevation Capital, and Afore Capital, while AI infrastructure firm Nava raised $22 million from Greenoaks Capital, along with RTP Global and Unicorn India Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-apr-6-apr-11-11714653",
+    "published_date": null
+  },
+  {
+    "company": "Tsecond.ai",
+    "amount_usd_million": 21.5,
+    "round_type": null,
+    "lead_investors": [
+      "MSN Holdings"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Tsecond.ai raised over $21.5 million (around Rs 190 crore) in a round led by MSN Holdings, while Aman Gupta’s new venture Off Beat secured Rs 100 crore in seed funding from Bessemer Venture Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-apr-6-apr-11-11714653",
+    "published_date": null
+  },
+  {
+    "company": "Palmonas",
+    "amount_usd_million": 56.34,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Vertex Ventures"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Growth-stage startups raised $56.34 million across four deals this week, led by Demi-fine jewellery startup Palmonas has raised $40 million (around Rs 373 crore) in a Series B funding round led by Xponentia Capital and Vertex Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-30-apr-4-11452029",
+    "published_date": null
+  },
+  {
+    "company": "Indifi",
+    "amount_usd_million": 10.0,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Aavishkaar Capital has invested $10 million in Bengaluru-based voice AI startup Gnani.ai as part of its Series B round, while BlackSoil Capital has extended Rs 40 crore in debt to SME-focused lending platform Indifi.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-30-apr-4-11452029",
+    "published_date": null
+  },
+  {
+    "company": "TenderCuts",
+    "amount_usd_million": 2.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Lakme Finance"
+    ],
+    "source_sentence": "Meanwhile, omnichannel meat and seafood brand TenderCuts has raised $2 million in debt from Lakme Finance.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-30-apr-4-11452029",
+    "published_date": null
+  },
+  {
+    "company": "Accel",
+    "amount_usd_million": 12.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Accel"
+    ],
+    "participating_investors": [
+      "Lightspeed",
+      "Info Edge Ventures"
+    ],
+    "source_sentence": "Among them, Bachatt, an AI-led savings and wealth platform, has raised $12 million in a Series A funding round led by Accel, with participation from Lightspeed and Info Edge Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-30-apr-4-11452029",
+    "published_date": null
+  },
+  {
+    "company": "NowPurchase",
+    "amount_usd_million": 8.6,
+    "round_type": null,
+    "lead_investors": [
+      "Bajaj Finserv"
+    ],
+    "participating_investors": [],
+    "source_sentence": "AI-enabled B2B platform for metal manufacturers, NowPurchase, has raised around $8.6 million (Rs 80 crore) in a round led by Bajaj Finserv.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-30-apr-4-11452029",
+    "published_date": null
+  },
+  {
+    "company": "Chennai",
+    "amount_usd_million": 218.25,
+    "round_type": "Series C",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth-stage startups raised $218.25 million across seven deals this week, led by Chennai-based professional services automation platform Rocketlane has raised $60 million in its Series C round led by Insight Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-23-mar-28-11429211",
+    "published_date": null
+  },
+  {
+    "company": "Euler Motors",
+    "amount_usd_million": 47.0,
+    "round_type": "Series E",
+    "lead_investors": [
+      "Lightrock",
+      "Blume Ventures participating"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Euler Motors raised Rs 437.5 crore ($47 million) in a Series E round led by Lightrock, with Hero MotoCorp and Blume Ventures participating.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-23-mar-28-11429211",
+    "published_date": null
+  },
+  {
+    "company": "Bain Capital Ventures",
+    "amount_usd_million": 38.0,
+    "round_type": null,
+    "lead_investors": [
+      "Hara Global",
+      "Bain Capital Ventures"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Swish, a Bengaluru based 10 minute food delivery startup, has raised $38 million in a funding round led by Hara Global and Bain Capital Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-23-mar-28-11429211",
+    "published_date": null
+  },
+  {
+    "company": "Plum Insurance",
+    "amount_usd_million": 20.5,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Peak XV Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Employee health benefits platform Plum Insurance has raised Rs 193 crore ($20.5 million) in its Series B round led by Peak XV Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-23-mar-28-11429211",
+    "published_date": null
+  },
+  {
+    "company": "Skyroot Aerospace",
+    "amount_usd_million": 10.75,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "BlackRock"
+    ],
+    "source_sentence": "Spacetech startup Skyroot Aerospace has raised Rs 100 crore (around $10.75 million) debt from BlackRock and  solar financing platform Metafin has secured a $10 million structured debt facility from Lendable.\nEarly-stage startups raised a total of $68.29 million across 17 deals this week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-23-mar-28-11429211",
+    "published_date": null
+  },
+  {
+    "company": "Deccan AI",
+    "amount_usd_million": 25.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "A91 Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Among them, Deccan AI, which supplies post-training data and evaluation work, secured $25 million in a Series A round led by A91 Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-23-mar-28-11429211",
+    "published_date": null
+  },
+  {
+    "company": "pi Ventures",
+    "amount_usd_million": 6.8,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Ankur Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Deep-tech startup Pranos Fusion has raised $6.8 million (around Rs 63 crore) in a pre-Series A round co-led by pi Ventures and Ankur Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-23-mar-28-11429211",
+    "published_date": null
+  },
+  {
+    "company": "BIDSO",
+    "amount_usd_million": 6.7,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Blume Ventures"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Meanwhile, toy manufacturing startup BIDSO secured Rs 63 crore ($6.7 million) in a Series A round led by Blume Ventures, including Rs 51 crore in equity and Rs 12 crore in venture debt.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-23-mar-28-11429211",
+    "published_date": null
+  },
+  {
+    "company": "Atlys",
+    "amount_usd_million": 42.0,
+    "round_type": "Series C",
+    "lead_investors": [
+      "BII",
+      "Finnfund"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Ecofy, a climate-focused NBFC followed with Rs 380.5 crore ($42 million) led by BII and Finnfund, while visa processing startup Atlys raised $36 million in Series C. AI-powered cross-border e-commerce accelerator, Assiduus Global secured $25 million from Bajaj Finserv, homegrown burger chain Burger Singh closed Rs 82 crore (~$9 million) in Series B, and anonymous social media platform Grapevine raised $4.1 million from Kae Capital, Peak XV, and Ronnie Screwvala.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-16-mar-21-11250390",
+    "published_date": null
+  },
+  {
+    "company": "VerbaFlo",
+    "amount_usd_million": 7.0,
+    "round_type": "seed round",
+    "lead_investors": [
+      "Pi Labs"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Conversational AI startup VerbaFlo raised $7 million in a seed round led by Pi Labs, while BambooBox secured $6.6 million from Peak XV Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-16-mar-21-11250390",
+    "published_date": null
+  },
+  {
+    "company": "International Finance Corporation",
+    "amount_usd_million": 120.3,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth-stage startups raised $120.3 million across six deals this week, led by Mozark which secured $40 million in a Series B round led by International Finance Corporation.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-09-mar-14-11211841",
+    "published_date": null
+  },
+  {
+    "company": "KaarTech",
+    "amount_usd_million": 11.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Playbook Partners"
+    ],
+    "source_sentence": "KaarTech also secured $11 million from Playbook Partners, while Skye Air Mobility and AquaExchange raised funds during the week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-09-mar-14-11211841",
+    "published_date": null
+  },
+  {
+    "company": "Mitsui Sumitomo Insurance Venture Capital",
+    "amount_usd_million": 6.3,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [
+      "HDFC Bank",
+      "Mitsui Sumitomo Insurance Venture Capital"
+    ],
+    "source_sentence": "Newtrace led the activity with $6.3 million in a pre-Series A round from HDFC Bank and Mitsui Sumitomo Insurance Venture Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-09-mar-14-11211841",
+    "published_date": null
+  },
+  {
+    "company": "AI",
+    "amount_usd_million": 5.0,
+    "round_type": "seed round",
+    "lead_investors": [
+      "Together Fund"
+    ],
+    "participating_investors": [],
+    "source_sentence": "AI secured $5 million in a seed round led by Together Fund, while Namma Yatri raised Rs 39.75 crore ($4.4 million) in a pre-Series A extension led by Vimal Kumar.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-09-mar-14-11211841",
+    "published_date": null
+  },
+  {
+    "company": "Bertelsmann India Investments",
+    "amount_usd_million": 95.0,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth-stage startups raised $95 million across six deals this week, led by rural omnichannel retail platform Rozana, which raised Rs 290 crore in a Series B round led by Bertelsmann India Investments.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-02-mar-07-11182881",
+    "published_date": null
+  },
+  {
+    "company": "Epiq Capital",
+    "amount_usd_million": 25.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Epiq Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Home services startup Pronto followed with $25 million in its Series B round led by Epiq Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-02-mar-07-11182881",
+    "published_date": null
+  },
+  {
+    "company": "RAS Luxury Skincare",
+    "amount_usd_million": 7.5,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Dabur Ventures"
+    ],
+    "participating_investors": [
+      "Unilever Ventures"
+    ],
+    "source_sentence": "Meanwhile, RAS Luxury Skincare secured $7.5 million in a Series B round led by Dabur Ventures with participation from Unilever Ventures, while digital transformation consulting firm KaarTech raised around $11 million (Rs 100 crore) from Playbook Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-02-mar-07-11182881",
+    "published_date": null
+  },
+  {
+    "company": "Inamo",
+    "amount_usd_million": 8.0,
+    "round_type": null,
+    "lead_investors": [
+      "Prime Venture Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Quick commerce enablement platform Inamo has raised $8 million in a funding round led by Prime Venture Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-02-mar-07-11182881",
+    "published_date": null
+  },
+  {
+    "company": "General Catalyst",
+    "amount_usd_million": 45.2,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth-stage startups raised $45.2 million across three deals this week, led by defence technology startup Constelli, which secured $20 million in a Series A round led by General Catalyst.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-23-feb-28-11163180",
+    "published_date": null
+  },
+  {
+    "company": "Vertex Ventures",
+    "amount_usd_million": 17.5,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [
+      "Vertex Ventures"
+    ],
+    "source_sentence": "Creator-focused commerce platform Wishlink followed with a $17.5 million Series B round from Vertex Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-23-feb-28-11163180",
+    "published_date": null
+  },
+  {
+    "company": "Peak XV Partners",
+    "amount_usd_million": 54.0,
+    "round_type": "maiden funding round",
+    "lead_investors": [],
+    "participating_investors": [
+      "Peak XV Partners",
+      "Steadview Capital",
+      "Nikhil Kamath"
+    ],
+    "source_sentence": "Temple, a wearable startup founded by Deepinder Goyal, secured $54 million in its maiden funding round led by Goyal himself, with participation from Peak XV Partners, Steadview Capital, Nikhil Kamath, and over 90 other investors.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-23-feb-28-11163180",
+    "published_date": null
+  },
+  {
+    "company": "Xflow",
+    "amount_usd_million": 16.6,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [
+      "General Catalyst"
+    ],
+    "source_sentence": "B2B cross-border payments startup Xflow raised $16.6 million in a Series A round from General Catalyst, followed by MSME lending platform Prayaan Capital with $12 million and pre-construction AI platform MeltPlan with $10 million.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-23-feb-28-11163180",
+    "published_date": null
+  },
+  {
+    "company": "NCR",
+    "amount_usd_million": 1300.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Singapore\nOn a weekly basis"
+    ],
+    "source_sentence": "Toing launches in Delhi NCR; now operational in 11 cities\n▪️ Pluckk launches guilt-free tomato ketchup, makes clean-label choices easier for everyday Indian homes\n▪️ Vivriti Group launches Vivriti Next as its operating and holding company\n▪️TransportOne by Delhivery to Digitise & Optimise Style Bazaar’s Logistics\n[ Financial result this week ]\n▪️ Coronation Fund Manager hikes stake in Ixigo to over 5%\n▪️ Urban Company’s InstaHelp hits 50,000 daily bookings\n▪️ BRND.ME shifts domicile to India from Singapore\nOn a weekly basis, startup funding fell 83% to $222.87 as compared to around $1.3 billion raised during the previous week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-23-feb-28-11163180",
+    "published_date": null
+  },
+  {
+    "company": "General Catalyst",
+    "amount_usd_million": 45.2,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth-stage startups raised $45.2 million across three deals this week, led by defence technology startup Constelli, which secured $20 million in a Series A round led by General Catalyst.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-23-feb-28-11163180",
+    "published_date": null
+  },
+  {
+    "company": "Vertex Ventures",
+    "amount_usd_million": 17.5,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [
+      "Vertex Ventures"
+    ],
+    "source_sentence": "Creator-focused commerce platform Wishlink followed with a $17.5 million Series B round from Vertex Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-23-feb-28-11163180",
+    "published_date": null
+  },
+  {
+    "company": "Peak XV Partners",
+    "amount_usd_million": 54.0,
+    "round_type": "maiden funding round",
+    "lead_investors": [],
+    "participating_investors": [
+      "Peak XV Partners",
+      "Steadview Capital",
+      "Nikhil Kamath"
+    ],
+    "source_sentence": "Temple, a wearable startup founded by Deepinder Goyal, secured $54 million in its maiden funding round led by Goyal himself, with participation from Peak XV Partners, Steadview Capital, Nikhil Kamath, and over 90 other investors.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-23-feb-28-11163180",
+    "published_date": null
+  },
+  {
+    "company": "Xflow",
+    "amount_usd_million": 16.6,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [
+      "General Catalyst"
+    ],
+    "source_sentence": "B2B cross-border payments startup Xflow raised $16.6 million in a Series A round from General Catalyst, followed by MSME lending platform Prayaan Capital with $12 million and pre-construction AI platform MeltPlan with $10 million.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-23-feb-28-11163180",
+    "published_date": null
+  },
+  {
+    "company": "NCR",
+    "amount_usd_million": 1300.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Singapore\nOn a weekly basis"
+    ],
+    "source_sentence": "Toing launches in Delhi NCR; now operational in 11 cities\n▪️ Pluckk launches guilt-free tomato ketchup, makes clean-label choices easier for everyday Indian homes\n▪️ Vivriti Group launches Vivriti Next as its operating and holding company\n▪️TransportOne by Delhivery to Digitise & Optimise Style Bazaar’s Logistics\n[ Financial result this week ]\n▪️ Coronation Fund Manager hikes stake in Ixigo to over 5%\n▪️ Urban Company’s InstaHelp hits 50,000 daily bookings\n▪️ BRND.ME shifts domicile to India from Singapore\nOn a weekly basis, startup funding fell 83% to $222.87 as compared to around $1.3 billion raised during the previous week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-23-feb-28-11163180",
+    "published_date": null
+  },
+  {
+    "company": "Peak XV Partners",
+    "amount_usd_million": 25.0,
+    "round_type": "Series C",
+    "lead_investors": [
+      "Peak XV Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Wealthtech startup Stable Money also secured $25 million at a valuation of $175 million in a pre-Series C round led by Peak XV Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-16-feb-21-11141675",
+    "published_date": null
+  },
+  {
+    "company": "C2i Semiconductors",
+    "amount_usd_million": 15.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Peak XV Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Semiconductor startup C2i Semiconductors led the chart with a $15 million round led by Peak XV Partners, while AI application platform Portkey also raised $15 million in a Series A round led by Elevation Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-16-feb-21-11141675",
+    "published_date": null
+  },
+  {
+    "company": "Unicorn India Ventures",
+    "amount_usd_million": 10.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Ashish Kacholia",
+      "Unicorn India Ventures"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Fabless semiconductor startup Vervesemi followed with a $10 million Series A round co-led by Ashish Kacholia and Unicorn India Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-16-feb-21-11141675",
+    "published_date": null
+  },
+  {
+    "company": "IDfy",
+    "amount_usd_million": 155.1,
+    "round_type": "Series F",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth-stage startups raised $155.10 million across eight deals this week, led by identity verification startup IDfy’s $53 million Series F round backed by Neo Asset Management and existing investors.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-09-feb-14-11105758",
+    "published_date": null
+  },
+  {
+    "company": "Supertails",
+    "amount_usd_million": 30.0,
+    "round_type": "Series C",
+    "lead_investors": [
+      "Fundamentum Partnership Fund"
+    ],
+    "participating_investors": [
+      "SMBC Asia"
+    ],
+    "source_sentence": "Petcare startup Supertails secured $30 million from Venturi Partners, while personal lending platform Olyv (formerly SmartCoin) raised Rs 207 crore in a Series C round led by Fundamentum Partnership Fund with participation from SMBC Asia.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-09-feb-14-11105758",
+    "published_date": null
+  },
+  {
+    "company": "Drivn",
+    "amount_usd_million": 80.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Nomura"
+    ],
+    "source_sentence": "full-stack electric mobility platform, Drivn secured financing commitments of up to $80 million from Nomura, a global financial services group.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-02-feb-07-11084503",
+    "published_date": null
+  },
+  {
+    "company": "The Whole Truth",
+    "amount_usd_million": 51.0,
+    "round_type": "Series D",
+    "lead_investors": [
+      "Sofina",
+      "Sauce"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Clean-label health food brand The Whole Truth has raised about $51 million in a Series D round led by Sofina and Sauce.vc, comprising a mix of primary and secondary capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-02-feb-07-11084503",
+    "published_date": null
+  },
+  {
+    "company": "WestBridge Capital",
+    "amount_usd_million": 20.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "WestBridge Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Climate-tech startup Varaha has raised $20 million in the first tranche of its Series B round led by WestBridge Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-02-feb-07-11084503",
+    "published_date": null
+  },
+  {
+    "company": "Gurugram",
+    "amount_usd_million": 64.0,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Jain Cord, a Gurugram-based manufacturer of cotton and linen fabrics, has raised its first institutional funding of Rs 200 crore in a Series A round from the Lohia Family Office\nEarly-stage funding this week totalled $64 million across 15 deals.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-02-feb-07-11084503",
+    "published_date": null
+  },
+  {
+    "company": "Peak XV Partners",
+    "amount_usd_million": 15.3,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Peak XV Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Fashion quick-commerce startup ZILO led the round with a $15.3 million Series A led by Peak XV Partners, followed by enterprise AI platform Loop AI, which raised $14 million in a Series A. Other early-stage startups that raised capital include interior design and home decor startup Material Depot, martech firm Fibr AI, D2C athleisure brand Cava Athleisure, preventive nutrition startup Good Monk, pet healthcare startup Dr. Doodley, and 11 others.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-02-feb-07-11084503",
+    "published_date": null
+  },
+  {
+    "company": "IPO",
+    "amount_usd_million": 550.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "RBI\nOn a weekly basis"
+    ],
+    "source_sentence": "Cr profit in Q3 FY26\n▪️PB Fintech posts Rs 1,711 Cr revenue in Q3 FY26; profit surges 2.6X\n▪️Ather posts Rs 954 Cr revenue in Q3 FY26; cuts losses by 57%\n▪️Mokobara revenue doubles to Rs 230 Cr in FY25\n▪️Dezerv reports Rs 66 Cr revenue in FY25, employee costs climb to Rs 111 Cr\n▪️VenturEdu announces Mentors for 14 month venture programme\n▪️Crisis deepens for Resonance and BASE Edu as lenders manage to freeze bank account\n▪️Fractal IPO to fetch over 5X returns for Apax Partners\n▪️After 2024 revival, Indian proptech raises $550 Mn in 2025 amid full-stack shift and IPO wave: Entrackr Report\n▪️ PB Fintech subsidiary PB Pay receives Payment Aggregator license from RBI\nOn a weekly basis, startup funding surged 46% to $215 million as compared to around $147.64 million raised during the previous week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-02-feb-07-11084503",
+    "published_date": null
+  },
+  {
+    "company": "Infra",
+    "amount_usd_million": 550.0,
+    "round_type": null,
+    "lead_investors": [
+      "Infra"
+    ],
+    "participating_investors": [],
+    "source_sentence": "As per Entrackr data, Indian proptech startups raised over $550 million across 32 deals in 2025, led by Infra.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-02-feb-07-11084503",
+    "published_date": null
+  },
+  {
+    "company": "Easy Home Finance",
+    "amount_usd_million": 30.0,
+    "round_type": "Series C",
+    "lead_investors": [
+      "Investcorp"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Mumbai-based home loan lender Easy Home Finance raised $30 million in a Series C round led by Investcorp.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-26-jan-31-11061312",
+    "published_date": null
+  },
+  {
+    "company": "Norwest Venture Partners",
+    "amount_usd_million": 30.0,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [
+      "Norwest Venture Partners"
+    ],
+    "source_sentence": "Aerospace manufacturer JJG Aero raises $30million  in Series B round from Norwest Venture Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-26-jan-31-11061312",
+    "published_date": null
+  },
+  {
+    "company": "Care",
+    "amount_usd_million": 9.8,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Ashish Kacholia",
+      "Lashit Sanghvi"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Precision oncology startup 4baseCare secured Rs 90 crore ($9.8 million) in the first close of its Series B, co-led by Ashish Kacholia and Lashit Sanghvi, with backing from existing investor Yali Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-26-jan-31-11061312",
+    "published_date": null
+  },
+  {
+    "company": "SpotDraft",
+    "amount_usd_million": 8.0,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [
+      "Qualcomm Ventures in a Series B extension"
+    ],
+    "source_sentence": "Meanwhile, legal-tech startup SpotDraft raised $8 million from Qualcomm Ventures in a Series B extension.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-26-jan-31-11061312",
+    "published_date": null
+  },
+  {
+    "company": "TDK Ventures",
+    "amount_usd_million": 20.5,
+    "round_type": "Series A",
+    "lead_investors": [
+      "TDK Ventures",
+      "BIG Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Spacetech startup The Guild, formerly known as EtherealX, has raised $20.5 million in a Series A funding round led by TDK Ventures and BIG Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-26-jan-31-11061312",
+    "published_date": null
+  },
+  {
+    "company": "Peak XV Partners",
+    "amount_usd_million": 8.0,
+    "round_type": "seed round",
+    "lead_investors": [
+      "Peak XV Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Bengaluru-based AI semiconductor startup Agrani Labs led with a funding of $8 million in a seed round led by Peak XV Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-26-jan-31-11061312",
+    "published_date": null
+  },
+  {
+    "company": "Emergent",
+    "amount_usd_million": 70.0,
+    "round_type": "Series D",
+    "lead_investors": [
+      "Khosla Ventures",
+      "SoftBank"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Vibe-coding startup Emergent raised $70 million led by Khosla Ventures and SoftBank, while Bengaluru-based payments infrastructure firm Juspay entered the unicorn club after securing $50 million in a Series D follow-on round from WestBridge Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-19-jan-24-11026733",
+    "published_date": null
+  },
+  {
+    "company": "Jaipur-based NBFC Namdev Finvest",
+    "amount_usd_million": 37.0,
+    "round_type": null,
+    "lead_investors": [
+      "ICICI Venture"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Jaipur-based NBFC Namdev Finvest raised $37 million through debt, and supply chain robotics firm Unbox Robotics secured $28 million in a round led by ICICI Venture.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-19-jan-24-11026733",
+    "published_date": null
+  },
+  {
+    "company": "Fundamentum",
+    "amount_usd_million": 15.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Fundamentum"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Manufacturing startup Whizzo led the tally with a $15 million Series A round led by Fundamentum, followed by technology-led cooling solutions startup Optimist, which raised $12 million.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-19-jan-24-11026733",
+    "published_date": null
+  },
+  {
+    "company": "Bessemer Venture Partners",
+    "amount_usd_million": 31.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Bessemer Venture Partners",
+      "Rainmatter"
+    ],
+    "participating_investors": [],
+    "source_sentence": "This was followed by healthcare startup Sukino, which secured $31 million in a Series B round led by Bessemer Venture Partners and Rainmatter.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-12-jan-17-11007025",
+    "published_date": null
+  },
+  {
+    "company": "Premji Invest",
+    "amount_usd_million": 30.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Premji Invest"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Higher-education embedded training and employability platform Emversity led the round, raising $30 million in a Series A funding led by Premji Invest.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-12-jan-17-11007025",
+    "published_date": null
+  },
+  {
+    "company": "Kunal Bahl",
+    "amount_usd_million": 2000.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Instamart"
+    ],
+    "source_sentence": "Market reports over $2 Bn gross revenue in FY25; profit falls 42%\n▪️ Zetwerk’s GMV slips 11% in FY25; posts Rs 371 Cr loss\n▪️ Ampere posts Rs 659 Cr revenue in FY25; cuts losses by 65%\n▪️ Shadowfax IPO set to deliver multifold gains for Kunal Bahl, Flipkart, Eight Roads, and others\n▪️ Unacademy to pivot from company operated centres to a franchise model\n▪️ Blinkit removes 10 min delivery branding after govt intervention; ​​Zepto, Instamart, others in focus\n▪️ SEBI clears Kissht IPO plans\n▪️ LambdaTest Rebrands as TestMu AI, Launches the World’s First Agentic Quality Engineering Platform for Fully Autonomous Testing\nOn a weekly basis, startup funding jumped 3.4X to $254 million as compared to around $75.36  million raised during the previous week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-12-jan-17-11007025",
+    "published_date": null
+  },
+  {
+    "company": "Bengaluru-based Even Healthcare",
+    "amount_usd_million": 20.0,
+    "round_type": null,
+    "lead_investors": [
+      "Lachy Groom",
+      "Alpha Wave"
+    ],
+    "participating_investors": [
+      "Sharrp Ventures"
+    ],
+    "source_sentence": "Bengaluru-based Even Healthcare raised $20 million in a round led by Lachy Groom and Alpha Wave, with participation from Sharrp Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-05-jan-10-2026-10986829",
+    "published_date": null
+  },
+  {
+    "company": "Health",
+    "amount_usd_million": 11.5,
+    "round_type": null,
+    "lead_investors": [
+      "Carnelian Asset Management LLP"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Health secured Rs 104 crore ($11.5 million) led by Carnelian Asset Management LLP, while Bengaluru-based industrial AI startup Spector.ai raised Rs 58 crore (about $6.7 million) in a round led by IvyCap Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-05-jan-10-2026-10986829",
+    "published_date": null
+  },
+  {
+    "company": "New Launches",
+    "amount_usd_million": 75.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "HBOX"
+    ],
+    "source_sentence": "[ New Launches and Partnerships ]\n▪️ CLIRNET launches DentalNet to redefine continuing dental education globally\n▪️ After UAE debut, Practo launches in US with $75 Mn GMV run-rate\n[ Financial result this week ]\n▪️ Sid’s Farm posts Rs 168 Cr revenue in FY25; losses surge 2.6x\n▪️ Ecozen’s profit nears Rs 100 Cr in FY25; revenue jumps 2.5X\n▪️ Info Edge’s standalone revenue touches Rs 747 Cr in Q3 FY26\n▪️ Peak XV-backed BankBazaar posts Rs 249 Cr revenue in FY25; cuts losses\n▪️ Proost Beer crosses Rs 100 Cr revenue in FY25, achieves EBITDA breakeven\n▪️ BellaVita’s revenue jumps 2.5X to Rs 456 Cr in FY25, turns profitable\n▪️ Pee Safe reports Rs 82 Cr revenue in FY25, nears breakeven\n▪️ Info Edge-backed Zingbus crosses Rs 150 Cr revenue in FY25\n▪️ Razorpay begins IPO preparations, eyes Rs 4,500 Cr fresh issue: Report\n▪️ upGrad–Unacademy deal called off over valuation differences\n▪️ Arali Ventures clocks 23x return on full exit from HBOX, marks another fund returner\n▪️ Groww expands stock broking lead in Dec 2025; Zerodha and Angel One lose clients\n▪️ SoftBank sells 2.15% stake in Ola Electric via open market\n▪️ Amagi IPO unlocks 14x returns for Premji Invest, multi-fold gains for others\nOn a weekly basis, startup funding increased over 31% to $75.36 million as compared to around $110.22  million raised during the previous week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-jan-05-jan-10-2026-10986829",
+    "published_date": null
+  },
+  {
+    "company": "GEF Capital Partners",
+    "amount_usd_million": 80.3,
+    "round_type": "Series D",
+    "lead_investors": [],
+    "participating_investors": [
+      "GEF Capital Partners"
+    ],
+    "source_sentence": "Only one growth-stage deal took place in the past week, with agritech startup Arya.ag raising Rs 725 crore (around $80.3 million) in its Series D round from GEF Capital Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-29-jan-03-2026-10968164",
+    "published_date": null
+  },
+  {
+    "company": "Rocket Capital",
+    "amount_usd_million": 23.6,
+    "round_type": null,
+    "lead_investors": [
+      "Accel"
+    ],
+    "participating_investors": [
+      "IIFL",
+      "Rocket Capital"
+    ],
+    "source_sentence": "Early-stage startup deals also saw minimal activity this week, with Mumbai-based banking infrastructure startup Knight Fintech raising $23.6 million in a funding round led by Accel, along with participation from IIFL and Rocket Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-29-jan-03-2026-10968164",
+    "published_date": null
+  },
+  {
+    "company": "CoreEL Technologies",
+    "amount_usd_million": 73.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "CoreEL Technologies"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding touched $73 million this week, led by CoreEL Technologies, which raised $30 million in a Series B round from ValueQuest Scale Fund with participation from 360 ONE Asset.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-22-dec-27-10950565",
+    "published_date": null
+  },
+  {
+    "company": "PlasmaGen Biosciences",
+    "amount_usd_million": 18.0,
+    "round_type": null,
+    "lead_investors": [
+      "Switzerland-based Symbiotics",
+      "Indian banks"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Dugar Finance followed with $18 million in debt funding led by Switzerland-based Symbiotics and Indian banks, while PlasmaGen Biosciences raised Rs 150 crore led by ViNS Bioproducts, along with HNIs, family offices, pharma entrepreneurs, and existing investors.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-22-dec-27-10950565",
+    "published_date": null
+  },
+  {
+    "company": "PowerUp Money",
+    "amount_usd_million": 22.5,
+    "round_type": "Series A",
+    "lead_investors": [
+      "PowerUp Money"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Early-stage startups raised around $22.5 million across five deals this week, led by PowerUp Money, which secured $12 million in a Series A round from Peak XV Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-22-dec-27-10950565",
+    "published_date": null
+  },
+  {
+    "company": "Schroders Capital",
+    "amount_usd_million": 300.0,
+    "round_type": "Series F",
+    "lead_investors": [
+      "Dragon Funds"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding crosses $300 million from  nine deals this week led by customer engagement platform MoEngage with an additional $180 million as part of its Series F round from ChrysCapital and Dragon Funds, alongside Schroders Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-15-dec-20-10925865",
+    "published_date": null
+  },
+  {
+    "company": "Haircare",
+    "amount_usd_million": 15.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Bessemer Venture Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Haircare brand Moxie Beauty has raised $15 million in a Series A funding round led by Bessemer Venture Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-15-dec-20-10925865",
+    "published_date": null
+  },
+  {
+    "company": "Fireside Ventures",
+    "amount_usd_million": 6.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Fireside Ventures"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Shapewear brand Underneat has raised $6 million in a pre-Series A funding round led by Fireside Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-15-dec-20-10925865",
+    "published_date": null
+  },
+  {
+    "company": "Fibe",
+    "amount_usd_million": 35.0,
+    "round_type": "Series F",
+    "lead_investors": [
+      "IFC"
+    ],
+    "participating_investors": [],
+    "source_sentence": "The biggest round was raised by consumer lending company Fibe, which secured $35 million in its Series F round led by IFC.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-08-dec-13-10906989",
+    "published_date": null
+  },
+  {
+    "company": "Fireside Ventures",
+    "amount_usd_million": 29.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Bertelsmann India Investments"
+    ],
+    "participating_investors": [
+      "Fireside Ventures"
+    ],
+    "source_sentence": "This was followed by at-home diagnostics startup Inito, which garnered $29 million in a Series B round led by Bertelsmann India Investments, with participation from Fireside Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-08-dec-13-10906989",
+    "published_date": null
+  },
+  {
+    "company": "Susquehanna Asia Venture Capital",
+    "amount_usd_million": 10.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Susquehanna Asia Venture Capital"
+    ],
+    "participating_investors": [
+      "Elevation Capital"
+    ],
+    "source_sentence": "The largest round came from cross-border payments platform Skydo, which secured $10 million in its Series A round led by Susquehanna Asia Venture Capital, with participation from Elevation Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-08-dec-13-10906989",
+    "published_date": null
+  },
+  {
+    "company": "Uolo",
+    "amount_usd_million": 7.0,
+    "round_type": null,
+    "lead_investors": [
+      "Five Sigma"
+    ],
+    "participating_investors": [],
+    "source_sentence": "School-focused edtech startup Uolo raised $7 million in a round led by Five Sigma.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-08-dec-13-10906989",
+    "published_date": null
+  },
+  {
+    "company": "Zoho Corporation",
+    "amount_usd_million": 45.0,
+    "round_type": "Series E",
+    "lead_investors": [
+      "Ultraviolette",
+      "Lingotto"
+    ],
+    "participating_investors": [],
+    "source_sentence": "The round was led by Ultraviolette, which raised $45 million in its ongoing Series E from Zoho Corporation and Lingotto.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-01-dec-06-10886582",
+    "published_date": null
+  },
+  {
+    "company": "StockGro",
+    "amount_usd_million": 15.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Mukul Agarwal"
+    ],
+    "source_sentence": "StockGro secured Rs 150 crore from Mukul Agarwal, while Furlenco and Planys Technologies raised $15 million and $11.1 million, respectively.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-01-dec-06-10886582",
+    "published_date": null
+  },
+  {
+    "company": "jewellery",
+    "amount_usd_million": 160.31,
+    "round_type": null,
+    "lead_investors": [
+      "Kashikey",
+      "New Delhi"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Early-stage startups  raised about $160.31 million across 12 deals this week, led by luxury jewellery brand QWEEN secured Rs 1,000 crore ($110 million) from Rosy Blue and Kashikey and plans to launch experiential retail stores by mid-February in Bengaluru and New Delhi.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-01-dec-06-10886582",
+    "published_date": null
+  },
+  {
+    "company": "Finfactor",
+    "amount_usd_million": 15.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "WestBridge Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Finfactor, the parent of Finvu AA, has raised $15 million in a Series A round led by WestBridge Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-dec-01-dec-06-10886582",
+    "published_date": null
+  },
+  {
+    "company": "cleantech",
+    "amount_usd_million": 58.5,
+    "round_type": "debt round",
+    "lead_investors": [],
+    "participating_investors": [
+      "SBI"
+    ],
+    "source_sentence": "The funding was led by cleantech company Candi Solar’s $58.5 million debt round followed by distribution and supply chain platform Ripplr raising $45 million in its Series C round from SBI and its existing investors.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-24-nov-29-10822632",
+    "published_date": null
+  },
+  {
+    "company": "Dairy Tech",
+    "amount_usd_million": 35.0,
+    "round_type": null,
+    "lead_investors": [
+      "FMO"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Dairy Tech company Ace International also secured $35 million led by FMO, edu-fintech firm Auxilo also raised Rs 225 crore debt ($25.5 million) while asset management firm NEO raised $25 million in its follow-on round led by Crystal Investment Advisors (Atha Group).",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-24-nov-29-10822632",
+    "published_date": null
+  },
+  {
+    "company": "EV",
+    "amount_usd_million": 77.49,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Early-stage startups raised about $77.49 million across 22 deals this week, led by Electric vehicle (EV) OEM company 3ev Industries raising Rs 120 crore ($13.4 million) followed by AI-learning startup Redrob’s $10 million Series A round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-24-nov-29-10822632",
+    "published_date": null
+  },
+  {
+    "company": "BigBasket",
+    "amount_usd_million": 22.7,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "DBS Bank"
+    ],
+    "source_sentence": "Quick commerce and retail firm BigBasket also secured Rs 200 crore ($22.7 million) in debt from DBS Bank.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-17-nov-22-10802058",
+    "published_date": null
+  },
+  {
+    "company": "Redrob",
+    "amount_usd_million": 56.0,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Early-stage startups raised about $56 million across 16 deals this week, led by logistics firm Pidge with a Rs 120 crore ($13.6 million) round and AI research startup Redrob’s $10 million Series A.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-17-nov-22-10802058",
+    "published_date": null
+  },
+  {
+    "company": "TVS Capital",
+    "amount_usd_million": 28.4,
+    "round_type": null,
+    "lead_investors": [
+      "TVS Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "The funding was led by digital lending fintech Finnable has raised Rs 500 crore in an equity round led by Z47 and TVS Capital, with participation from the MEMG Family Office followed by Isprava Group, a luxury home development and rental firm, which raised Rs 250 crore (approximately $28.4 million) in debt from Singapore-based Luxe Opco Holdings.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-10-nov-15-10777034",
+    "published_date": null
+  },
+  {
+    "company": "Tetr College",
+    "amount_usd_million": 18.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Owl Ventures",
+      "Bertelsmann India Investments (BII)"
+    ],
+    "source_sentence": "Tetr College, a first-of-its-kind global B-school, topped the list with an $18 million maiden round from Owl Ventures and Bertelsmann India Investments (BII).",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-10-nov-15-10777034",
+    "published_date": null
+  },
+  {
+    "company": "Brandworks Technologies",
+    "amount_usd_million": 11.0,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "It was followed by Brandworks Technologies, which secured $11 million in its Series A round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-10-nov-15-10777034",
+    "published_date": null
+  },
+  {
+    "company": "Pine Labs",
+    "amount_usd_million": 169.28,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "RBI\nOn a weekly basis"
+    ],
+    "source_sentence": "Cr profit in Q2 FY26\n▪️ Uppercase’s losses double in FY25; revenue grows 34%\n▪️ Pine Labs enters the market with 10% listing gain\n▪️ PhysicsWallah IPO subscribed 1.8X overall; QIBs lead with 2.7X bids\n▪️ SEBI’s caution on digital gold seen as positive move for fintech platforms\n▪️ Groww’s IPO debuts with 14% listing gain\n▪️ Groww widens lead over Zerodha in Oct despite market slowdown\n▪️ Inside CarTrade’s proposed acquisition of CarDekho\n▪️ Lenskart makes tepid market debut; stock opens below issue price\n▪️ Pine Labs secures all three payment licences from RBI\nOn a weekly basis, startup funding declined by 30.3% to $169.28 million as compared to around $242.88 million raised during the previous week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-10-nov-15-10777034",
+    "published_date": null
+  },
+  {
+    "company": "MoEngage",
+    "amount_usd_million": 100.0,
+    "round_type": "Series F",
+    "lead_investors": [
+      "MoEngage",
+      "A91 Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "The round was led by MoEngage, which raised $100 million in its Series F round from Goldman Sachs and A91 Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-03-nov-08-10638657",
+    "published_date": null
+  },
+  {
+    "company": "Spacewood Furnishers",
+    "amount_usd_million": 36.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "A91 Partners"
+    ],
+    "source_sentence": "Spacewood Furnishers secured Rs 300 crore ($36 million) from A91 Partners, robotics startup Miko raised $10.5 million (Rs 93.5 crore) led by iHeartMedia, and Agnikul Cosmos bagged Rs 60 crore ($6.7 million) from Advenza Global and Atharva Green Ecotech after a two-year gap.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-03-nov-08-10638657",
+    "published_date": null
+  },
+  {
+    "company": "Zynk",
+    "amount_usd_million": 5.0,
+    "round_type": null,
+    "lead_investors": [
+      "Hivemind Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Zynk raised $5 million in seed funding led by Hivemind Capital, while Stackbox secured $4 million from Enrission India Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-03-nov-08-10638657",
+    "published_date": null
+  },
+  {
+    "company": "Lighthouse Canton",
+    "amount_usd_million": 40.0,
+    "round_type": null,
+    "lead_investors": [
+      "Peak XV Partners"
+    ],
+    "participating_investors": [
+      "Nextinfinity"
+    ],
+    "source_sentence": "Lighthouse Canton raised $40 million in a strategic round led by Peak XV Partners, with participation from Nextinfinity and existing investor Qatar Insurance Company.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-nov-03-nov-08-10638657",
+    "published_date": null
+  },
+  {
+    "company": "Snapmint",
+    "amount_usd_million": 209.2,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [
+      "Prudent Investment Managers",
+      "Kae Capital"
+    ],
+    "source_sentence": "Growth and late-stage funding reached $209.2 million across five deals this week, led by Snapmint’s $125 million Series B round from General Atlantic, with participation from Prudent Investment Managers, Kae Capital, and others.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-oct-27-nov-01-10612703",
+    "published_date": null
+  },
+  {
+    "company": "Snabbit",
+    "amount_usd_million": 30.0,
+    "round_type": "Series C",
+    "lead_investors": [
+      "Bertelsmann"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Snabbit raised $30 million in its Series C round led by Bertelsmann, while IntrCity SmartBus and Jupiter Money secured $28 million and $15 million, respectively.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-oct-27-nov-01-10612703",
+    "published_date": null
+  },
+  {
+    "company": "AMD",
+    "amount_usd_million": 326.0,
+    "round_type": "Series F",
+    "lead_investors": [
+      "AMD",
+      "Snowflake",
+      "Databricks"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding totaled $326 million across three deals this week, led by conversational automation platform Uniphore, which raised $260 million in a Series F round from NVIDIA, AMD, Snowflake, Databricks, and others.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-oct-20-oct-25-10592180",
+    "published_date": null
+  },
+  {
+    "company": "UnifyApps",
+    "amount_usd_million": 50.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "WestBridge Capital"
+    ],
+    "participating_investors": [
+      "ICONIQ",
+      "British International Investment (BII)"
+    ],
+    "source_sentence": "UnifyApps secured $50 million in Series B funding led by WestBridge Capital with participation from ICONIQ and others, while healthy-snacking brand Wonderland Foods raised Rs 140 crore (about $16 million) in its first round led by Asha Ventures and British International Investment (BII).",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-oct-20-oct-25-10592180",
+    "published_date": null
+  },
+  {
+    "company": "Megaliter Varunaa",
+    "amount_usd_million": 1.7,
+    "round_type": "seed round",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Wastewater management startup Megaliter Varunaa raised Rs 15 crore ($1.7 million) in a seed round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-oct-20-oct-25-10592180",
+    "published_date": null
+  },
+  {
+    "company": "Fundamento",
+    "amount_usd_million": 1.9,
+    "round_type": "Series A",
+    "lead_investors": [
+      "IIFL Fintech Fund"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Agentic AI platform Fundamento raised $1.9 million (around Rs 16 crore) in a pre-Series A round led by IIFL Fintech Fund, while denim and casual wear brand Stylox Fashion raised Rs 3 crore from the Fashion Entrepreneur Fund (FEF).",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-oct-20-oct-25-10592180",
+    "published_date": null
+  },
+  {
+    "company": "Dezerv",
+    "amount_usd_million": 85.0,
+    "round_type": "Series D",
+    "lead_investors": [
+      "Granite Asia",
+      "Accel"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Audio and video content platform Kuku FM followed with an $85 million Series D round led by Granite Asia, while wealth-tech startup Dezerv secured $40 million from Premji Invest and Accel.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-oct-13-oct-18-10574335",
+    "published_date": null
+  },
+  {
+    "company": "FinBox",
+    "amount_usd_million": 694.75,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "FinBox exit\nOn a weekly basis"
+    ],
+    "source_sentence": "Ventures secures 26X return from FinBox exit\nOn a weekly basis, startup funding jumped over 2.2X to $694.75 million as compared to around $310.72 million raised during the previous week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-oct-13-oct-18-10574335",
+    "published_date": null
+  },
+  {
+    "company": "WestBridge Capital",
+    "amount_usd_million": 40.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "WestBridge Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "The exit follows FinBox’s recent $40 million Series B funding round led by WestBridge Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-oct-13-oct-18-10574335",
+    "published_date": null
+  },
+  {
+    "company": "Intangles",
+    "amount_usd_million": 30.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Avataar Venture Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Intangles raised $30 million in a Series B led by Avataar Venture Partners, while Singapore-based Qapita secured $26.5 million from US-based Charles Schwab Corporation.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-oct-06-oct-11-10550808",
+    "published_date": null
+  },
+  {
+    "company": "Innoven Capital",
+    "amount_usd_million": 20.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "GMO Venture Partners",
+      "Rebright Partners",
+      "Mitsui Sumitomo Insurance VC",
+      "Innoven Capital"
+    ],
+    "source_sentence": "Fintech startup Niro has shut down after four and a half years, founder Aditya Kumar announced, despite raising around $20 million from investors including Elevar Equity, GMO Venture Partners, Rebright Partners, Mitsui Sumitomo Insurance VC, and Innoven Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-oct-06-oct-11-10550808",
+    "published_date": null
+  },
+  {
+    "company": "D2C",
+    "amount_usd_million": 60.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Vertex Growth"
+    ],
+    "participating_investors": [],
+    "source_sentence": "The largest was D2C ayurveda wellness brand Kapiva, which raised $60 million in a Series B round led by 360 ONE Asset and Vertex Growth.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-sep-29-oct-04-10527841",
+    "published_date": null
+  },
+  {
+    "company": "Recur Club",
+    "amount_usd_million": 50.0,
+    "round_type": null,
+    "lead_investors": [
+      "Info Edge",
+      "Prosus Ventures"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Debt marketplace Recur Club secured $50 million in a mix of equity and debt, led by Info Edge, while NBFC GrowXCD Finance raised about Rs 200 crore from Blue Earth Capital and Prosus Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-sep-29-oct-04-10527841",
+    "published_date": null
+  },
+  {
+    "company": "Iron Pillar",
+    "amount_usd_million": 23.0,
+    "round_type": "Series C",
+    "lead_investors": [
+      "Iron Pillar"
+    ],
+    "participating_investors": [],
+    "source_sentence": "The largest deal was cleantech startup Chakr Innovation’s $23 million Series C round led by Iron Pillar.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-sep-22-sep-27-10506787",
+    "published_date": null
+  },
+  {
+    "company": "Rocket’s",
+    "amount_usd_million": 23.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Lightspeed"
+    ],
+    "participating_investors": [],
+    "source_sentence": "The largest round was AI-powered app-building platform Emergent’s $23 million Series A led by Lightspeed, followed by app-building platform Rocket’s $15 million round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-sep-22-sep-27-10506787",
+    "published_date": null
+  },
+  {
+    "company": "RBI",
+    "amount_usd_million": 361.5,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [
+      "NSE emerge for SME IPO\nOn a weekly basis"
+    ],
+    "source_sentence": "Rs 73 Cr profit in FY25\n▪️ RBI issues new rules for authentication of digital payments\n▪️ Swiggy cashes out of Rapido with 2.5X return; Prosus, WestBridge acquire stake\n▪️ Startup founders lose grip amid heavy Series A dilutions: ENTRACKR Report\n▪️ Purple Style Labs files DRHP to raise Rs 660 Cr via IPO\n▪️ Finance Buddha (Finbud Financial Services Ltd.) secures in-principle approval from NSE emerge for SME IPO\nOn a weekly basis, startup funding dropped by 52% to 173.48 million as compared to around $361.5 million raised during the previous week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-sep-22-sep-27-10506787",
+    "published_date": null
+  },
+  {
+    "company": "One",
+    "amount_usd_million": 320.0,
+    "round_type": "debt round",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding this week reached $320 million, led by healthtech firm Pharmeasy’s Rs 1,700 crore ($193 million) debt round from 360 One.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-sep-15-sep-20-10481823",
+    "published_date": null
+  },
+  {
+    "company": "Indkal Technologies",
+    "amount_usd_million": 20.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Alteria Capital",
+      "InnoVen Capital"
+    ],
+    "source_sentence": "Sustainable home essentials brand Ecosoul and consumer electronics startup Indkal Technologies secured $20 million each, while foodtech unicorn Rebel Foods raised $17 million in debt from Alteria Capital and InnoVen Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-sep-15-sep-20-10481823",
+    "published_date": null
+  },
+  {
+    "company": "Trufrost & Butler",
+    "amount_usd_million": 7.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Carpediem Capital"
+    ],
+    "source_sentence": "Trufrost & Butler, a commercial refrigeration and foodservice equipment provider, also raised $7 million in growth funding from Carpediem Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-sep-08-sep-13-10455901",
+    "published_date": null
+  },
+  {
+    "company": "TPG",
+    "amount_usd_million": 285.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "TPG"
+    ],
+    "source_sentence": "Growth and late-stage funding this week totaled $285 million, driven by Tessolve’s $150 million round from TPG.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-sep-01-sep-05-10045713",
+    "published_date": null
+  },
+  {
+    "company": "Citymall",
+    "amount_usd_million": 47.0,
+    "round_type": "Series D",
+    "lead_investors": [
+      "Accel"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Citymall raised $47 million in a Series D led by Accel.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-sep-01-sep-05-10045713",
+    "published_date": null
+  },
+  {
+    "company": "Transbnk",
+    "amount_usd_million": 25.0,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [
+      "Bessemer Venture Partners"
+    ],
+    "source_sentence": "The round was led by banking infrastructure platform Transbnk, which raised $25 million in its Series B from Bessemer Venture Partners, followed by Kiwi with a $24 million Series B. Housing finance company Altum Credo secured about $19.5 million (Rs 170 crore) from British International Investment.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-aug-25-aug-30-9768505",
+    "published_date": null
+  },
+  {
+    "company": "Weaver Services",
+    "amount_usd_million": 271.7,
+    "round_type": null,
+    "lead_investors": [
+      "Weaver Services",
+      "Premji Invest"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding this week stood at $271.7 million, led by Weaver Services, a tech-driven housing finance platform, which raised $170 million from Lightspeed and Premji Invest.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-aug-18-aug-23-9725680",
+    "published_date": null
+  },
+  {
+    "company": "Rabbit",
+    "amount_usd_million": 27.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Filter Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "D2C baby products brand R for Rabbit secured $27 million in its Series B led by Filter Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-aug-18-aug-23-9725680",
+    "published_date": null
+  },
+  {
+    "company": "Truemeds",
+    "amount_usd_million": 244.11,
+    "round_type": "Series C",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding this week totaled $244.11 million, led by healthtech startup Truemeds, which raised $85 million in its Series C round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-aug-11-aug-16-9665597",
+    "published_date": null
+  },
+  {
+    "company": "Motilal Oswal Financial Services Limited",
+    "amount_usd_million": 46.0,
+    "round_type": null,
+    "lead_investors": [
+      "Motilal Oswal Financial Services Limited (MOFSL)"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Quick commerce unicorn Zepto followed with a $46 million round led by Motilal Oswal Financial Services Limited (MOFSL) .",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-aug-11-aug-16-9665597",
+    "published_date": null
+  },
+  {
+    "company": "Playbook",
+    "amount_usd_million": 30.0,
+    "round_type": null,
+    "lead_investors": [
+      "Playbook"
+    ],
+    "participating_investors": [],
+    "source_sentence": "D2C beauty brand Renee Cosmetics followed with a $30 million round led by Playbook.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-aug-04-aug-09-9642014",
+    "published_date": null
+  },
+  {
+    "company": "Aerospace",
+    "amount_usd_million": 66.0,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Further, 22 early-stage startups collectively raised around $66 million in funding led by Aerospace manufacturing startup Jeh Aerospace’s $11 million Series A round led by Elevation Capital followed by fintech startup DPDZero, hr-tech TurboHire, Cyber resilience startup",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-aug-04-aug-09-9642014",
+    "published_date": null
+  },
+  {
+    "company": "Navi Technologies",
+    "amount_usd_million": 20.0,
+    "round_type": "debt round",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Fintech unicorn Navi Technologies raised ₹170 crore (around $20 million) in a debt round backed by PhillipCapital, NDX Finserve, Arpee Group, and others.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-july-28-aug-02-9617298",
+    "published_date": null
+  },
+  {
+    "company": "The Sleep Company",
+    "amount_usd_million": 2.5,
+    "round_type": "Series D",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "The Sleep Company to kick off Series D round with 80% valuation surge\n▪️ Info Edge in talks to lead $2.5 Mn round in Ghar Mandir\n▪️ Powerplay valuation halves in fresh funding",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-july-28-aug-02-9617298",
+    "published_date": null
+  },
+  {
+    "company": "Netrasemi",
+    "amount_usd_million": 83.09,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Further, 16 early-stage startups collectively raised around $83.09 million in funding led by agentic AI startup Composio raising $25 million in its Series A round led by Lightspeed followed by semiconductor startup Netrasemi which secured Rs 107 crore ($12.5 million) co-led by Zoho Corporations and Unicorn India Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-july-21-july-26-9538332",
+    "published_date": null
+  },
+  {
+    "company": "Truemeds",
+    "amount_usd_million": 20.0,
+    "round_type": "Series C",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Telehealth platform Truemeds has secured $20 million in its ongoing Series C round from new investor Peak XV Partners, while omnichannel payment solutions provider Phi Commerce tops up Series B with $6 million from BEENEXT.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-july-14-july-19-9513504",
+    "published_date": null
+  },
+  {
+    "company": "Rainmatter",
+    "amount_usd_million": 3.5,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Rainmatter"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Foods bagged $3.5 million in Series B round led by Rainmatter.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-july-14-july-19-9513504",
+    "published_date": null
+  },
+  {
+    "company": "Burger",
+    "amount_usd_million": 27.0,
+    "round_type": "Series C",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Credo to raise Rs 100 Cr in Series C round\n▪️Milky Mist to raise Rs 357 Cr in pre-IPO round\n▪️R for Rabbit to raise $27 Mn in primary and secondary capital\n▪️Burger",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-july-14-july-19-9513504",
+    "published_date": null
+  },
+  {
+    "company": "Kehtika",
+    "amount_usd_million": null,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Narotam Sekhsaria Family Office",
+      "Anicut Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Clean-label food brand Kehtika secured $18M in a Series B round led by Narotam Sekhsaria Family Office and Anicut Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-july-07-july-12-9488273",
+    "published_date": null
+  },
+  {
+    "company": "AppsForBharat",
+    "amount_usd_million": 20.0,
+    "round_type": "Series C",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Eggoz, a consumer egg brand, and spiritual tech startup AppsForBharat secured $20 million each in their Series C rounds.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-30-july-05-9465477",
+    "published_date": null
+  },
+  {
+    "company": "Zango AI",
+    "amount_usd_million": 31.78,
+    "round_type": "Seed round",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Further, 15 early-stage startups collectively raised around $31.78 million in funding led by regulatory compliance platform Zango AI raising $4.8 million in Seed round led by Nexus Venture Partners followed by deeptech startup Maieutic Semiconductor, fertility-tech startup Luma Fertility,\nDeeptech startup AjnaLens,  B2B infrastructure platform for fixed deposit (FD) distribution Blostem  also raised a sum but did not disclose the amount raised.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-30-july-05-9465477",
+    "published_date": null
+  },
+  {
+    "company": "TheKredible",
+    "amount_usd_million": 6720.0,
+    "round_type": null,
+    "lead_investors": [
+      "TheKredible"
+    ],
+    "participating_investors": [],
+    "source_sentence": "According to data compiled by TheKredible, Indian startups raised approximately $6.72 billion in funding during the first half of 2025.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-30-july-05-9465477",
+    "published_date": null
+  },
+  {
+    "company": "Raphe mPhibr",
+    "amount_usd_million": 239.9,
+    "round_type": null,
+    "lead_investors": [
+      "Raphe mPhibr"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding reached $239.9 million this week, led by Raphe mPhibr, which raised $100 million in the largest private funding round for an Indian aerospace company, backed by General Catalyst.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-16-june-21-9445013",
+    "published_date": null
+  },
+  {
+    "company": "Wiom",
+    "amount_usd_million": 40.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Bertelsmann India Investments",
+      "Accel"
+    ],
+    "source_sentence": "Wiom secured $40 million from Bertelsmann India Investments and Accel.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-16-june-21-9445013",
+    "published_date": null
+  },
+  {
+    "company": "Battery Smart",
+    "amount_usd_million": 21.0,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Battery Smart raised $21 million in a Series B extension.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-16-june-21-9445013",
+    "published_date": null
+  },
+  {
+    "company": "Greylock",
+    "amount_usd_million": 138.7,
+    "round_type": null,
+    "lead_investors": [
+      "Greylock"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding totaled $138.7 million this week, led by cross-border fintech firm Aspora raising $53 million in a round co-led by Sequoia and Greylock.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-16-june-21-9383048",
+    "published_date": null
+  },
+  {
+    "company": "WestBridge Capital",
+    "amount_usd_million": 30.6,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "WestBridge Capital"
+    ],
+    "source_sentence": "Spinny also secured $30.6 million from WestBridge Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-16-june-21-9383048",
+    "published_date": null
+  },
+  {
+    "company": "Gaurav Jain",
+    "amount_usd_million": 30.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Shalabh Shrivastava",
+      "Acquisitions]\nPOP"
+    ],
+    "source_sentence": "There were a couple of departures as well with Gaurav Jain, the Chief Business Officer of social media platform ShareChat has resigned from his role and Shalabh Shrivastava, the senior vice president of Driver Org at Swiggy, also quit the company\nVisit TheKredible for more details\n[Mergers and Acquisitions]\nPOP, a rewards-first UPI payments app, has raised $30 million from Razorpay to expand its payments and commerce platform.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-16-june-21-9383048",
+    "published_date": null
+  },
+  {
+    "company": "Lathe Investment",
+    "amount_usd_million": 135.0,
+    "round_type": null,
+    "lead_investors": [
+      "RTP Global",
+      "Sofina Ventures",
+      "QED Innovation Labs"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding reached $135 million this week, led by  Kunal Shah-led CRED which raised $72 million from Lathe Investment, RTP Global, Sofina Ventures, and QED Innovation Labs.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-02-june-07-9362165",
+    "published_date": null
+  },
+  {
+    "company": "FlexiLoans",
+    "amount_usd_million": 44.0,
+    "round_type": "Series C",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "MSMEs-focused fintech lender FlexiLoans also raised $44 million in Series C funding while Vecmocon closed its $18 million Series A in which $8 raised this week in a mix of primary and secondary transactions.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-02-june-07-9362165",
+    "published_date": null
+  },
+  {
+    "company": "Series B",
+    "amount_usd_million": 2.0,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Durlabh Darshan set to raise $2 Mn led by Prime VP\n▪️ Elevation Capital to lead $5 Mn round in Rumik.ai\n▪️ Electric mobility platform Kazam to raise $6 Mn in Series B",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-02-june-07-9362165",
+    "published_date": null
+  },
+  {
+    "company": "Syfe’s",
+    "amount_usd_million": 193.26,
+    "round_type": "Series C",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding reached nearly $193.26 million this week, led by wealth management platform Syfe’s $80 million Series C round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-02-june-07-9343045",
+    "published_date": null
+  },
+  {
+    "company": "One Asset",
+    "amount_usd_million": 40.0,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "D2C men’s wear brand Snitch followed with a $40 million Series B round led by 360 One Asset.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-june-02-june-07-9343045",
+    "published_date": null
+  },
+  {
+    "company": "TPG NewQuest",
+    "amount_usd_million": 118.2,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding totaled nearly $118.2 million this week led by healthtech startup Citykart in its Series B round led by TPG NewQuest followed by consumer tech startup Snabbit who raised $19 million in its Series B round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-26-may-31-9323847",
+    "published_date": null
+  },
+  {
+    "company": "Mufin Green",
+    "amount_usd_million": 15.0,
+    "round_type": "debt round",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Mufin Green secured $15 million in a debt round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-26-may-31-9323847",
+    "published_date": null
+  },
+  {
+    "company": "CureBay",
+    "amount_usd_million": 65.75,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding totaled nearly $65.75 million this week led by healthtech startup CureBay in its Series B round led by Bertelsmann India Investments followed by cybersecurity startup CloudSEK who raised $19 million in its Series B round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-19-may-24-9302232",
+    "published_date": null
+  },
+  {
+    "company": "Euler Motors",
+    "amount_usd_million": 15.0,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Euler Motors secured $15 million in another tranche of its $60 million Series B round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-19-may-24-9302232",
+    "published_date": null
+  },
+  {
+    "company": "D2C",
+    "amount_usd_million": 137.2,
+    "round_type": "Series C",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding totaled nearly $137.2 million this week led by D2C snacking brand Farmley in its Series C round led by L Catterton followed by battery tech startup VFlowTech who raised $20.5 million in its Series B round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-12-may-17-9078788",
+    "published_date": null
+  },
+  {
+    "company": "Kedaara Capital",
+    "amount_usd_million": 322.3,
+    "round_type": "Series F",
+    "lead_investors": [
+      "Porter",
+      "Wellington Management"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Growth and late-stage funding totaled nearly $322.3 million this week led by Porter, an on-demand goods transport agency, which raised $200 million in its Series F funding round, led by Kedaara Capital and Wellington Management.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-05-may-10-9055030",
+    "published_date": null
+  },
+  {
+    "company": "Routemotic",
+    "amount_usd_million": 40.0,
+    "round_type": "Series C",
+    "lead_investors": [
+      "The Good Bug"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Autmotive company Routemotic secured $40 million in its Series C round, Interior design startup Flipspaces raised $35 million led by Iron Pillar while Celcius Logistics, The Good Bug and e-commerce startup Blissclub also raised funding this week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-05-may-10-9055030",
+    "published_date": null
+  },
+  {
+    "company": "OMC Power",
+    "amount_usd_million": 26.0,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Aerem partners with OMC Power to promote rooftop solar adoption among MSMEs in Uttar Pradesh\n▪️ Rilox EV joins forces with Hala Mobility to roll out 20,000 electric two-wheelers across India\n▪️ KOGO AI and Tech Mahindra partner for AI agents\n▪️ Fintech SaaS platform CaptainBiz launches Bill2Pay for MSMEs\n▪️ Petcare startup Vetic to raise $26 Mn led by Bessemer\n▪️ Propelld to raise $30 Mn from WestBridge and Stellaris\n▪️ Toothsi parent MakeO set to raise funds at 50% valuation cut\n▪️ Motilal Oswal pumps Rs 200 Cr into Lahori\n▪️ Celebal Tech kicks off Series B round with 2X valuation jump",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-05-may-10-9055030",
+    "published_date": null
+  },
+  {
+    "company": "Wellington Management",
+    "amount_usd_million": 200.0,
+    "round_type": "Series F",
+    "lead_investors": [
+      "Kedaara Capital",
+      "Wellington Management"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Porter becomes the third unicorn of 2025 with a $200 million in its Series F funding round, led by Kedaara Capital and Wellington Management.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-05-may-10-9055030",
+    "published_date": null
+  },
+  {
+    "company": "InCred Growth Partners Fund",
+    "amount_usd_million": 14.7,
+    "round_type": "Series B",
+    "lead_investors": [
+      "InCred Growth Partners Fund"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Celebal Technologies, an IT Service provider, is set to raise Rs 125 crore (around $14.7 million) in its Series B round led by InCred Growth Partners Fund.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-05-may-10-9055030",
+    "published_date": null
+  },
+  {
+    "company": "Stellaris Venture Partners",
+    "amount_usd_million": 30.5,
+    "round_type": "Series D",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Propelld, an education-focused lending platform, is set to secure Rs 260 crore (around $30.5 million) in its Series D round led by WestBridge Capital with the participation of Stellaris Venture Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-may-05-may-10-9055030",
+    "published_date": null
+  },
+  {
+    "company": "Uniqus Consultech",
+    "amount_usd_million": 20.0,
+    "round_type": "Series C",
+    "lead_investors": [
+      "Nexus Venture Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Enterprise tech startup Uniqus Consultech secured $20 million in a Series C round led by Nexus Venture Partners, while drone tech firm Vayudh brought in $10 million in its Series A round backed by Dharaana Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-apr-21-apr-25-9004450",
+    "published_date": null
+  },
+  {
+    "company": "Garuda Aerospace",
+    "amount_usd_million": 11.7,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Venture Catalysts"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Garuda Aerospace, a dronetech startup, also secured $11.7 million (Rs 100 crore) in its Series B round led by Venture Catalysts.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-apr-14-apr-19-8979444",
+    "published_date": null
+  },
+  {
+    "company": "Digital",
+    "amount_usd_million": 30.0,
+    "round_type": null,
+    "lead_investors": [
+      "Bessemer Venture Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Digital payments company Easebuzz has raised Rs 240 crore ($30 million) in a funding round led by Bessemer Venture Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-apr-07-apr-12-8954442",
+    "published_date": null
+  },
+  {
+    "company": "Outzidr",
+    "amount_usd_million": 10.0,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Cross-border logistics startup Xindus led the early-stage funding with $10 million Series A round followed by edtech startup SigIQ.ai, genz women-focused fashion brand Outzidr, nanotechnology startup Vimano, D2C snacks brands Let's Try, Eat Better and others.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-apr-07-apr-12-8954442",
+    "published_date": null
+  },
+  {
+    "company": "Scapia",
+    "amount_usd_million": 40.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Peak XV Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Travel fintech company Scapia also raised $40 million in its Series B round led by Peak XV Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-31-apr-05-8929039",
+    "published_date": null
+  },
+  {
+    "company": "Blacksoil",
+    "amount_usd_million": 10.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Fundamentum"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Cr revenue in FY24, but bleeds heavily\n▪️ Kareena Kapoor-backed Pluckk to raise $10 Mn in Series A\n▪️ Groww in talks to raise $200 Mn in pre-IPO round\n▪️ Country Delight to raise $25 Mn from Temasek\n▪️ Zepto in talks for $250 Mn secondary round\n▪️ Curefoods to raise debt from Blacksoil and Binny Bansal\n▪️ Apna Mart raises $25 Mn led by Fundamentum and Accel\n▪️ Mobikwik enters stock broking biz with new subsidiary\n▪️Ola Electric subsidiary resolves insolvency dispute with Rosmerta Group\nOn a weekly basis, startup funding declined by 13.57% to $152.49 million as compared to around $176.44 million raised during the previous week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-24-mar-29-8903787",
+    "published_date": null
+  },
+  {
+    "company": "Temasek",
+    "amount_usd_million": 25.0,
+    "round_type": "Series E",
+    "lead_investors": [],
+    "participating_investors": [
+      "Temasek"
+    ],
+    "source_sentence": "Dairy startup Country Delight is raising $25 million in its Series E round from Temasek.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-24-mar-29-8903787",
+    "published_date": null
+  },
+  {
+    "company": "Accel",
+    "amount_usd_million": 25.0,
+    "round_type": null,
+    "lead_investors": [
+      "Fundamentum Partnership Fund",
+      "Accel"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Meanwhile, Apna Mart, a franchise-driven omnichannel grocery and FMCG chain, is securing $25 million in a new round led by Fundamentum Partnership Fund and Accel.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-24-mar-29-8903787",
+    "published_date": null
+  },
+  {
+    "company": "Paytm",
+    "amount_usd_million": 700.0,
+    "round_type": "Series D",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "India posts Rs 4,008 Cr revenue and Rs 197 Cr PAT in FY24\n▪️ ZingHR crosses Rs 120 Cr revenue mark in FY24, cuts losses by 67%\n▪️ Prozo maintains growth streak in FY24 with improved economics\n▪️ Uber India made Rs 807 Cr from ride-hailing in FY24\n▪️ Tiger Global-backed Groyyo’s growth stalls in FY24; losses climb\n▪️ Servify valued at around $700 Mn in Series D\n▪️ 60-min fashion delivery startup Slikk to raise $10 Mn led by Nexus\n▪️ Bare Anatomy parent Innovist kicks off Series B round\n▪️ Student housing startup Your-Space raises $8.2 Mn debt\n▪️ Peak XV to lead new round in GoodScore parent\n▪️ Ayana Renewable to raise Rs 150 Cr from IL&FS Mutual Fund\n▪️Paytm",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-17-mar-22-8879393",
+    "published_date": null
+  },
+  {
+    "company": "Ayana Renewable’s Rs",
+    "amount_usd_million": 20.0,
+    "round_type": "debt round",
+    "lead_investors": [
+      "Peak XV"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Notable upcoming deals include renewable energy firm Ayana Renewable’s Rs 150 crore debt round, Arthvit 1809 Tech Pvt. Ltd, the parent company of Rupicard and GoodScore, raising $20 million led by Peak XV, SaaS unicorn Icertis securing $50 million, and 60-minute delivery startup Slikk raising $10 million soon after its $3.2 million round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-17-mar-22-8879393",
+    "published_date": null
+  },
+  {
+    "company": "Scimplify",
+    "amount_usd_million": 40.0,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Platform for sourcing and manufacturing specialty chemicals Scimplify secured $40 million in Series B round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-10-mar-15-8855619",
+    "published_date": null
+  },
+  {
+    "company": "Ransons Aerospace",
+    "amount_usd_million": 40.0,
+    "round_type": "Series E",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Luxury fashion platform Purple Style Labs bagged $40 million in Series E round, Aerospace firm Ransons Aerospace, SaaS platform Infinite Uptime and Incred Finance also bagged funding this week.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-10-mar-15-8855619",
+    "published_date": null
+  },
+  {
+    "company": "Education",
+    "amount_usd_million": 360.0,
+    "round_type": "Series B",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "India raises funds at $360 Mn valuation\n▪️Salman Khan and Sachin Tendulkar join Purple Style Labs new round\n▪️CityMall to raise Rs 55 Cr in debt; expands ESOP pool\n▪️Brick&Bolt valuation soars 3X in new round\n▪️Rusk Media to raise $8.5 Mn in Series B\n▪️Education",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-10-mar-15-8855619",
+    "published_date": null
+  },
+  {
+    "company": "Media",
+    "amount_usd_million": 8.5,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Woori Venture Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Notable upcoming deals include Rusk Media’s $8.5 million Series B round led by Woori Venture Partners, social e-commerce platform CityMall securing $6.3 million, and used-car marketplace Droom India raising $2.9 million at a post-money valuation of $360 million.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-mar-10-mar-15-8855619",
+    "published_date": null
+  },
+  {
+    "company": "DarwinBox",
+    "amount_usd_million": 140.0,
+    "round_type": "Series D",
+    "lead_investors": [
+      "Partners Group",
+      "KKR"
+    ],
+    "participating_investors": [],
+    "source_sentence": "In the growth-stage funding landscape this week, HR tech platform DarwinBox raised $140 million in Series D round led by Partners Group, KKR, Fintech platform Leap Finance secured $100 million debt from ASEAN Growth Fund and Insurtech firm InsuranceDekho raised $70 million in Series C roundled by Beams Fintech Fund.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-24-mar-01-8833313",
+    "published_date": null
+  },
+  {
+    "company": "Accel",
+    "amount_usd_million": 44.0,
+    "round_type": "Series A",
+    "lead_investors": [
+      "Accel"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Entrackr accessed filings revealing upcoming rounds, including Truemeds raising Rs 375.2 crore ($44 million) led by Accel, 10-minute food delivery startup Swish securing $14 million in a Series A round, and Kunal Shah-backed options trading platform Punch preparing to raise fresh funds worth Rs 26 crore.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-24-mar-01-8833313",
+    "published_date": null
+  },
+  {
+    "company": "Geniemode",
+    "amount_usd_million": 50.0,
+    "round_type": "Series C",
+    "lead_investors": [
+      "Multiples Alternate Asset Management"
+    ],
+    "participating_investors": [],
+    "source_sentence": "In the growth-stage funding landscape this week, B2B cross-border e-commerce startup Geniemode raised $50 million in Series C round led by Multiples Alternate Asset Management, MOC Cancer Care & Research Centre MOC Cancer Care got $18 million in Series B round led by Elevation Capital and Fintech unicorn secured $12 million in debt from AK Capital Finance.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-24-mar-01-8768005",
+    "published_date": null
+  },
+  {
+    "company": "Udaan",
+    "amount_usd_million": 75.0,
+    "round_type": null,
+    "lead_investors": [
+      "Jungle Ventures"
+    ],
+    "participating_investors": [],
+    "source_sentence": "In the growth-stage funding landscape this week, B2B e-commerce platform Udaan secured $75 million in a Series G round, Wealth advisory firm Waterfield Advisory secured $18 million in a new round led by Jungle Ventures, SaaS company Spyne raised $16 million.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-17-feb-22-8746227",
+    "published_date": null
+  },
+  {
+    "company": "ToneTag",
+    "amount_usd_million": 78.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "ValueQuest S"
+    ],
+    "participating_investors": [],
+    "source_sentence": "In the growth-stage funding landscape this week, contactless payment solutions provider ToneTag raised $78 million in a Series B round led by ValueQuest S.C.A.L.E. Fund, while contract lifecycle management platform SpotDraft secured $54 million in a Series B round led by Vertex Growth Singapore and Trident Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-10-feb-15-8723898",
+    "published_date": null
+  },
+  {
+    "company": "Cashfree",
+    "amount_usd_million": 53.0,
+    "round_type": "Series C",
+    "lead_investors": [
+      "KRAFTON"
+    ],
+    "participating_investors": [],
+    "source_sentence": "In the growth-stage funding landscape, digital payments enabler Cashfree raised $53 million in Series C round led by KRAFTON.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-03-feb-08-8702247",
+    "published_date": null
+  },
+  {
+    "company": "Shadowfax",
+    "amount_usd_million": 16.8,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Mirae Asset",
+      "Nokia Growth Partners",
+      "Edelwiesse"
+    ],
+    "source_sentence": "Logistics firm Shadowfax secured $16.8 million across two tranches from Mirae Asset, Nokia Growth Partners, Edelwiesse.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-03-feb-08-8702247",
+    "published_date": null
+  },
+  {
+    "company": "Apex Kidney Care",
+    "amount_usd_million": 9.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Blue Earth Capital",
+      "Women’s wellness"
+    ],
+    "source_sentence": "Dialysis service provider Apex Kidney Care bagged $9 million from Blue Earth Capital, Women’s wellness and hygiene brand Nua also raised $4 million and Education-focused NBFC Auxilo secured a debt of $5.7 from Motiwal Oswal.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-feb-03-feb-08-8702247",
+    "published_date": null
+  },
+  {
+    "company": "Leap",
+    "amount_usd_million": 65.0,
+    "round_type": "Series E",
+    "lead_investors": [
+      "Apis Partners"
+    ],
+    "participating_investors": [],
+    "source_sentence": "In the growth-stage funding landscape,edtech startup Leap raised $65 million in Series E round led by Apis Partners.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-27-jan-feb-01-8680892",
+    "published_date": null
+  },
+  {
+    "company": "SuperOps",
+    "amount_usd_million": 25.0,
+    "round_type": "Series C",
+    "lead_investors": [],
+    "participating_investors": [
+      "Evolvence India",
+      "Mirabilis Investment Trust"
+    ],
+    "source_sentence": "SaaS IT management platform SuperOps raised $25 million, and the supply chain startup also secured $12 million in Series C round from Evolvence India, Mirabilis Investment Trust.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-27-jan-feb-01-8680892",
+    "published_date": null
+  },
+  {
+    "company": "Geri Care",
+    "amount_usd_million": 25.0,
+    "round_type": "Series A",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "B2B SaaS startup Atomicwork led the early stage funding with $25 million in Series A round followed by co-working firm Innov8, Senior citizen-focused healthcare services provider Geri Care, Telecom Astrome Technologies, Mobility startup VoltUp & others.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-27-jan-feb-01-8680892",
+    "published_date": null
+  },
+  {
+    "company": "Market",
+    "amount_usd_million": 125.0,
+    "round_type": "Series F",
+    "lead_investors": [],
+    "participating_investors": [],
+    "source_sentence": "Market raised $125 million in Series F round.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-20-25-jan-8653369",
+    "published_date": null
+  },
+  {
+    "company": "Arya.ag",
+    "amount_usd_million": 30.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "HSBC"
+    ],
+    "source_sentence": "Agritech startup Arya.ag raised $30 million debt from HSBC.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-20-25-jan-8653369",
+    "published_date": null
+  },
+  {
+    "company": "Ati Motors",
+    "amount_usd_million": 20.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Walden Catalyst Ventures & NGP Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "Industrial robotics company, Ati Motors raised $20 million in Series B round led by Walden Catalyst Ventures & NGP Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-20-25-jan-8653369",
+    "published_date": null
+  },
+  {
+    "company": "Impetus Technologies",
+    "amount_usd_million": 350.0,
+    "round_type": "Series D",
+    "lead_investors": [
+      "Kedaara Capital"
+    ],
+    "participating_investors": [],
+    "source_sentence": "In the growth-stage funding landscape, data analytics and AI solutions provider Impetus Technologies raised $350 million in a Series D round led by Kedaara Capital.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-13-18-jan-8632881",
+    "published_date": null
+  },
+  {
+    "company": "Point72 Private Investments",
+    "amount_usd_million": 90.0,
+    "round_type": "Series D",
+    "lead_investors": [
+      "Point72 Private Investments"
+    ],
+    "participating_investors": [],
+    "source_sentence": "SaaS startup Netradyne closed a $90 million Series D round led by Point72 Private Investments.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-13-18-jan-8632881",
+    "published_date": null
+  },
+  {
+    "company": "Jungle Ventures",
+    "amount_usd_million": 35.0,
+    "round_type": "Series B",
+    "lead_investors": [
+      "Jungle Ventures"
+    ],
+    "participating_investors": [],
+    "source_sentence": "NBFC company Infinity Fincorp Solutions bagged $35 million in Series B round led by Jungle Ventures.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-06-11-jan-8610228",
+    "published_date": null
+  },
+  {
+    "company": "GrayQuest",
+    "amount_usd_million": 20.0,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "True North"
+    ],
+    "source_sentence": "Medical devices manufacturer raised $20 million & Education loans-focused fintech startup GrayQuest raised $9.3 million from True North.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-06-11-jan-8610228",
+    "published_date": null
+  },
+  {
+    "company": "Aye Finance",
+    "amount_usd_million": 12.8,
+    "round_type": null,
+    "lead_investors": [],
+    "participating_investors": [
+      "Northern Arc",
+      "ASK Financial Holdings",
+      "MAS Financial Services",
+      "CredAvenue"
+    ],
+    "source_sentence": "Meanwhile, lending startup Aye Finance raised $12.8 million in debt from Northern Arc, ASK Financial Holdings, MAS Financial Services, and CredAvenue.",
+    "source_url": "https://entrackr.com/report/weekly-funding-report/funding-and-acquisitions-in-indian-startup-this-week-30-dec-04-jan-8590952",
+    "published_date": null
+  }
+]

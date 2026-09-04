@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VC Co-Investment Network Intelligence</title>
+<script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy-950: #060b1a;
+    --navy-900: #0a1128;
+    --navy-800: #101a3a;
+    --navy-700: #17244d;
+    --ice-400: #6fd8ff;
+    --ice-300: #9fe6ff;
+    --ice-glow: rgba(111, 216, 255, 0.35);
+    --text-hi: #eaf2fb;
+    --text-mid: #9fb0cc;
+    --text-dim: #64749a;
+    --amber: #ffb454;
+    --coral: #ff6b81;
+    --mint: #5eead4;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: radial-gradient(ellipse at top left, var(--navy-800), var(--navy-950) 60%);
+    color: var(--text-hi);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    min-height: 100vh;
+  }
+  aside {
+    width: 240px;
+    flex-shrink: 0;
+    background: var(--navy-900);
+    border-right: 1px solid rgba(111,216,255,0.08);
+    padding: 32px 24px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+  .brand {
+    font-weight: 800;
+    font-size: 1.05rem;
+    letter-spacing: -0.01em;
+    color: var(--text-hi);
+    line-height: 1.3;
+  }
+  .brand span { color: var(--ice-400); }
+  .brand-sub {
+    margin-top: 6px;
+    font-size: 0.78rem;
+    color: var(--text-dim);
+  }
+  nav { margin-top: 48px; display: flex; flex-direction: column; gap: 4px; }
+  nav a {
+    color: var(--text-mid);
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 500;
+    padding: 9px 12px;
+    border-radius: 8px;
+    transition: background 0.15s, color 0.15s;
+  }
+  nav a:hover, nav a.active { background: var(--navy-700); color: var(--ice-300); }
+
+  main { flex: 1; padding: 40px 48px; max-width: 1400px; }
+  h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: -0.015em; }
+  .subtitle { color: var(--text-mid); margin-top: 6px; font-size: 0.92rem; max-width: 640px; }
+
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin: 32px 0 36px;
+  }
+  .kpi-card {
+    background: linear-gradient(160deg, var(--navy-800), var(--navy-900));
+    border: 1px solid rgba(111,216,255,0.1);
+    border-radius: 14px;
+    padding: 20px 22px;
+  }
+  .kpi-value {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--ice-300);
+    font-variant-numeric: tabular-nums;
+  }
+  .kpi-label {
+    margin-top: 4px;
+    font-size: 0.8rem;
+    color: var(--text-mid);
+  }
+
+  .panel {
+    background: var(--navy-900);
+    border: 1px solid rgba(111,216,255,0.09);
+    border-radius: 16px;
+    padding: 24px 26px 12px;
+    margin-bottom: 28px;
+  }
+  .panel-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-hi);
+    margin-bottom: 4px;
+  }
+  .panel-desc {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+  }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  th {
+    text-align: left;
+    color: var(--text-dim);
+    font-weight: 500;
+    font-size: 0.72rem;
+    padding: 8px 10px;
+    border-bottom: 1px solid rgba(111,216,255,0.1);
+  }
+  td {
+    padding: 10px 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    color: var(--text-mid);
+  }
+  td.name { color: var(--text-hi); font-weight: 500; }
+  td.num { font-family: 'JetBrains Mono', monospace; color: var(--ice-300); text-align: right; }
+  tr:last-child td { border-bottom: none; }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    background: rgba(111,216,255,0.12);
+    color: var(--ice-300);
+  }
+</style>
+</head>
+<body>
+
+<aside>
+  <div class="brand">VC Network<br><span>Intelligence</span></div>
+  <div class="brand-sub">Co-investment graph &amp; syndicate analysis</div>
+  <nav>
+    <a class="active" href="#network">Network Graph</a>
+    <a href="#centrality">Investor Rankings</a>
+    <a href="#syndicate">Syndicate Predictions</a>
+  </nav>
+</aside>
+
+<main>
+  <h1>VC Co-Investment Network Intelligence</h1>
+  <p class="subtitle">Investor relationships derived from real funding announcements — mapped, scored, and used to predict future syndicate partners.</p>
+
+  <div class="kpi-row">
+    <div class="kpi-card"><div class="kpi-value" id="kpi-investors">—</div><div class="kpi-label">Investors tracked</div></div>
+    <div class="kpi-card"><div class="kpi-value" id="kpi-companies">—</div><div class="kpi-label">Companies funded</div></div>
+    <div class="kpi-card"><div class="kpi-value" id="kpi-edges">—</div><div class="kpi-label">Co-investment links</div></div>
+    <div class="kpi-card"><div class="kpi-value" id="kpi-communities">—</div><div class="kpi-label">Investor communities</div></div>
+  </div>
+
+  <div class="panel" id="network">
+    <div class="panel-title">Co-Investment Network</div>
+    <div class="panel-desc">Each node is an investor; an edge means they've backed the same company together. Node color marks its detected community, node size reflects deal activity.</div>
+    <div id="network-graph" style="height: 560px;"></div>
+  </div>
+
+  <div class="two-col">
+    <div class="panel" id="centrality">
+      <div class="panel-title">Most Active Investors</div>
+      <div class="panel-desc">Ranked by degree — number of distinct co-investors</div>
+      <table>
+        <thead><tr><th>Investor</th><th style="text-align:right">Connections</th><th style="text-align:right">Deals</th></tr></thead>
+        <tbody id="table-degree"></tbody>
+      </table>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">Bridge Investors</div>
+      <div class="panel-desc">Ranked by betweenness — connects otherwise separate investor clusters</div>
+      <table>
+        <thead><tr><th>Investor</th><th style="text-align:right">Betweenness</th></tr></thead>
+        <tbody id="table-betweenness"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="panel" id="syndicate">
+    <div class="panel-title">Predicted Syndicate Pairs</div>
+    <div class="panel-desc">Investor pairs most likely to co-invest next, based on shared-neighbor structure (Adamic-Adar index) — not yet observed co-investing together</div>
+    <table>
+      <thead><tr><th>Investor A</th><th>Investor B</th><th style="text-align:right">Likelihood score</th></tr></thead>
+      <tbody id="table-predicted"></tbody>
+    </table>
+  </div>
+</main>
+
+<script>
+const DATA = {"nodes": [{"id": "Capital 2B", "degree": 4, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 0, "deal_count": 1}, {"id": "Helena", "degree": 4, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 0, "deal_count": 1}, {"id": "Japan Airlines", "degree": 4, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 0, "deal_count": 1}, {"id": "SMSC", "degree": 4, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 0, "deal_count": 1}, {"id": "TransLink Innovation Fund", "degree": 4, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 0, "deal_count": 1}, {"id": "DoorDash", "degree": 4, "betweenness": 0.0, "eigenvector": 0.39457, "pagerank": 0.009, "community": 1, "deal_count": 1}, {"id": "Greenoaks", "degree": 4, "betweenness": 0.0, "eigenvector": 0.39457, "pagerank": 0.009, "community": 1, "deal_count": 1}, {"id": "Humba Ventures", "degree": 4, "betweenness": 0.0, "eigenvector": 0.39457, "pagerank": 0.009, "community": 1, "deal_count": 1}, {"id": "Lachy Groom", "degree": 6, "betweenness": 0.00167, "eigenvector": 0.44543, "pagerank": 0.01369, "community": 1, "deal_count": 2}, {"id": "Lightspeed", "degree": 6, "betweenness": 0.00347, "eigenvector": 0.46327, "pagerank": 0.01396, "community": 1, "deal_count": 4}, {"id": "Nexus Venture Partners", "degree": 4, "betweenness": 0.00026, "eigenvector": 0.0, "pagerank": 0.01225, "community": 2, "deal_count": 3}, {"id": "Susquehanna Venture Capital", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00386, "community": 2, "deal_count": 1}, {"id": "Elev8 Venture Partners", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 3, "deal_count": 1}, {"id": "Mirae Asset Venture Investment", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 3, "deal_count": 1}, {"id": "Artha Venture Fund", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 4, "deal_count": 1}, {"id": "Singularity AMC", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 4, "deal_count": 2}, {"id": "Bessemer Venture Partners", "degree": 4, "betweenness": 0.00026, "eigenvector": 0.0, "pagerank": 0.01225, "community": 2, "deal_count": 5}, {"id": "Titan Capital", "degree": 3, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00902, "community": 2, "deal_count": 1}, {"id": "WEH Ventures", "degree": 3, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00902, "community": 2, "deal_count": 1}, {"id": "Base10", "degree": 1, "betweenness": 0.0, "eigenvector": 0.00049, "pagerank": 0.00344, "community": 5, "deal_count": 1}, {"id": "Peak XV Partners", "degree": 4, "betweenness": 0.00032, "eigenvector": 0.00203, "pagerank": 0.01543, "community": 5, "deal_count": 10}, {"id": "Greenoaks Capital", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00588, "community": 13, "deal_count": 1}, {"id": "Unicorn India Ventures", "degree": 2, "betweenness": 0.00013, "eigenvector": 0.0, "pagerank": 0.01088, "community": 13, "deal_count": 2}, {"id": "Accel", "degree": 7, "betweenness": 0.00475, "eigenvector": 0.20826, "pagerank": 0.02109, "community": 7, "deal_count": 7}, {"id": "Info Edge Ventures", "degree": 2, "betweenness": 0.0, "eigenvector": 0.15606, "pagerank": 0.00579, "community": 7, "deal_count": 1}, {"id": "Blume Ventures participating", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 8, "deal_count": 1}, {"id": "Lightrock", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 8, "deal_count": 1}, {"id": "Bain Capital Ventures", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 9, "deal_count": 1}, {"id": "Hara Global", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 9, "deal_count": 1}, {"id": "BII", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 10, "deal_count": 1}, {"id": "Finnfund", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 10, "deal_count": 1}, {"id": "HDFC Bank", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 11, "deal_count": 1}, {"id": "Mitsui Sumitomo Insurance Venture Capital", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 11, "deal_count": 1}, {"id": "Dabur Ventures", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 12, "deal_count": 1}, {"id": "Unilever Ventures", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 12, "deal_count": 1}, {"id": "Nikhil Kamath", "degree": 2, "betweenness": 0.0, "eigenvector": 0.00187, "pagerank": 0.00979, "community": 5, "deal_count": 2}, {"id": "Steadview Capital", "degree": 2, "betweenness": 0.0, "eigenvector": 0.00187, "pagerank": 0.00979, "community": 5, "deal_count": 2}, {"id": "Ashish Kacholia", "degree": 2, "betweenness": 0.00013, "eigenvector": 0.0, "pagerank": 0.01088, "community": 13, "deal_count": 2}, {"id": "Fundamentum Partnership Fund", "degree": 2, "betweenness": 0.0009, "eigenvector": 0.05116, "pagerank": 0.00765, "community": 7, "deal_count": 2}, {"id": "SMBC Asia", "degree": 1, "betweenness": 0.0, "eigenvector": 0.01189, "pagerank": 0.00451, "community": 7, "deal_count": 1}, {"id": "Sauce", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 15, "deal_count": 1}, {"id": "Sofina", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 15, "deal_count": 1}, {"id": "Lashit Sanghvi", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00588, "community": 13, "deal_count": 1}, {"id": "BIG Capital", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 16, "deal_count": 1}, {"id": "TDK Ventures", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 16, "deal_count": 1}, {"id": "Khosla Ventures", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 17, "deal_count": 1}, {"id": "SoftBank", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 17, "deal_count": 1}, {"id": "Rainmatter", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00386, "community": 2, "deal_count": 2}, {"id": "Alpha Wave", "degree": 2, "betweenness": 0.0, "eigenvector": 0.13485, "pagerank": 0.00556, "community": 1, "deal_count": 1}, {"id": "Sharrp Ventures", "degree": 2, "betweenness": 0.0, "eigenvector": 0.13485, "pagerank": 0.00556, "community": 1, "deal_count": 1}, {"id": "IIFL", "degree": 2, "betweenness": 0.0, "eigenvector": 0.06305, "pagerank": 0.00664, "community": 7, "deal_count": 1}, {"id": "Rocket Capital", "degree": 2, "betweenness": 0.0, "eigenvector": 0.06305, "pagerank": 0.00664, "community": 7, "deal_count": 1}, {"id": "Indian banks", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 19, "deal_count": 1}, {"id": "Switzerland-based Symbiotics", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 19, "deal_count": 1}, {"id": "Bertelsmann India Investments", "degree": 2, "betweenness": 0.0009, "eigenvector": 0.05116, "pagerank": 0.00765, "community": 7, "deal_count": 2}, {"id": "Fireside Ventures", "degree": 1, "betweenness": 0.0, "eigenvector": 0.01189, "pagerank": 0.00451, "community": 7, "deal_count": 2}, {"id": "Elevation Capital", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 21, "deal_count": 1}, {"id": "Susquehanna Asia Venture Capital", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 21, "deal_count": 1}, {"id": "Lingotto", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 22, "deal_count": 1}, {"id": "Ultraviolette", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 22, "deal_count": 1}, {"id": "Kashikey", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 23, "deal_count": 1}, {"id": "New Delhi", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 23, "deal_count": 1}, {"id": "Bertelsmann India Investments (BII)", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 24, "deal_count": 1}, {"id": "Owl Ventures", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 24, "deal_count": 1}, {"id": "A91 Partners", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 25, "deal_count": 3}, {"id": "MoEngage", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 25, "deal_count": 1}, {"id": "Nextinfinity", "degree": 1, "betweenness": 0.0, "eigenvector": 0.00049, "pagerank": 0.00344, "community": 5, "deal_count": 1}, {"id": "Kae Capital", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 26, "deal_count": 1}, {"id": "Prudent Investment Managers", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 26, "deal_count": 1}, {"id": "AMD", "degree": 2, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 27, "deal_count": 1}, {"id": "Databricks", "degree": 2, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 27, "deal_count": 1}, {"id": "Snowflake", "degree": 2, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 27, "deal_count": 1}, {"id": "British International Investment (BII)", "degree": 2, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 28, "deal_count": 1}, {"id": "ICONIQ", "degree": 2, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 28, "deal_count": 1}, {"id": "WestBridge Capital", "degree": 2, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 28, "deal_count": 6}, {"id": "Granite Asia", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0484, "pagerank": 0.00382, "community": 7, "deal_count": 1}, {"id": "GMO Venture Partners", "degree": 3, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 29, "deal_count": 1}, {"id": "Innoven Capital", "degree": 3, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 29, "deal_count": 1}, {"id": "Mitsui Sumitomo Insurance VC", "degree": 3, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 29, "deal_count": 1}, {"id": "Rebright Partners", "degree": 3, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 29, "deal_count": 1}, {"id": "Info Edge", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 30, "deal_count": 1}, {"id": "Prosus Ventures", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 30, "deal_count": 1}, {"id": "Alteria Capital", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 31, "deal_count": 1}, {"id": "InnoVen Capital", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 31, "deal_count": 1}, {"id": "Premji Invest", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 32, "deal_count": 2}, {"id": "Weaver Services", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 32, "deal_count": 1}, {"id": "Anicut Capital", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 33, "deal_count": 1}, {"id": "Narotam Sekhsaria Family Office", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 33, "deal_count": 1}, {"id": "Acquisitions]\nPOP", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 34, "deal_count": 1}, {"id": "Shalabh Shrivastava", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 34, "deal_count": 1}, {"id": "QED Innovation Labs", "degree": 2, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 35, "deal_count": 1}, {"id": "RTP Global", "degree": 2, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 35, "deal_count": 1}, {"id": "Sofina Ventures", "degree": 2, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 35, "deal_count": 1}, {"id": "Porter", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00647, "community": 36, "deal_count": 1}, {"id": "Wellington Management", "degree": 2, "betweenness": 6e-05, "eigenvector": 0.0, "pagerank": 0.01219, "community": 36, "deal_count": 2}, {"id": "Kedaara Capital", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00647, "community": 36, "deal_count": 2}, {"id": "KKR", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 37, "deal_count": 1}, {"id": "Partners Group", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 37, "deal_count": 1}, {"id": "Edelwiesse", "degree": 2, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 38, "deal_count": 1}, {"id": "Mirae Asset", "degree": 2, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 38, "deal_count": 1}, {"id": "Nokia Growth Partners", "degree": 2, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 38, "deal_count": 1}, {"id": "Blue Earth Capital", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 39, "deal_count": 1}, {"id": "Women\u2019s wellness", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 39, "deal_count": 1}, {"id": "Evolvence India", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 40, "deal_count": 1}, {"id": "Mirabilis Investment Trust", "degree": 1, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 40, "deal_count": 1}, {"id": "ASK Financial Holdings", "degree": 3, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 41, "deal_count": 1}, {"id": "CredAvenue", "degree": 3, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 41, "deal_count": 1}, {"id": "MAS Financial Services", "degree": 3, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 41, "deal_count": 1}, {"id": "Northern Arc", "degree": 3, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 41, "deal_count": 1}, {"id": "EAAA Alternatives", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 42, "deal_count": 1}, {"id": "Aramco Ventures", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 43, "deal_count": 1}, {"id": "MSN Holdings", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 44, "deal_count": 1}, {"id": "Vertex Ventures", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 45, "deal_count": 3}, {"id": "Lakme Finance", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 46, "deal_count": 1}, {"id": "Bajaj Finserv", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 47, "deal_count": 1}, {"id": "BlackRock", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 48, "deal_count": 1}, {"id": "Ankur Capital", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 49, "deal_count": 1}, {"id": "Blume Ventures", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 50, "deal_count": 1}, {"id": "Pi Labs", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 51, "deal_count": 1}, {"id": "Playbook Partners", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 52, "deal_count": 1}, {"id": "Together Fund", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 53, "deal_count": 1}, {"id": "Epiq Capital", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 54, "deal_count": 1}, {"id": "Prime Venture Partners", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 55, "deal_count": 1}, {"id": "General Catalyst", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 56, "deal_count": 2}, {"id": "Singapore\nOn a weekly basis", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 57, "deal_count": 2}, {"id": "Nomura", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 58, "deal_count": 1}, {"id": "RBI\nOn a weekly basis", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 59, "deal_count": 2}, {"id": "Infra", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 60, "deal_count": 1}, {"id": "Investcorp", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 61, "deal_count": 1}, {"id": "Norwest Venture Partners", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 62, "deal_count": 1}, {"id": "Qualcomm Ventures in a Series B extension", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 63, "deal_count": 1}, {"id": "ICICI Venture", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 64, "deal_count": 1}, {"id": "Fundamentum", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 65, "deal_count": 2}, {"id": "Instamart", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 66, "deal_count": 1}, {"id": "Carnelian Asset Management LLP", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 67, "deal_count": 1}, {"id": "HBOX", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 68, "deal_count": 1}, {"id": "GEF Capital Partners", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 69, "deal_count": 1}, {"id": "CoreEL Technologies", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 70, "deal_count": 1}, {"id": "PowerUp Money", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 71, "deal_count": 1}, {"id": "Dragon Funds", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 72, "deal_count": 1}, {"id": "IFC", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 73, "deal_count": 1}, {"id": "Five Sigma", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 74, "deal_count": 1}, {"id": "Mukul Agarwal", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 75, "deal_count": 1}, {"id": "SBI", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 76, "deal_count": 1}, {"id": "FMO", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 77, "deal_count": 1}, {"id": "DBS Bank", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 78, "deal_count": 1}, {"id": "TVS Capital", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 79, "deal_count": 1}, {"id": "Hivemind Capital", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 80, "deal_count": 1}, {"id": "Bertelsmann", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 81, "deal_count": 1}, {"id": "IIFL Fintech Fund", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 82, "deal_count": 1}, {"id": "FinBox exit\nOn a weekly basis", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 83, "deal_count": 1}, {"id": "Avataar Venture Partners", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 84, "deal_count": 1}, {"id": "Vertex Growth", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 85, "deal_count": 1}, {"id": "Iron Pillar", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 86, "deal_count": 1}, {"id": "NSE emerge for SME IPO\nOn a weekly basis", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 87, "deal_count": 1}, {"id": "Carpediem Capital", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 88, "deal_count": 1}, {"id": "TPG", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 89, "deal_count": 1}, {"id": "Filter Capital", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 90, "deal_count": 1}, {"id": "Motilal Oswal Financial Services Limited (MOFSL)", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 91, "deal_count": 1}, {"id": "Playbook", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 92, "deal_count": 1}, {"id": "TheKredible", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 93, "deal_count": 1}, {"id": "Raphe mPhibr", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 94, "deal_count": 1}, {"id": "Greylock", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 95, "deal_count": 1}, {"id": "The Good Bug", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 96, "deal_count": 1}, {"id": "InCred Growth Partners Fund", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 97, "deal_count": 1}, {"id": "Venture Catalysts", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 98, "deal_count": 1}, {"id": "Temasek", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 99, "deal_count": 1}, {"id": "Peak XV", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 100, "deal_count": 1}, {"id": "Woori Venture Partners", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 101, "deal_count": 1}, {"id": "Multiples Alternate Asset Management", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 102, "deal_count": 1}, {"id": "Jungle Ventures", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 103, "deal_count": 2}, {"id": "ValueQuest S", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 104, "deal_count": 1}, {"id": "KRAFTON", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 105, "deal_count": 1}, {"id": "Apis Partners", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 106, "deal_count": 1}, {"id": "HSBC", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 18, "deal_count": 1}, {"id": "Walden Catalyst Ventures & NGP Capital", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 20, "deal_count": 1}, {"id": "Point72 Private Investments", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 6, "deal_count": 1}, {"id": "True North", "degree": 0, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00126, "community": 14, "deal_count": 1}], "edges": [{"source": "Capital 2B", "target": "Helena", "weight": 1}, {"source": "Capital 2B", "target": "Japan Airlines", "weight": 1}, {"source": "Capital 2B", "target": "SMSC", "weight": 1}, {"source": "Capital 2B", "target": "TransLink Innovation Fund", "weight": 1}, {"source": "Helena", "target": "Japan Airlines", "weight": 1}, {"source": "Helena", "target": "SMSC", "weight": 1}, {"source": "Helena", "target": "TransLink Innovation Fund", "weight": 1}, {"source": "Japan Airlines", "target": "SMSC", "weight": 1}, {"source": "Japan Airlines", "target": "TransLink Innovation Fund", "weight": 1}, {"source": "SMSC", "target": "TransLink Innovation Fund", "weight": 1}, {"source": "DoorDash", "target": "Greenoaks", "weight": 1}, {"source": "DoorDash", "target": "Humba Ventures", "weight": 1}, {"source": "DoorDash", "target": "Lachy Groom", "weight": 1}, {"source": "DoorDash", "target": "Lightspeed", "weight": 1}, {"source": "Greenoaks", "target": "Humba Ventures", "weight": 1}, {"source": "Greenoaks", "target": "Lachy Groom", "weight": 1}, {"source": "Greenoaks", "target": "Lightspeed", "weight": 1}, {"source": "Humba Ventures", "target": "Lachy Groom", "weight": 1}, {"source": "Humba Ventures", "target": "Lightspeed", "weight": 1}, {"source": "Lachy Groom", "target": "Lightspeed", "weight": 1}, {"source": "Lachy Groom", "target": "Alpha Wave", "weight": 1}, {"source": "Lachy Groom", "target": "Sharrp Ventures", "weight": 1}, {"source": "Lightspeed", "target": "Accel", "weight": 1}, {"source": "Lightspeed", "target": "Info Edge Ventures", "weight": 1}, {"source": "Nexus Venture Partners", "target": "Susquehanna Venture Capital", "weight": 1}, {"source": "Nexus Venture Partners", "target": "Bessemer Venture Partners", "weight": 1}, {"source": "Nexus Venture Partners", "target": "Titan Capital", "weight": 1}, {"source": "Nexus Venture Partners", "target": "WEH Ventures", "weight": 1}, {"source": "Elev8 Venture Partners", "target": "Mirae Asset Venture Investment", "weight": 1}, {"source": "Artha Venture Fund", "target": "Singularity AMC", "weight": 1}, {"source": "Bessemer Venture Partners", "target": "Titan Capital", "weight": 1}, {"source": "Bessemer Venture Partners", "target": "WEH Ventures", "weight": 1}, {"source": "Bessemer Venture Partners", "target": "Rainmatter", "weight": 1}, {"source": "Titan Capital", "target": "WEH Ventures", "weight": 1}, {"source": "Base10", "target": "Peak XV Partners", "weight": 1}, {"source": "Peak XV Partners", "target": "Nikhil Kamath", "weight": 2}, {"source": "Peak XV Partners", "target": "Steadview Capital", "weight": 2}, {"source": "Peak XV Partners", "target": "Nextinfinity", "weight": 1}, {"source": "Greenoaks Capital", "target": "Unicorn India Ventures", "weight": 1}, {"source": "Unicorn India Ventures", "target": "Ashish Kacholia", "weight": 1}, {"source": "Accel", "target": "Info Edge Ventures", "weight": 1}, {"source": "Accel", "target": "IIFL", "weight": 1}, {"source": "Accel", "target": "Rocket Capital", "weight": 1}, {"source": "Accel", "target": "Granite Asia", "weight": 1}, {"source": "Accel", "target": "Bertelsmann India Investments", "weight": 1}, {"source": "Accel", "target": "Fundamentum Partnership Fund", "weight": 1}, {"source": "Blume Ventures participating", "target": "Lightrock", "weight": 1}, {"source": "Bain Capital Ventures", "target": "Hara Global", "weight": 1}, {"source": "BII", "target": "Finnfund", "weight": 1}, {"source": "HDFC Bank", "target": "Mitsui Sumitomo Insurance Venture Capital", "weight": 1}, {"source": "Dabur Ventures", "target": "Unilever Ventures", "weight": 1}, {"source": "Nikhil Kamath", "target": "Steadview Capital", "weight": 2}, {"source": "Ashish Kacholia", "target": "Lashit Sanghvi", "weight": 1}, {"source": "Fundamentum Partnership Fund", "target": "SMBC Asia", "weight": 1}, {"source": "Sauce", "target": "Sofina", "weight": 1}, {"source": "BIG Capital", "target": "TDK Ventures", "weight": 1}, {"source": "Khosla Ventures", "target": "SoftBank", "weight": 1}, {"source": "Alpha Wave", "target": "Sharrp Ventures", "weight": 1}, {"source": "IIFL", "target": "Rocket Capital", "weight": 1}, {"source": "Indian banks", "target": "Switzerland-based Symbiotics", "weight": 1}, {"source": "Bertelsmann India Investments", "target": "Fireside Ventures", "weight": 1}, {"source": "Elevation Capital", "target": "Susquehanna Asia Venture Capital", "weight": 1}, {"source": "Lingotto", "target": "Ultraviolette", "weight": 1}, {"source": "Kashikey", "target": "New Delhi", "weight": 1}, {"source": "Bertelsmann India Investments (BII)", "target": "Owl Ventures", "weight": 1}, {"source": "A91 Partners", "target": "MoEngage", "weight": 1}, {"source": "Kae Capital", "target": "Prudent Investment Managers", "weight": 1}, {"source": "AMD", "target": "Databricks", "weight": 1}, {"source": "AMD", "target": "Snowflake", "weight": 1}, {"source": "Databricks", "target": "Snowflake", "weight": 1}, {"source": "British International Investment (BII)", "target": "ICONIQ", "weight": 1}, {"source": "British International Investment (BII)", "target": "WestBridge Capital", "weight": 1}, {"source": "ICONIQ", "target": "WestBridge Capital", "weight": 1}, {"source": "GMO Venture Partners", "target": "Innoven Capital", "weight": 1}, {"source": "GMO Venture Partners", "target": "Mitsui Sumitomo Insurance VC", "weight": 1}, {"source": "GMO Venture Partners", "target": "Rebright Partners", "weight": 1}, {"source": "Innoven Capital", "target": "Mitsui Sumitomo Insurance VC", "weight": 1}, {"source": "Innoven Capital", "target": "Rebright Partners", "weight": 1}, {"source": "Mitsui Sumitomo Insurance VC", "target": "Rebright Partners", "weight": 1}, {"source": "Info Edge", "target": "Prosus Ventures", "weight": 1}, {"source": "Alteria Capital", "target": "InnoVen Capital", "weight": 1}, {"source": "Premji Invest", "target": "Weaver Services", "weight": 1}, {"source": "Anicut Capital", "target": "Narotam Sekhsaria Family Office", "weight": 1}, {"source": "Acquisitions]\nPOP", "target": "Shalabh Shrivastava", "weight": 1}, {"source": "QED Innovation Labs", "target": "RTP Global", "weight": 1}, {"source": "QED Innovation Labs", "target": "Sofina Ventures", "weight": 1}, {"source": "RTP Global", "target": "Sofina Ventures", "weight": 1}, {"source": "Porter", "target": "Wellington Management", "weight": 1}, {"source": "Wellington Management", "target": "Kedaara Capital", "weight": 1}, {"source": "KKR", "target": "Partners Group", "weight": 1}, {"source": "Edelwiesse", "target": "Mirae Asset", "weight": 1}, {"source": "Edelwiesse", "target": "Nokia Growth Partners", "weight": 1}, {"source": "Mirae Asset", "target": "Nokia Growth Partners", "weight": 1}, {"source": "Blue Earth Capital", "target": "Women\u2019s wellness", "weight": 1}, {"source": "Evolvence India", "target": "Mirabilis Investment Trust", "weight": 1}, {"source": "ASK Financial Holdings", "target": "CredAvenue", "weight": 1}, {"source": "ASK Financial Holdings", "target": "MAS Financial Services", "weight": 1}, {"source": "ASK Financial Holdings", "target": "Northern Arc", "weight": 1}, {"source": "CredAvenue", "target": "MAS Financial Services", "weight": 1}, {"source": "CredAvenue", "target": "Northern Arc", "weight": 1}, {"source": "MAS Financial Services", "target": "Northern Arc", "weight": 1}], "positions": {"Capital 2B": {"x": -0.6172, "y": 0.6118}, "Helena": {"x": -0.4775, "y": 0.4269}, "Japan Airlines": {"x": -0.536, "y": 0.3666}, "SMSC": {"x": -0.7863, "y": 0.5934}, "TransLink Innovation Fund": {"x": -0.5476, "y": 0.4918}, "DoorDash": {"x": -0.4103, "y": -0.3118}, "Greenoaks": {"x": -0.3677, "y": -0.4488}, "Humba Ventures": {"x": -0.561, "y": -0.5868}, "Lachy Groom": {"x": -0.5017, "y": -0.5911}, "Lightspeed": {"x": -0.3173, "y": -0.6952}, "Nexus Venture Partners": {"x": 0.0195, "y": -0.344}, "Susquehanna Venture Capital": {"x": -0.4338, "y": -0.4074}, "Elev8 Venture Partners": {"x": -0.2743, "y": 0.8993}, "Mirae Asset Venture Investment": {"x": -0.6043, "y": 0.5991}, "Artha Venture Fund": {"x": 0.2484, "y": -0.9561}, "Singularity AMC": {"x": 0.2937, "y": -0.9168}, "Bessemer Venture Partners": {"x": 0.3251, "y": -0.1682}, "Titan Capital": {"x": 0.2188, "y": -0.3359}, "WEH Ventures": {"x": 0.2642, "y": -0.4003}, "Base10": {"x": -0.2939, "y": -0.3366}, "Peak XV Partners": {"x": -0.6313, "y": -0.2283}, "Greenoaks Capital": {"x": -0.7634, "y": 0.6844}, "Unicorn India Ventures": {"x": -0.5359, "y": 0.7826}, "Accel": {"x": -0.2056, "y": -0.6901}, "Info Edge Ventures": {"x": 0.0433, "y": -0.9333}, "Blume Ventures participating": {"x": 0.9141, "y": 0.4383}, "Lightrock": {"x": 0.7767, "y": 0.6672}, "Bain Capital Ventures": {"x": -0.5072, "y": 0.599}, "Hara Global": {"x": -0.6435, "y": 0.2958}, "BII": {"x": -0.9209, "y": -0.3497}, "Finnfund": {"x": -0.6765, "y": -0.6228}, "HDFC Bank": {"x": 0.7497, "y": -0.3799}, "Mitsui Sumitomo Insurance Venture Capital": {"x": 0.3701, "y": -0.2111}, "Dabur Ventures": {"x": -0.5598, "y": 0.8135}, "Unilever Ventures": {"x": -0.4611, "y": 0.9171}, "Nikhil Kamath": {"x": -0.5451, "y": -0.1067}, "Steadview Capital": {"x": -0.7827, "y": -0.1017}, "Ashish Kacholia": {"x": -0.4282, "y": 0.5847}, "Fundamentum Partnership Fund": {"x": 0.0537, "y": -0.8363}, "SMBC Asia": {"x": -0.1407, "y": -0.9624}, "Sauce": {"x": 0.2823, "y": -0.4679}, "Sofina": {"x": -0.0596, "y": -0.9824}, "Lashit Sanghvi": {"x": -0.6173, "y": 0.367}, "BIG Capital": {"x": 0.8774, "y": 0.2166}, "TDK Ventures": {"x": 0.98, "y": -0.045}, "Khosla Ventures": {"x": -0.6305, "y": 0.7296}, "SoftBank": {"x": -0.2324, "y": 0.5228}, "Rainmatter": {"x": 0.6462, "y": 0.1402}, "Alpha Wave": {"x": -0.4823, "y": -0.7354}, "Sharrp Ventures": {"x": -0.7399, "y": -0.7024}, "IIFL": {"x": -0.5639, "y": -0.3545}, "Rocket Capital": {"x": -0.476, "y": -0.3862}, "Indian banks": {"x": 0.799, "y": -0.1826}, "Switzerland-based Symbiotics": {"x": 0.4752, "y": 0.0852}, "Bertelsmann India Investments": {"x": -0.5293, "y": -0.8435}, "Fireside Ventures": {"x": -0.6057, "y": -0.7564}, "Elevation Capital": {"x": 0.6113, "y": 0.7611}, "Susquehanna Asia Venture Capital": {"x": 0.2433, "y": 0.9446}, "Lingotto": {"x": 0.7697, "y": -0.4898}, "Ultraviolette": {"x": 0.9813, "y": -0.0313}, "Kashikey": {"x": -0.0814, "y": 0.5379}, "New Delhi": {"x": -0.0208, "y": 0.2008}, "Bertelsmann India Investments (BII)": {"x": -0.0265, "y": 0.5242}, "Owl Ventures": {"x": 0.1483, "y": 0.8898}, "A91 Partners": {"x": -0.7717, "y": -0.4152}, "MoEngage": {"x": -0.4713, "y": -0.8105}, "Nextinfinity": {"x": -0.8973, "y": -0.3712}, "Kae Capital": {"x": 0.9882, "y": -0.1133}, "Prudent Investment Managers": {"x": 0.4817, "y": 0.3085}, "AMD": {"x": 0.4282, "y": 0.4767}, "Databricks": {"x": 0.6274, "y": 0.3447}, "Snowflake": {"x": 0.5134, "y": 0.3666}, "British International Investment (BII)": {"x": -0.5163, "y": -0.8536}, "ICONIQ": {"x": -0.4616, "y": -0.5107}, "WestBridge Capital": {"x": -0.8253, "y": -0.5284}, "Granite Asia": {"x": 0.2807, "y": -0.6513}, "GMO Venture Partners": {"x": 0.0875, "y": 0.5204}, "Innoven Capital": {"x": 0.2063, "y": 0.4651}, "Mitsui Sumitomo Insurance VC": {"x": 0.2494, "y": 0.7573}, "Rebright Partners": {"x": 0.1449, "y": 0.7182}, "Info Edge": {"x": -0.3593, "y": 0.8445}, "Prosus Ventures": {"x": -0.0142, "y": 0.7211}, "Alteria Capital": {"x": -0.9254, "y": 0.2015}, "InnoVen Capital": {"x": -0.7767, "y": -0.1447}, "Premji Invest": {"x": -0.2828, "y": -0.5031}, "Weaver Services": {"x": -0.1411, "y": -0.7539}, "Anicut Capital": {"x": 0.0861, "y": -0.9214}, "Narotam Sekhsaria Family Office": {"x": 0.4087, "y": -0.8768}, "Acquisitions]\nPOP": {"x": 0.8046, "y": -0.4828}, "Shalabh Shrivastava": {"x": 0.7692, "y": -0.6667}, "QED Innovation Labs": {"x": -0.2302, "y": 0.1917}, "RTP Global": {"x": -0.2117, "y": 0.3089}, "Sofina Ventures": {"x": -0.3882, "y": 0.2803}, "Porter": {"x": 0.5277, "y": 0.4112}, "Wellington Management": {"x": 0.1225, "y": 0.5128}, "Kedaara Capital": {"x": -0.2973, "y": 0.915}, "KKR": {"x": 0.9778, "y": 0.1002}, "Partners Group": {"x": 0.487, "y": -0.0411}, "Edelwiesse": {"x": 0.6863, "y": 0.4991}, "Mirae Asset": {"x": 0.8102, "y": 0.5768}, "Nokia Growth Partners": {"x": 0.5652, "y": 0.2246}, "Blue Earth Capital": {"x": -0.1835, "y": -0.1872}, "Women\u2019s wellness": {"x": -0.0844, "y": -0.4601}, "Evolvence India": {"x": -0.937, "y": 0.1615}, "Mirabilis Investment Trust": {"x": -0.9701, "y": -0.186}, "ASK Financial Holdings": {"x": 0.6583, "y": 0.0315}, "CredAvenue": {"x": 0.694, "y": -0.0467}, "MAS Financial Services": {"x": 0.6967, "y": -0.1305}, "Northern Arc": {"x": 0.4893, "y": 0.0139}, "EAAA Alternatives": {"x": 0.2679, "y": 0.9369}, "Aramco Ventures": {"x": 0.7011, "y": 0.6071}, "MSN Holdings": {"x": -0.9703, "y": -0.0851}, "Vertex Ventures": {"x": -0.765, "y": -0.5788}, "Lakme Finance": {"x": 0.9992, "y": -0.0684}, "Bajaj Finserv": {"x": 0.9785, "y": 0.0586}, "BlackRock": {"x": 0.922, "y": -0.1916}, "Ankur Capital": {"x": 0.7135, "y": -0.5349}, "Blume Ventures": {"x": -0.6046, "y": 0.7516}, "Pi Labs": {"x": -0.3091, "y": -0.9538}, "Playbook Partners": {"x": 0.5877, "y": -0.7643}, "Together Fund": {"x": 0.6047, "y": 0.837}, "Epiq Capital": {"x": 0.9838, "y": -0.0975}, "Prime Venture Partners": {"x": -0.8728, "y": 0.5403}, "General Catalyst": {"x": -0.1335, "y": 0.9872}, "Singapore\nOn a weekly basis": {"x": 0.8689, "y": 0.5416}, "Nomura": {"x": -0.9222, "y": 0.0235}, "RBI\nOn a weekly basis": {"x": 0.861, "y": -0.4679}, "Infra": {"x": -0.875, "y": 0.3872}, "Investcorp": {"x": 0.9803, "y": 0.1857}, "Norwest Venture Partners": {"x": 0.1899, "y": -0.9558}, "Qualcomm Ventures in a Series B extension": {"x": 0.0605, "y": 1.0}, "ICICI Venture": {"x": -0.9446, "y": 0.1375}, "Fundamentum": {"x": 0.8774, "y": 0.468}, "Instamart": {"x": 0.6513, "y": 0.6987}, "Carnelian Asset Management LLP": {"x": -0.7021, "y": -0.6077}, "HBOX": {"x": 0.6011, "y": 0.7836}, "GEF Capital Partners": {"x": 0.511, "y": 0.8749}, "CoreEL Technologies": {"x": 0.3974, "y": 0.7917}, "PowerUp Money": {"x": 0.8951, "y": 0.3676}, "Dragon Funds": {"x": 0.4108, "y": 0.8795}, "IFC": {"x": 0.9354, "y": -0.3029}, "Five Sigma": {"x": -0.0435, "y": -0.9767}, "Mukul Agarwal": {"x": 0.1117, "y": -0.9814}, "SBI": {"x": -0.6931, "y": 0.5609}, "FMO": {"x": -0.8159, "y": 0.4527}, "DBS Bank": {"x": -0.7009, "y": -0.7572}, "TVS Capital": {"x": 0.9325, "y": -0.2514}, "Hivemind Capital": {"x": -0.9576, "y": 0.0941}, "Bertelsmann": {"x": 0.6455, "y": -0.7198}, "IIFL Fintech Fund": {"x": 0.3491, "y": -0.9176}, "FinBox exit\nOn a weekly basis": {"x": -0.9826, "y": 0.0056}, "Avataar Venture Partners": {"x": 0.1158, "y": 0.8456}, "Vertex Growth": {"x": 0.3102, "y": 0.959}, "Iron Pillar": {"x": 0.5049, "y": -0.7592}, "NSE emerge for SME IPO\nOn a weekly basis": {"x": 0.7987, "y": -0.5596}, "Carpediem Capital": {"x": -0.0113, "y": -0.9814}, "TPG": {"x": -0.7068, "y": 0.755}, "Filter Capital": {"x": 0.8233, "y": 0.5277}, "Motilal Oswal Financial Services Limited (MOFSL)": {"x": -0.2226, "y": -0.9278}, "Playbook": {"x": -0.8113, "y": -0.5359}, "TheKredible": {"x": 0.0392, "y": 0.9308}, "Raphe mPhibr": {"x": 0.6934, "y": -0.6302}, "Greylock": {"x": 0.9729, "y": 0.2561}, "The Good Bug": {"x": 0.5064, "y": 0.757}, "InCred Growth Partners Fund": {"x": -0.4891, "y": -0.7989}, "Venture Catalysts": {"x": -0.2932, "y": 0.9053}, "Temasek": {"x": -0.8531, "y": -0.5624}, "Peak XV": {"x": -0.599, "y": -0.835}, "Woori Venture Partners": {"x": 0.9344, "y": 0.3043}, "Multiples Alternate Asset Management": {"x": 0.0289, "y": -0.9768}, "Jungle Ventures": {"x": -0.5414, "y": -0.6746}, "ValueQuest S": {"x": -0.942, "y": -0.1535}, "KRAFTON": {"x": -0.1531, "y": 0.8976}, "Apis Partners": {"x": 0.4062, "y": -0.9035}, "HSBC": {"x": -0.3292, "y": 0.8592}, "Walden Catalyst Ventures & NGP Capital": {"x": -0.0507, "y": 0.9687}, "Point72 Private Investments": {"x": 0.5183, "y": -0.8212}, "True North": {"x": -0.9347, "y": 0.3052}}, "summary": {"investor_count": 178, "co_investment_edge_count": 101, "company_count": 142, "community_count": 107}, "predicted": [{"investor_a": "Porter", "investor_b": "Kedaara Capital", "adamic_adar_score": 1.4427}, {"investor_a": "Lashit Sanghvi", "investor_b": "Unicorn India Ventures", "adamic_adar_score": 1.4427}, {"investor_a": "Greenoaks Capital", "investor_b": "Ashish Kacholia", "adamic_adar_score": 1.4427}, {"investor_a": "Accel", "investor_b": "SMBC Asia", "adamic_adar_score": 1.4427}, {"investor_a": "Accel", "investor_b": "Fireside Ventures", "adamic_adar_score": 1.4427}, {"investor_a": "Base10", "investor_b": "Steadview Capital", "adamic_adar_score": 0.7213}, {"investor_a": "Base10", "investor_b": "Nextinfinity", "adamic_adar_score": 0.7213}, {"investor_a": "Base10", "investor_b": "Nikhil Kamath", "adamic_adar_score": 0.7213}, {"investor_a": "Susquehanna Venture Capital", "investor_b": "WEH Ventures", "adamic_adar_score": 0.7213}, {"investor_a": "Susquehanna Venture Capital", "investor_b": "Bessemer Venture Partners", "adamic_adar_score": 0.7213}, {"investor_a": "Susquehanna Venture Capital", "investor_b": "Titan Capital", "adamic_adar_score": 0.7213}, {"investor_a": "WEH Ventures", "investor_b": "Rainmatter", "adamic_adar_score": 0.7213}, {"investor_a": "Nexus Venture Partners", "investor_b": "Rainmatter", "adamic_adar_score": 0.7213}, {"investor_a": "Steadview Capital", "investor_b": "Nextinfinity", "adamic_adar_score": 0.7213}, {"investor_a": "Rainmatter", "investor_b": "Titan Capital", "adamic_adar_score": 0.7213}, {"investor_a": "Nextinfinity", "investor_b": "Nikhil Kamath", "adamic_adar_score": 0.7213}, {"investor_a": "Greenoaks", "investor_b": "Alpha Wave", "adamic_adar_score": 0.5581}, {"investor_a": "Greenoaks", "investor_b": "Info Edge Ventures", "adamic_adar_score": 0.5581}, {"investor_a": "Greenoaks", "investor_b": "Sharrp Ventures", "adamic_adar_score": 0.5581}, {"investor_a": "Greenoaks", "investor_b": "Accel", "adamic_adar_score": 0.5581}], "top_degree": [{"id": "Accel", "degree": 7, "betweenness": 0.00475, "eigenvector": 0.20826, "pagerank": 0.02109, "community": 7, "deal_count": 7}, {"id": "Lachy Groom", "degree": 6, "betweenness": 0.00167, "eigenvector": 0.44543, "pagerank": 0.01369, "community": 1, "deal_count": 2}, {"id": "Lightspeed", "degree": 6, "betweenness": 0.00347, "eigenvector": 0.46327, "pagerank": 0.01396, "community": 1, "deal_count": 4}, {"id": "Capital 2B", "degree": 4, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 0, "deal_count": 1}, {"id": "Helena", "degree": 4, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 0, "deal_count": 1}, {"id": "Japan Airlines", "degree": 4, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 0, "deal_count": 1}, {"id": "SMSC", "degree": 4, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 0, "deal_count": 1}, {"id": "TransLink Innovation Fund", "degree": 4, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 0, "deal_count": 1}, {"id": "DoorDash", "degree": 4, "betweenness": 0.0, "eigenvector": 0.39457, "pagerank": 0.009, "community": 1, "deal_count": 1}, {"id": "Greenoaks", "degree": 4, "betweenness": 0.0, "eigenvector": 0.39457, "pagerank": 0.009, "community": 1, "deal_count": 1}, {"id": "Humba Ventures", "degree": 4, "betweenness": 0.0, "eigenvector": 0.39457, "pagerank": 0.009, "community": 1, "deal_count": 1}, {"id": "Nexus Venture Partners", "degree": 4, "betweenness": 0.00026, "eigenvector": 0.0, "pagerank": 0.01225, "community": 2, "deal_count": 3}], "top_betweenness": [{"id": "Accel", "degree": 7, "betweenness": 0.00475, "eigenvector": 0.20826, "pagerank": 0.02109, "community": 7, "deal_count": 7}, {"id": "Lightspeed", "degree": 6, "betweenness": 0.00347, "eigenvector": 0.46327, "pagerank": 0.01396, "community": 1, "deal_count": 4}, {"id": "Lachy Groom", "degree": 6, "betweenness": 0.00167, "eigenvector": 0.44543, "pagerank": 0.01369, "community": 1, "deal_count": 2}, {"id": "Fundamentum Partnership Fund", "degree": 2, "betweenness": 0.0009, "eigenvector": 0.05116, "pagerank": 0.00765, "community": 7, "deal_count": 2}, {"id": "Bertelsmann India Investments", "degree": 2, "betweenness": 0.0009, "eigenvector": 0.05116, "pagerank": 0.00765, "community": 7, "deal_count": 2}, {"id": "Peak XV Partners", "degree": 4, "betweenness": 0.00032, "eigenvector": 0.00203, "pagerank": 0.01543, "community": 5, "deal_count": 10}, {"id": "Nexus Venture Partners", "degree": 4, "betweenness": 0.00026, "eigenvector": 0.0, "pagerank": 0.01225, "community": 2, "deal_count": 3}, {"id": "Bessemer Venture Partners", "degree": 4, "betweenness": 0.00026, "eigenvector": 0.0, "pagerank": 0.01225, "community": 2, "deal_count": 5}, {"id": "Unicorn India Ventures", "degree": 2, "betweenness": 0.00013, "eigenvector": 0.0, "pagerank": 0.01088, "community": 13, "deal_count": 2}, {"id": "Ashish Kacholia", "degree": 2, "betweenness": 0.00013, "eigenvector": 0.0, "pagerank": 0.01088, "community": 13, "deal_count": 2}, {"id": "Wellington Management", "degree": 2, "betweenness": 6e-05, "eigenvector": 0.0, "pagerank": 0.01219, "community": 36, "deal_count": 2}, {"id": "Capital 2B", "degree": 4, "betweenness": 0.0, "eigenvector": 0.0, "pagerank": 0.00838, "community": 0, "deal_count": 1}]};
+
+document.getElementById('kpi-investors').textContent = DATA.summary.investor_count;
+document.getElementById('kpi-companies').textContent = DATA.summary.company_count;
+document.getElementById('kpi-edges').textContent = DATA.summary.co_investment_edge_count;
+document.getElementById('kpi-communities').textContent = DATA.summary.community_count;
+
+// ---- Network graph ----
+const communityColors = [
+  '#6fd8ff', '#5eead4', '#ffb454', '#ff6b81', '#c4b5fd',
+  '#fbbf24', '#34d399', '#f472b6', '#818cf8', '#f97316'
+];
+
+const edgeX = [], edgeY = [];
+DATA.edges.forEach(e => {
+  const s = DATA.positions[e.source], t = DATA.positions[e.target];
+  if (!s || !t) return;
+  edgeX.push(s.x, t.x, null);
+  edgeY.push(s.y, t.y, null);
+});
+
+const edgeTrace = {
+  x: edgeX, y: edgeY, mode: 'lines',
+  line: { color: 'rgba(111,216,255,0.15)', width: 1 },
+  hoverinfo: 'none', type: 'scatter'
+};
+
+const nodeX = [], nodeY = [], nodeText = [], nodeColor = [], nodeSize = [];
+DATA.nodes.forEach(n => {
+  const p = DATA.positions[n.id];
+  if (!p) return;
+  nodeX.push(p.x); nodeY.push(p.y);
+  nodeText.push(`${n.id}<br>${n.deal_count} deals · ${n.degree} connections`);
+  nodeColor.push(communityColors[n.community % communityColors.length]);
+  nodeSize.push(8 + Math.min(n.degree, 15) * 2.2);
+});
+
+const nodeTrace = {
+  x: nodeX, y: nodeY, mode: 'markers', type: 'scatter',
+  text: nodeText, hoverinfo: 'text',
+  marker: {
+    color: nodeColor, size: nodeSize,
+    line: { color: 'rgba(6,11,26,0.8)', width: 1 }
+  }
+};
+
+Plotly.newPlot('network-graph', [edgeTrace, nodeTrace], {
+  paper_bgcolor: 'rgba(0,0,0,0)', plot_bgcolor: 'rgba(0,0,0,0)',
+  showlegend: false, margin: { t: 10, b: 10, l: 10, r: 10 },
+  xaxis: { visible: false }, yaxis: { visible: false },
+  hoverlabel: { bgcolor: '#101a3a', font: { color: '#eaf2fb', family: 'Inter' }, bordercolor: '#6fd8ff' }
+}, { displayModeBar: false, responsive: true });
+
+// ---- Tables ----
+const degreeBody = document.getElementById('table-degree');
+DATA.top_degree.forEach(n => {
+  degreeBody.innerHTML += `<tr><td class="name">${n.id}</td><td class="num">${n.degree}</td><td class="num">${n.deal_count}</td></tr>`;
+});
+
+const betweennessBody = document.getElementById('table-betweenness');
+DATA.top_betweenness.forEach(n => {
+  betweennessBody.innerHTML += `<tr><td class="name">${n.id}</td><td class="num">${n.betweenness.toFixed(4)}</td></tr>`;
+});
+
+const predictedBody = document.getElementById('table-predicted');
+DATA.predicted.slice(0, 15).forEach(p => {
+  predictedBody.innerHTML += `<tr><td class="name">${p.investor_a}</td><td class="name">${p.investor_b}</td><td class="num">${p.adamic_adar_score.toFixed(3)}</td></tr>`;
+});
+</script>
+
+</body>
+</html>
